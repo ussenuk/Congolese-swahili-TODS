@@ -7,23 +7,28 @@ This repository contains multiple Rasa NLU configurations for a Congolese Swahil
 Five different configurations have been set up:
 
 1. **Config_1**: Combines sparse features with Language-agnostic BERT Sentence Embeddings (LaBSE)
-   - Good for: Cross-lingual performance across 109+ languages including African languages
+   - Uses WhitespaceTokenizer with sparse features and LaBSE model
+   - Language: Swahili
    - File: `config_1.yml`
 
-2. **Config_1_b**: Combines sparse features with AfroXLMR
-   - Good for: Specifically fine-tuned for African languages
+2. **Config_1_b**: Combines sparse features with RoBERTa base model
+   - Uses WhitespaceTokenizer with sparse features and standard RoBERTa base model
+   - Language: French
    - File: `config_1_b.yml`
 
-3. **Config_2**: Uses only dense features from XLM-RoBERTa
-   - Good for: Zero-shot cross-lingual transfer
+3. **Config_2**: Uses multilingual BERT model
+   - Uses WhitespaceTokenizer with bert-base-multilingual-cased model
+   - Language: Swahili
    - File: `config_2.yml`
 
-4. **Config_2_b**: Uses dense features from AfriMT5
-   - Good for: Optimized for African languages including Swahili variants
+4. **Config_2_b**: Uses Spacy pipeline with language-agnostic model
+   - Uses SpacyNLP with xx_ent_wiki_sm model and additional sparse features
+   - Language: Swahili
    - File: `config_2_b.yml`
 
 5. **Config_3**: Uses only sparse features
-   - Good for: Lightweight deployment in low-resource environments
+   - Uses WhitespaceTokenizer with only sparse features (no language models)
+   - Language: Swahili
    - File: `config_3.yml`
 
 ## Quick Start
