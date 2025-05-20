@@ -1,0 +1,906 @@
+[
+  {
+    "text": "kuwa na siku njema",
+    "intent": "goodbye_swa",
+    "intent_prediction": {
+      "name": "mashaka_duniya_ita_badilikaka_siku_moya_swa",
+      "confidence": 0.14374525845050812
+    }
+  },
+  {
+    "text": "au plaisir de nous revoir",
+    "intent": "goodbye_fr",
+    "intent_prediction": {
+      "name": "mood_unhappy_fr",
+      "confidence": 0.1867174208164215
+    }
+  },
+  {
+    "text": "hiyo inasikika vizuri",
+    "intent": "affirm_swa",
+    "intent_prediction": {
+      "name": "mood_unhappy_swa",
+      "confidence": 0.23723143339157104
+    }
+  },
+  {
+    "text": "d'accord",
+    "intent": "affirm_fr",
+    "intent_prediction": {
+      "name": "greet_fr",
+      "confidence": 0.12764711678028107
+    }
+  },
+  {
+    "text": "hapana",
+    "intent": "deny_swa",
+    "intent_prediction": {
+      "name": "greet_swa",
+      "confidence": 0.31993451714515686
+    }
+  },
+  {
+    "text": "pas intéressé",
+    "intent": "deny_fr",
+    "intent_prediction": {
+      "name": "mood_unhappy_fr",
+      "confidence": 0.13306275010108948
+    }
+  },
+  {
+    "text": "poa",
+    "intent": "mood_great_swa",
+    "intent_prediction": {
+      "name": "greet_swa",
+      "confidence": 0.19226351380348206
+    }
+  },
+  {
+    "text": "je vais bien",
+    "intent": "mood_great_fr",
+    "intent_prediction": {
+      "name": "greet_fr",
+      "confidence": 0.35341665148735046
+    }
+  },
+  {
+    "text": "wewe ni nani?",
+    "intent": "who_are_you_swa",
+    "intent_prediction": {
+      "name": "maisha_tena_ku_mwanzo_swa",
+      "confidence": 0.0886305719614029
+    }
+  },
+  {
+    "text": "qui êtes-vous?",
+    "intent": "who_are_you_fr",
+    "intent_prediction": {
+      "name": "greet_fr",
+      "confidence": 0.3185018301010132
+    }
+  },
+  {
+    "text": "Namuna gani tuta pata maji kwa iyi kambi?",
+    "intent": "maji_kunywa_swa",
+    "intent_prediction": {
+      "name": "maji_safi_swa",
+      "confidence": 0.08480248600244522
+    }
+  },
+  {
+    "text": "vita ita dumu milele kwetu?",
+    "intent": "vita_wakati_swa",
+    "intent_prediction": {
+      "name": "malalamiko_mungu_ana_ruhusu_tukuwe_wakimbizi_wapi_swa",
+      "confidence": 0.0663195326924324
+    }
+  },
+  {
+    "text": "choo zita jengwa wakati gani?",
+    "intent": "choo_swa",
+    "intent_prediction": {
+      "name": "choo_tujengeya_swa",
+      "confidence": 0.07372580468654633
+    }
+  },
+  {
+    "text": "kuna wakaaji wenye wana tupokeya viabya, tuta ishi je nao?",
+    "intent": "kupokelewa_swa",
+    "intent_prediction": {
+      "name": "manunguniko_komala_na_chuki_na_mungu_taka_swa",
+      "confidence": 0.06829559803009033
+    }
+  },
+  {
+    "text": "ndui ita patikana kwa watoto wa kimbizi?",
+    "intent": "kupata_ndui_swa",
+    "intent_prediction": {
+      "name": "usalama_apa_ndani_kambi_swa",
+      "confidence": 0.06976744532585144
+    }
+  },
+  {
+    "text": "ni hospitali gani inayo husika na wa wanawake wanao bakwa?",
+    "intent": "ubakaji_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "ubakaji_wabinti_wamama_swa",
+      "confidence": 0.10113294422626495
+    }
+  },
+  {
+    "text": "tuta chungiwa je kiusalama?",
+    "intent": "usalama_swa",
+    "intent_prediction": {
+      "name": "kupokelewa_swa",
+      "confidence": 0.04856768250465393
+    }
+  },
+  {
+    "text": "viongozi hawaseme kitu ju ya nini?",
+    "intent": "viongozi_nyamaza_swa",
+    "intent_prediction": {
+      "name": "viongozi_swa",
+      "confidence": 0.2800699770450592
+    }
+  },
+  {
+    "text": "chakula ike tu harisha tufanye nini?",
+    "intent": "kuhara_swa",
+    "intent_prediction": {
+      "name": "chakula_kupiganiya_chakula_swa",
+      "confidence": 0.20982038974761963
+    }
+  },
+  {
+    "text": "ni nani njo ata tuandika kama wakimbizi?",
+    "intent": "kuandikiwa_swa",
+    "intent_prediction": {
+      "name": "kilio_wakimbizi_wa_uongo_swa",
+      "confidence": 0.09062344580888748
+    }
+  },
+  {
+    "text": "Maisha yetu ya zamani tuta ipata tena?",
+    "intent": "maisha_swa",
+    "intent_prediction": {
+      "name": "malalamiko_maisha_kwa_kesho_swa",
+      "confidence": 0.15766417980194092
+    }
+  },
+  {
+    "text": "kazi zita patikana uku?",
+    "intent": "kazi_zita_pata_swa",
+    "intent_prediction": {
+      "name": "kazi_zitakapata_swa",
+      "confidence": 0.17498679459095
+    }
+  },
+  {
+    "text": "kuna makazi ambazo wakimbizi wana weza fanya uku?",
+    "intent": "kazi_zitakapata_swa",
+    "intent_prediction": {
+      "name": "kazi_zita_pata_swa",
+      "confidence": 0.06723976880311966
+    }
+  },
+  {
+    "text": "kuta patikana msaada ya siye bote?",
+    "intent": "msaada_kwa_siye_bote_swa",
+    "intent_prediction": {
+      "name": "serkali_swa",
+      "confidence": 0.17487715184688568
+    }
+  },
+  {
+    "text": "mashindano ya serikali ita fanyika piya na kwa wakimbizi?",
+    "intent": "mashindano_ya_serkali_swa",
+    "intent_prediction": {
+      "name": "mashindano_wa_serikali_swa",
+      "confidence": 0.07478578388690948
+    }
+  },
+  {
+    "text": "kwa nini viongozi wame acha wanaume na wanawake walale fasi moja?",
+    "intent": "kulala_kwa_wanaume_na_wanawake_swa",
+    "intent_prediction": {
+      "name": "matunzo_kwa_nini_wakimbizi_wote_wana_tunziwa_tu_fasi_moja_swa",
+      "confidence": 0.30766722559928894
+    }
+  },
+  {
+    "text": "viongozi wetu juya nini wame shindwa kuya tuona?",
+    "intent": "viongozi_swa",
+    "intent_prediction": {
+      "name": "kuliya_wetu_viongozi_sisi_swa",
+      "confidence": 0.2723884582519531
+    }
+  },
+  {
+    "text": "wazalendo wame kutanika je katika jeshi?",
+    "intent": "wazalendo_jeshi_yetu_swa",
+    "intent_prediction": {
+      "name": "wazalendo_wame_kwa_wapi_swa",
+      "confidence": 0.44660142064094543
+    }
+  },
+  {
+    "text": "kwa nini viongozi hawa waziye kusomesha watoto wetu?",
+    "intent": "masomo_shida_swa",
+    "intent_prediction": {
+      "name": "viongozi_swa",
+      "confidence": 0.09086597710847855
+    }
+  },
+  {
+    "text": "tuli koseya mungu nini?",
+    "intent": "kuliya_swa",
+    "intent_prediction": {
+      "name": "malalamiko_duniya_swa",
+      "confidence": 0.1623043268918991
+    }
+  },
+  {
+    "text": "mu ma baches njo fasi yaku ishi?",
+    "intent": "kuliya_lala_baches_swa",
+    "intent_prediction": {
+      "name": "kulima_swa",
+      "confidence": 0.14700552821159363
+    }
+  },
+  {
+    "text": "namna gani njo iyi vita ili anza?",
+    "intent": "vita_ime_anza_swa",
+    "intent_prediction": {
+      "name": "vita_iiyi_ita_ishaka_je_namna_gani_swa",
+      "confidence": 0.19216296076774597
+    }
+  },
+  {
+    "text": "tuna bakwa ju ya nini?",
+    "intent": "ubakaji_wabinti_wamama_swa",
+    "intent_prediction": {
+      "name": "maisha_kambi_vizuri_siku_swa",
+      "confidence": 0.04119590297341347
+    }
+  },
+  {
+    "text": "ju ya nini kongo ina kataa kupiga rwanda?",
+    "intent": "kuliya_kongo_rwanda_swa",
+    "intent_prediction": {
+      "name": "rwanda_chukiya_swa",
+      "confidence": 0.11719059944152832
+    }
+  },
+  {
+    "text": "ju ya nini eac,sadec na wazungu hawa pane malipizi kwa rwanda?",
+    "intent": "kuliya_eac_sadec_wazungu_swa",
+    "intent_prediction": {
+      "name": "maongezi_swa",
+      "confidence": 0.14583083987236023
+    }
+  },
+  {
+    "text": "makaburi kwaku zika wakimbizi zita kuwa?",
+    "intent": "kuzika_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "wafu_tuna_weza_jenga_nafasi_ya_ukumbusho_swa",
+      "confidence": 0.0739685520529747
+    }
+  },
+  {
+    "text": "kuna watu watakao kuwa natu saidiya kuzika wenzetu?",
+    "intent": "kuzika_wanao_kufa_swa",
+    "intent_prediction": {
+      "name": "maisha_hawata_kuwa_natu_ogopa_uku_swa",
+      "confidence": 0.07512272894382477
+    }
+  },
+  {
+    "text": "wakimbizi wana lala kila siku katika mlio ya masasi juu ya nini?",
+    "intent": "usalama_kambi_swa",
+    "intent_prediction": {
+      "name": "kilio_wakimbizi_wenye_haiko_swa",
+      "confidence": 0.19695064425468445
+    }
+  },
+  {
+    "text": "kwa nini hakuna fasi yaku chongeya wazalendo wanao nyanyasa wakimbizi?",
+    "intent": "wazalendo_wame_nyanyasa_wakimbizi_swa",
+    "intent_prediction": {
+      "name": "wazalendo_swa",
+      "confidence": 0.21435421705245972
+    }
+  },
+  {
+    "text": "tuna teseka ju tuli fanya makosa gani?",
+    "intent": "mateso_swa",
+    "intent_prediction": {
+      "name": "rwanda_teseka_swa",
+      "confidence": 0.1791284680366516
+    }
+  },
+  {
+    "text": "juu ya nini jeshi yetu haishindake vita?",
+    "intent": "jeshi_shindwa_vita_swa",
+    "intent_prediction": {
+      "name": "jeshi_wana_malizika_swa",
+      "confidence": 0.22353126108646393
+    }
+  },
+  {
+    "text": "bila vifaa vya shule tuta tuma watoto je ku masoso?",
+    "intent": "shule_swa",
+    "intent_prediction": {
+      "name": "vyeti_vya_shule_swa",
+      "confidence": 0.3324708938598633
+    }
+  },
+  {
+    "text": "chakula ya wakimbizi ju ya nini wenye haiko wakimbizi wao wana kuya pokeya?",
+    "intent": "kilio_wakimbizi_wenye_haiko_swa",
+    "intent_prediction": {
+      "name": "mashindano_wa_serikali_swa",
+      "confidence": 0.10604295879602432
+    }
+  },
+  {
+    "text": "hawa tupatiye makala ju ya nini?",
+    "intent": "kilio_chakula_bila_makala_swa",
+    "intent_prediction": {
+      "name": "choo_tujengeya_swa",
+      "confidence": 0.06504394859075546
+    }
+  },
+  {
+    "text": "mateso iyi tuta yi ishi mpaka siku gani?",
+    "intent": "kilio_maisha_yetu_swa",
+    "intent_prediction": {
+      "name": "mateso_swa",
+      "confidence": 0.09028010070323944
+    }
+  },
+  {
+    "text": "tuliliye wapi?",
+    "intent": "kilio_sikia_kwa_kilio_swa",
+    "intent_prediction": {
+      "name": "greet_swa",
+      "confidence": 0.1841808408498764
+    }
+  },
+  {
+    "text": "watoto wetu wata kuwa na chezeya wapi?",
+    "intent": "kilio_watoto_wangu_wata_chezeya_wapi_swa",
+    "intent_prediction": {
+      "name": "malalamiko_maisha_kwa_watoto_raha_swa",
+      "confidence": 0.09619775414466858
+    }
+  },
+  {
+    "text": "kuko shirika yenye ina ji husisha na ku fundisha watoto usafi?",
+    "intent": "usafi_swa",
+    "intent_prediction": {
+      "name": "kisasi_tuta_weza_lipiza_kisasi_je_na_kulipiza_kisasi_swa",
+      "confidence": 0.07334741950035095
+    }
+  },
+  {
+    "text": "tuna weza tumiya hii maji bila shida?",
+    "intent": "maji_safi_swa",
+    "intent_prediction": {
+      "name": "maji_juwa_swa",
+      "confidence": 0.14347176253795624
+    }
+  },
+  {
+    "text": "jeshi yetu ita tu gomboa kweli?",
+    "intent": "jeshi_wana_gombolewa_swa",
+    "intent_prediction": {
+      "name": "jeshi_swa",
+      "confidence": 0.15930402278900146
+    }
+  },
+  {
+    "text": "jeshi yetu ina juwa namna gani tuna teswa?",
+    "intent": "jeshi_wana_juwa_mateso_swa",
+    "intent_prediction": {
+      "name": "jeshi_swa",
+      "confidence": 0.10511741042137146
+    }
+  },
+  {
+    "text": "viongozi wata itika tulime katika kambi?",
+    "intent": "kulima_viongozi_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "wizi_wata_isha_je_ndani_ya_kambi_swa",
+      "confidence": 0.0516568161547184
+    }
+  },
+  {
+    "text": "kambi ita safishiwa na nani?",
+    "intent": "usafi_ndani_kambi_swa",
+    "intent_prediction": {
+      "name": "uchuruzi_swa",
+      "confidence": 0.09396664798259735
+    }
+  },
+  {
+    "text": "tuta juwa je dawa yaku aribika kutoka kwa wa fazili [PAM]?",
+    "intent": "dawa_ina_haribika_swa",
+    "intent_prediction": {
+      "name": "chakula_haribika_swa",
+      "confidence": 0.15811112523078918
+    }
+  },
+  {
+    "text": "juu yaku pata mafunzo yaku panga uzazi kuko mtu ali tayarishwa?",
+    "intent": "uzazi_kwa_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "mafunzo_kupata_swa",
+      "confidence": 0.11491474509239197
+    }
+  },
+  {
+    "text": "namna gani tuta epuka [malaria] (sickness_type)?",
+    "intent": "magongwa_ya_malaria_swa",
+    "intent_prediction": {
+      "name": "ambulance_swa",
+      "confidence": 0.398679256439209
+    }
+  },
+  {
+    "text": "tukuwe na tuma watoto kila siku kwenye masomo yamu kambi?",
+    "intent": "masomo_tumika_swa",
+    "intent_prediction": {
+      "name": "mashaka_shuleni_kwa_watoto_wangu_swa",
+      "confidence": 0.14177577197551727
+    }
+  },
+  {
+    "text": "waalimu wakmbizi wata endeleya kupata mshahara yao?",
+    "intent": "kazi_kulipa_swa",
+    "intent_prediction": {
+      "name": "kazi_endeleya_lipiwa_swa",
+      "confidence": 0.3329128324985504
+    }
+  },
+  {
+    "text": "ukuGomawaganga wakimbizi wata pata makazi?",
+    "intent": "kazi_goma_zitakapata_swa",
+    "intent_prediction": {
+      "name": "kazi_za_goma_swa",
+      "confidence": 0.15784618258476257
+    }
+  },
+  {
+    "text": "kiongozi wa kambi ana pashwa kuwa tu mukimbizi?",
+    "intent": "uongozi_kwa_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "kilio_wakimbizi_wenye_haiko_swa",
+      "confidence": 0.06525777280330658
+    }
+  },
+  {
+    "text": "apa ni wapi?",
+    "intent": "vita_fika_swa",
+    "intent_prediction": {
+      "name": "kanisa_nyirangongo_swa",
+      "confidence": 0.2597183883190155
+    }
+  },
+  {
+    "text": "ina ruhusiwa position ya jeshi ikuwe pembeni ya wakimbizi?",
+    "intent": "vita_karibu_na_sisi_swa",
+    "intent_prediction": {
+      "name": "kilio_watoto_wangu_wata_chezeya_wapi_swa",
+      "confidence": 0.07895948737859726
+    }
+  },
+  {
+    "text": "mtandao iko apa?",
+    "intent": "mtandao_swa",
+    "intent_prediction": {
+      "name": "vita_fika_swa",
+      "confidence": 0.11153968423604965
+    }
+  },
+  {
+    "text": "mungu iko naona ibi byote ?",
+    "intent": "malalamiko_mungu_swa",
+    "intent_prediction": {
+      "name": "malalamiko_mungu_lipiza_zambi_zetu_swa",
+      "confidence": 0.15134000778198242
+    }
+  },
+  {
+    "text": "nani njo mutetezi wetu?",
+    "intent": "malalamiko_mtetezi_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "uongozi_swa",
+      "confidence": 0.22147934138774872
+    }
+  },
+  {
+    "text": "kweli wakaaji wa Goma wata tupenda?",
+    "intent": "malalamiko_goma_swa",
+    "intent_prediction": {
+      "name": "malalamiko_goma_kwa_wakimbizi_wapi_swa",
+      "confidence": 0.17398208379745483
+    }
+  },
+  {
+    "text": "kesho yetu ita fanan namna gani?",
+    "intent": "malalamiko_maisha_kwa_kesho_swa",
+    "intent_prediction": {
+      "name": "homa_swa",
+      "confidence": 0.06796140968799591
+    }
+  },
+  {
+    "text": "mnajuwa kama tuna vilonda vya ndani ?",
+    "intent": "malalamiko_vilonda_vya_ndani_swa",
+    "intent_prediction": {
+      "name": "mashaka_swa",
+      "confidence": 0.3552173972129822
+    }
+  },
+  {
+    "text": "watoto wetu hawata enda barabarani?",
+    "intent": "malalamiko_maibobo_kwa_wakimbizi_wapi_swa",
+    "intent_prediction": {
+      "name": "kisasi_komala_na_chuki_swa",
+      "confidence": 0.13099345564842224
+    }
+  },
+  {
+    "text": "watoto wata weza sahau mambo ya vita kupitiya masomo?",
+    "intent": "malalamiko_masomo_i_kwa_watoto_wangu_swa",
+    "intent_prediction": {
+      "name": "malalamiko_waalimu_tayarishwa_kupokeya_watoto_wakimbizi_wapi_swa",
+      "confidence": 0.1282229721546173
+    }
+  },
+  {
+    "text": "hawa watoto tuta waambiya ni nini njo iko na pitikana?",
+    "intent": "malalamiko_waambiya_nini_kwa_watoto_wangu_swa",
+    "intent_prediction": {
+      "name": "malalamiko_maibobo_kwa_wakimbizi_wapi_swa",
+      "confidence": 0.09496593475341797
+    }
+  },
+  {
+    "text": "mchango yetu iteza kuwa gani kwa kuleta amani?",
+    "intent": "malalamiko_tuchangiye_kwa_amani_swa",
+    "intent_prediction": {
+      "name": "kilio_amani_swa",
+      "confidence": 0.1592218577861786
+    }
+  },
+  {
+    "text": "apa Goma kuna watu waku aminika?",
+    "intent": "malalamiko_kusherehe_mwaka_mpya_kwa_watoto_wangu_siku_mpya_swa",
+    "intent_prediction": {
+      "name": "malalamiko_goma_kwa_wakimbizi_wapi_swa",
+      "confidence": 0.15286977589130402
+    }
+  },
+  {
+    "text": "kwa kutunzwa hivi vilonda vya ndani tuta fanya je?",
+    "intent": "mashaka_tunzwa_kwa_vilonda_vya_ndani_swa",
+    "intent_prediction": {
+      "name": "mashaka_swa",
+      "confidence": 0.17460572719573975
+    }
+  },
+  {
+    "text": "watoto wetu wata kuwa na Maisha mazuri kesho?",
+    "intent": "mashaka_watoto_wakimbizi_wapi_kwa_kesho_swa",
+    "intent_prediction": {
+      "name": "malalamiko_pendaka_tena_maisha_swa",
+      "confidence": 0.08544578403234482
+    }
+  },
+  {
+    "text": "Goma ni nyumbani?",
+    "intent": "mashaka_nyumbani_kwa_goma_swa",
+    "intent_prediction": {
+      "name": "maisha_tena_ku_mwanzo_swa",
+      "confidence": 0.1203586682677269
+    }
+  },
+  {
+    "text": "nini njo ita onesha kama apa kuko salama?",
+    "intent": "mashaka_apa_kuko_usalama_swa",
+    "intent_prediction": {
+      "name": "mashaka_kuko_kwa_teseka_apa_swa",
+      "confidence": 0.06948884576559067
+    }
+  },
+  {
+    "text": "wafazili wata kuwa na gabula kulingana na hamu ya watu?",
+    "intent": "chakula_chagua_nina_penda_swa",
+    "intent_prediction": {
+      "name": "malalamiko_goma_kwa_wakimbizi_wapi_swa",
+      "confidence": 0.052354659885168076
+    }
+  },
+  {
+    "text": "tuna onesha sura za maskini sana?",
+    "intent": "maisha_onekana_kama_wa_maskini_sana_swa",
+    "intent_prediction": {
+      "name": "mood_unhappy_swa",
+      "confidence": 0.13577347993850708
+    }
+  },
+  {
+    "text": "na weza eleza nani yenye nili ishi ?",
+    "intent": "maisha_yenye_nili_ishi_swa",
+    "intent_prediction": {
+      "name": "malalamiko_kwa_wakimbizi_wapi_swa",
+      "confidence": 0.10585491359233856
+    }
+  },
+  {
+    "text": "mungu iko wapi?",
+    "intent": "malalamiko_mungu_angali_swa",
+    "intent_prediction": {
+      "name": "malalamiko_mungu_lipiza_zambi_zetu_swa",
+      "confidence": 0.2397805154323578
+    }
+  },
+  {
+    "text": "hii hali yenye tuko na pitiya ni laana ya mungu?",
+    "intent": "malalamiko_mungu_lipiza_zambi_zetu_swa",
+    "intent_prediction": {
+      "name": "malalamiko_mungu_ana_tupenda_swa",
+      "confidence": 0.24277105927467346
+    }
+  },
+  {
+    "text": "matunzo ita bakiya ya bure mpaka mwisho ya vita?",
+    "intent": "mashaka_tunzwa_na_MSF_bure_swa",
+    "intent_prediction": {
+      "name": "mashaka_amani_bila_vita_haiwezi_patikana_swa",
+      "confidence": 0.10517852008342743
+    }
+  },
+  {
+    "text": "watoto wetu wana weza elewa iyi hali?",
+    "intent": "mashaka_watoto_kititi_hawaelewe_swa",
+    "intent_prediction": {
+      "name": "hali_watoto_wangu_swa",
+      "confidence": 0.22033445537090302
+    }
+  },
+  {
+    "text": "vita ni vizuri?",
+    "intent": "mashaka_vita_ni_ya_muzuri_kwetu_kweli_swa",
+    "intent_prediction": {
+      "name": "kifo_hatuta_kufa_siye_bote_swa",
+      "confidence": 0.14026924967765808
+    }
+  },
+  {
+    "text": "ju ya nini hakuna suhulisho ?",
+    "intent": "mashaka_ju_ya_nini_hakuna_suhulisho_swa",
+    "intent_prediction": {
+      "name": "kilio_amani_swa",
+      "confidence": 0.09381742030382156
+    }
+  },
+  {
+    "text": "mapendo ita kuwa kati ya watoto wetu?",
+    "intent": "mashaka_watoto_wata_pendana_wetu_swa",
+    "intent_prediction": {
+      "name": "malalamiko_watoto_wa_goma_swa",
+      "confidence": 0.03712804988026619
+    }
+  },
+  {
+    "text": "tuna weza kuwa na enda tembeya goma bila shida?",
+    "intent": "mashaka_sisi_wakimbiziwenye_tuna_weza_kuwa_na_enda_tembeya_swa",
+    "intent_prediction": {
+      "name": "maisha_tuta_weza_maisha_ya_goma_bila_makazi_swa",
+      "confidence": 0.12665168941020966
+    }
+  },
+  {
+    "text": "tuta teseka mpaka siku gani ?",
+    "intent": "mashaka_mwisho_ya_iyi_mateso_ni_nini_swa",
+    "intent_prediction": {
+      "name": "kilio_maisha_yetu_swa",
+      "confidence": 0.48568183183670044
+    }
+  },
+  {
+    "text": "nani njo waku sambisha wajirani wenye wana kosana ?",
+    "intent": "masambo_jirani_wake_kosana_wata_samba_wapi_swa",
+    "intent_prediction": {
+      "name": "manunguniko_komala_na_chuki_na_mungu_taka_swa",
+      "confidence": 0.05077267065644264
+    }
+  },
+  {
+    "text": "tungali watu kweli ?",
+    "intent": "mashaka_tuna_onekana_kama_watu_swa",
+    "intent_prediction": {
+      "name": "maisha_watu_wa_uku_biko_na_umutu_swa",
+      "confidence": 0.14320383965969086
+    }
+  },
+  {
+    "text": "maisha ya wenye wali baki masisi iko je ?",
+    "intent": "mashaka_wenye_wali_baki_masisi_wana_ishi_je_swa",
+    "intent_prediction": {
+      "name": "kanisa_swa",
+      "confidence": 0.05997837334871292
+    }
+  },
+  {
+    "text": "Wa nani njo wa ndugu yetu apa ?",
+    "intent": "undugu_wa_nani_njo_wa_ndugu_yetu_apa_swa",
+    "intent_prediction": {
+      "name": "watutsi_nina_weza_fanya_urafiki_na_mututsi_swa",
+      "confidence": 0.13282835483551025
+    }
+  },
+  {
+    "text": "tuta wezaka pata  utulizo baada ya hii mateso yote?",
+    "intent": "utulizo_ya_iyi_matata_yote_ita_fanyikaka_swa",
+    "intent_prediction": {
+      "name": "mashaka_tuta_sahawaka_iyi_mateso_ndani_swa",
+      "confidence": 0.18941694498062134
+    }
+  },
+  {
+    "text": "wakimbizi wata kuwa na lungisha wa na nani?",
+    "intent": "ndoa_nani_njo_ata_kuwa_na_tu_lungisha_swa",
+    "intent_prediction": {
+      "name": "wizi_wata_isha_je_ndani_ya_kambi_swa",
+      "confidence": 0.06845587491989136
+    }
+  },
+  {
+    "text": "tuta kuwa na lungiya wapi ?",
+    "intent": "ndoa_tuta_kuwa_na_lungiya_wapi_swa",
+    "intent_prediction": {
+      "name": "kuni_tuta_kuwa_na_tosha_kuni_wapi_swa",
+      "confidence": 0.16556639969348907
+    }
+  },
+  {
+    "text": "uku wana eshimiyaka watu ya kazi?",
+    "intent": "maisha_uku_wana_eshimiyaka_watu_ya_kazi_swa",
+    "intent_prediction": {
+      "name": "watu_wazuri_wangali_duniyani_swa",
+      "confidence": 0.12581613659858704
+    }
+  },
+  {
+    "text": "apa fasi ya mazuku tuishi ako namna gani?",
+    "intent": "mazuku_na_lac_vert_swa",
+    "intent_prediction": {
+      "name": "mazuku_ita_ishaka_kweli_kambi_swa",
+      "confidence": 0.08478038758039474
+    }
+  },
+  {
+    "text": "mazuku ita ishaka?",
+    "intent": "mazuku_ita_ishaka_kweli_kambi_swa",
+    "intent_prediction": {
+      "name": "mazuku_ni_nini_swa",
+      "confidence": 0.1747460663318634
+    }
+  },
+  {
+    "text": "mazuku ni mali?",
+    "intent": "mazuku_mazuku_nayo_ni_moja_kati_ya_mali_za_kongo_swa",
+    "intent_prediction": {
+      "name": "kuni_tuta_kuwa_na_tosha_kuni_wapi_swa",
+      "confidence": 0.0765644907951355
+    }
+  },
+  {
+    "text": "ijapo hali ya wa vijana wetu, wana weza pendewa na wa binti wa goma?",
+    "intent": "vijana_wa_binti_wa_goma_wata_penda_wa_vijana_wa_ructhuru_swa",
+    "intent_prediction": {
+      "name": "vijana_wa_goma_wata_pokeya_je_vijana_wenzao_wa_masisi_swa",
+      "confidence": 0.2824053466320038
+    }
+  },
+  {
+    "text": "vijana wa goma wale ji taidi je kupokeya wenzao?",
+    "intent": "vijana_wa_goma_wata_pokeya_je_vijana_wenzao_wa_masisi_swa",
+    "intent_prediction": {
+      "name": "vijana_wa_goma_wana_changiya_je_kwa_amani_swa",
+      "confidence": 0.27702465653419495
+    }
+  },
+  {
+    "text": "goma watu wote wana ji weza?",
+    "intent": "maisha_watu_wote_wa_goma_wana_ishi_vizuri_swa",
+    "intent_prediction": {
+      "name": "malalamiko_goma_kwa_wakimbizi_wapi_swa",
+      "confidence": 0.17268583178520203
+    }
+  },
+  {
+    "text": "goma wakristu wata saidiya wenzao wakristu wakimbizi?",
+    "intent": "wakristu_wa_goma_wata_saidiya_wa_kristo_wenzao_swa",
+    "intent_prediction": {
+      "name": "waislamu_wa_goma_wata_saidiya_wa_islamu_wenzao_swa",
+      "confidence": 0.1540088653564453
+    }
+  },
+  {
+    "text": "viongozi biko na ona gisi tuna kufa kiolela?",
+    "intent": "vita_iongozi_biko_naona_iyi_mauwaji_yote_swa",
+    "intent_prediction": {
+      "name": "hali_viongozi_wakimbizi_wapi_swa",
+      "confidence": 0.11858013272285461
+    }
+  },
+  {
+    "text": "tukuwe na twala kuni nafasi gani?",
+    "intent": "kuni_tuta_kuwa_na_tosha_kuni_wapi_swa",
+    "intent_prediction": {
+      "name": "maisha_nafasi_gani_njo_hatuezi_enda_bila_ruhusa_swa",
+      "confidence": 0.07553859800100327
+    }
+  },
+  {
+    "text": "tuta weza je maisha goma bila makazi?",
+    "intent": "maisha_tuta_weza_maisha_ya_goma_bila_makazi_swa",
+    "intent_prediction": {
+      "name": "ukarimu_watu_wa_goma_ni_wakarimu_swa",
+      "confidence": 0.10049285739660263
+    }
+  },
+  {
+    "text": "mazara ni nini ikiwa tuna choma mwizi ?",
+    "intent": "maisha_tuke_choma_mwizi_shida_ni_nini_swa",
+    "intent_prediction": {
+      "name": "maisha_tuta_choma_mwizi_gani_swa",
+      "confidence": 0.3625386357307434
+    }
+  },
+  {
+    "text": "sababu gani wakimbizi wote ina imba watunziwe fasi moja?",
+    "intent": "matunzo_kwa_nini_wakimbizi_wote_wana_tunziwa_tu_fasi_moja_swa",
+    "intent_prediction": {
+      "name": "kambi_wakimbizi_wote_swa",
+      "confidence": 0.1438991278409958
+    }
+  },
+  {
+    "text": "ikiwa watoto wana shindwa elewa elimu suluhisho ni nini?",
+    "intent": "watoto_watoto_masomo_suluhisho_swa",
+    "intent_prediction": {
+      "name": "malalamiko_vitabu_kwa_watoto_wangu_swa",
+      "confidence": 0.21004718542099
+    }
+  },
+  {
+    "text": "watoto wetu wana weza tulizana tuki lipiza kisasi?",
+    "intent": "kisasi_tuta_weza_lipiza_kisasi_je_na_kulipiza_kisasi_swa",
+    "intent_prediction": {
+      "name": "mashaka_watoto_kititi_hawaelewe_swa",
+      "confidence": 0.09461493790149689
+    }
+  },
+  {
+    "text": "chuki haita zalika katika watoto wetu?",
+    "intent": "kisasi_komala_na_chuki_swa",
+    "intent_prediction": {
+      "name": "maisha_watoto_hawata_ni_chukiya_swa",
+      "confidence": 0.19217966496944427
+    }
+  },
+  {
+    "text": "njala haiwezi tufanya wa mwizi?",
+    "intent": "njala_haiwezi_fanya_watu_majambazi_swa",
+    "intent_prediction": {
+      "name": "maisha_tuta_choma_mwizi_gani_swa",
+      "confidence": 0.16580447554588318
+    }
+  }
+]

@@ -1,0 +1,169 @@
+(rasa) ussen@ussen-HP-Z640-Workstation:~/ssl-compression-on-mobile/bot-haki$ rasa train
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+2025-05-10 04:11:49 INFO     rasa.cli.train  - Started validating domain and training data...
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Issue found while processing 'data/nlu.yml': The item 'mashaka_apa_kuko_wa_askari_waku_tosha_juya_ku_tu_chunga_sisi_wote_swa' contains an example that doesn't start with a '-' symbol:   
+This training example will be skipped.
+  More info at https://rasa.com/docs/rasa/training-data-format
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Action 'utter_mazuku_ita_ishaka_kweli_kambi_swa' is listed as a response action in the domain file, but there is no matching response defined. Please check your domain.
+  More info at https://rasa.com/docs/rasa/responses
+2025-05-10 04:12:02 INFO     rasa.validator  - Validating intents...
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: The intent 'chakula_hii_swa' is not used in any story or rule.
+2025-05-10 04:12:02 INFO     rasa.validator  - Validating uniqueness of intents and stories...
+2025-05-10 04:12:02 INFO     rasa.validator  - Validating utterances...
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: The action 'utter_mazuku_ita_ishaka_kweli_kambi_swa' is used in the stories, but is not a valid utterance action. Please make sure the action is listed in your domain and there is a template defined with its name.
+  More info at https://rasa.com/docs/rasa/actions#utterance-actions
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: The utterance 'utter_chakula_e_swa' is not used in any story or rule.
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: The utterance 'utter_utter_mazuku_ita_ishaka_kweli_kambi_swa' is not used in any story or rule.
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: The utterance 'utter_kanyarutshinya_swa' is not used in any story or rule.
+2025-05-10 04:12:02 INFO     rasa.validator  - Story structure validation...
+Processed story blocks: 100%|█| 423/423 [00:00<00:00, 2461.44it/s, # trac
+2025-05-10 04:12:03 INFO     rasa.core.training.story_conflict  - Considering all preceding turns for conflict analysis.
+2025-05-10 04:12:03 INFO     rasa.validator  - No story structure conflicts found.
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Issue found while processing 'data/nlu.yml': The item 'mashaka_apa_kuko_wa_askari_waku_tosha_juya_ku_tu_chunga_sisi_wote_swa' contains an example that doesn't start with a '-' symbol:   
+This training example will be skipped.
+  More info at https://rasa.com/docs/rasa/training-data-format
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Action 'utter_mazuku_ita_ishaka_kweli_kambi_swa' is listed as a response action in the domain file, but there is no matching response defined. Please check your domain.
+  More info at https://rasa.com/docs/rasa/responses
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/engine/recipes/recipe.py:35: FutureWarning: From Rasa Open Source 4.0.0 onwards it will be required to specify a recipe in your model configuration. Defaulting to recipe 'default.v1'.
+  rasa.shared.utils.io.raise_deprecation_warning(
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Issue found while processing 'data/nlu.yml': The item 'mashaka_apa_kuko_wa_askari_waku_tosha_juya_ku_tu_chunga_sisi_wote_swa' contains an example that doesn't start with a '-' symbol:   
+This training example will be skipped.
+  More info at https://rasa.com/docs/rasa/training-data-format
+tf_model.h5:  72%|█████████████▋     | 1.88G/2.61G [45:18<28:14, 427kB/s]
+All model checkpoint layers were used when initializing TFBertModel.
+
+All the layers of TFBertModel were initialized from the model checkpoint at rasa/LaBSE.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFBertModel for predictions without further training.
+2025-05-10 04:58:42 INFO     rasa.engine.training.hooks  - Starting to train component 'RegexFeaturizer'.
+2025-05-10 04:58:42 INFO     rasa.engine.training.hooks  - Finished training component 'RegexFeaturizer'.
+2025-05-10 04:58:42 INFO     rasa.engine.training.hooks  - Starting to train component 'LexicalSyntacticFeaturizer'.
+2025-05-10 04:58:42 INFO     rasa.engine.training.hooks  - Finished training component 'LexicalSyntacticFeaturizer'.
+2025-05-10 04:58:44 INFO     rasa.engine.training.hooks  - Starting to train component 'CountVectorsFeaturizer'.
+2025-05-10 04:58:44 INFO     rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer  - 1719 vocabulary items were created for text attribute.
+2025-05-10 04:58:44 INFO     rasa.engine.training.hooks  - Finished training component 'CountVectorsFeaturizer'.
+2025-05-10 04:58:48 INFO     rasa.engine.training.hooks  - Starting to train component 'CountVectorsFeaturizer'.
+2025-05-10 04:58:48 INFO     rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer  - 6168 vocabulary items were created for text attribute.
+2025-05-10 04:58:48 INFO     rasa.engine.training.hooks  - Finished training component 'CountVectorsFeaturizer'.
+2025-05-10 04:58:53 INFO     rasa.engine.training.hooks  - Starting to train component 'DIETClassifier'.
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/utils/train_utils.py:530: UserWarning: constrain_similarities is set to `False`. It is recommended to set it to `True` when using cross-entropy loss.
+  rasa.shared.utils.io.raise_warning(
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'hatuna choo,tuta ishi je?' with intent 'choo_swa'. Make sure the start and end values of entities ([(7, 11, 'choo')]) in the training data match the token boundaries ([(0, 6, 'hatuna'), (7, 16, 'choo,tuta'), (17, 21, 'ishi'), (22, 24, 'je')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'tuna pokeya mara moja chakula kwa juma moja,tuta tosha yengine wapi?' with intent 'chakula_swa'. Make sure the start and end values of entities ([(22, 29, 'chakula'), (30, 43, 'kwa juma moja'), (63, 67, 'wapi')]) in the training data match the token boundaries ([(0, 4, 'tuna'), (5, 11, 'pokeya'), (12, 16, 'mara'), (17, 21, 'moja'), (22, 29, 'chakula'), (30, 33, 'kwa'), (34, 38, 'juma'), (39, 48, 'moja,tuta'), (49, 54, 'tosha'), (55, 62, 'yengine'), (63, 67, 'wapi')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'maji ina kuwa kidogo kwenye kambi,ita ongezwa?' with intent 'maji_kuwa_kidogo_swa'. Make sure the start and end values of entities ([(0, 4, 'maji'), (14, 20, 'kidogo'), (28, 33, 'kambi')]) in the training data match the token boundaries ([(0, 4, 'maji'), (5, 8, 'ina'), (9, 13, 'kuwa'), (14, 20, 'kidogo'), (21, 27, 'kwenye'), (28, 37, 'kambi,ita'), (38, 45, 'ongezwa')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'nina fika mjini,nilikua mlimaji sina kazi nita ishi je na watoto kumi?' with intent 'kazi_bila_kazi_swa'. Make sure the start and end values of entities ([(10, 15, 'mjini'), (37, 41, 'kazi'), (58, 64, 'watoto')]) in the training data match the token boundaries ([(0, 4, 'nina'), (5, 9, 'fika'), (10, 23, 'mjini,nilikua'), (24, 31, 'mlimaji'), (32, 36, 'sina'), (37, 41, 'kazi'), (42, 46, 'nita'), (47, 51, 'ishi'), (52, 54, 'je'), (55, 57, 'na'), (58, 64, 'watoto'), (65, 69, 'kumi')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'ju ya nini eac,sadec na wazungu hawa pane malipizi kwa rwanda?' with intent 'kuliya_eac_sadec_wazungu_swa'. Make sure the start and end values of entities ([(11, 14, 'eac'), (15, 20, 'sadec'), (24, 31, 'wazungu'), (55, 61, 'rwanda')]) in the training data match the token boundaries ([(0, 2, 'ju'), (3, 5, 'ya'), (6, 10, 'nini'), (11, 20, 'eac,sadec'), (21, 23, 'na'), (24, 31, 'wazungu'), (32, 36, 'hawa'), (37, 41, 'pane'), (42, 50, 'malipizi'), (51, 54, 'kwa'), (55, 61, 'rwanda')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'rwanda haipatake malipizi kutoka kwa sadec,eac ama wazungu?' with intent 'kuliya_eac_sadec_wazungu_swa'. Make sure the start and end values of entities ([(0, 6, 'rwanda'), (37, 42, 'sadec'), (43, 46, 'eac'), (51, 58, 'wazungu')]) in the training data match the token boundaries ([(0, 6, 'rwanda'), (7, 16, 'haipatake'), (17, 25, 'malipizi'), (26, 32, 'kutoka'), (33, 36, 'kwa'), (37, 46, 'sadec,eac'), (47, 50, 'ama'), (51, 58, 'wazungu')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'katika makambi kuna yala wakimbizi wa uongo,nani njo ata watosha?' with intent 'kilio_wakimbizi_wa_uongo_swa'. Make sure the start and end values of entities ([(7, 14, 'makambi'), (25, 34, 'wakimbizi'), (44, 48, 'nani')]) in the training data match the token boundaries ([(0, 6, 'katika'), (7, 14, 'makambi'), (15, 19, 'kuna'), (20, 24, 'yala'), (25, 34, 'wakimbizi'), (35, 37, 'wa'), (38, 48, 'uongo,nani'), (49, 52, 'njo'), (53, 56, 'ata'), (57, 64, 'watosha')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'kanisa iko wapi apa kanyarutshinya(place_name) ?' with intent 'kanisa_swa'. Make sure the start and end values of entities ([(0, 6, 'kanisa'), (11, 15, 'wapi'), (16, 19, 'apa'), (20, 34, 'kanyarutshinya')]) in the training data match the token boundaries ([(0, 6, 'kanisa'), (7, 10, 'iko'), (11, 15, 'wapi'), (16, 19, 'apa'), (20, 45, 'kanyarutshinya(place_name')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'kama chakulaya wa fazili PAM ina haribika tuta juwa je?' with intent 'chakula_haribika_swa'. Make sure the start and end values of entities ([(5, 12, 'chakula'), (25, 28, 'PAM')]) in the training data match the token boundaries ([(0, 4, 'kama'), (5, 14, 'chakulaya'), (15, 17, 'wa'), (18, 24, 'fazili'), (25, 28, 'PAM'), (29, 32, 'ina'), (33, 41, 'haribika'), (42, 46, 'tuta'), (47, 51, 'juwa'), (52, 54, 'je')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'kama wa fazili PAM wana tupatiya chakulayaku aribika tuta juwa je?' with intent 'chakula_haribika_swa'. Make sure the start and end values of entities ([(15, 18, 'PAM'), (33, 40, 'chakula')]) in the training data match the token boundaries ([(0, 4, 'kama'), (5, 7, 'wa'), (8, 14, 'fazili'), (15, 18, 'PAM'), (19, 23, 'wana'), (24, 32, 'tupatiya'), (33, 44, 'chakulayaku'), (45, 52, 'aribika'), (53, 57, 'tuta'), (58, 62, 'juwa'), (63, 65, 'je')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'nini njo ita tuonesha kama chakulayaku pokeya ina aribika?' with intent 'chakula_haribika_swa'. Make sure the start and end values of entities ([(27, 34, 'chakula')]) in the training data match the token boundaries ([(0, 4, 'nini'), (5, 8, 'njo'), (9, 12, 'ita'), (13, 21, 'tuonesha'), (22, 26, 'kama'), (27, 38, 'chakulayaku'), (39, 45, 'pokeya'), (46, 49, 'ina'), (50, 57, 'aribika')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'tuta juwa je chakulayaku aribika kutoka kwa wa fazili PAM?' with intent 'chakula_haribika_swa'. Make sure the start and end values of entities ([(13, 20, 'chakula'), (54, 57, 'PAM')]) in the training data match the token boundaries ([(0, 4, 'tuta'), (5, 9, 'juwa'), (10, 12, 'je'), (13, 24, 'chakulayaku'), (25, 32, 'aribika'), (33, 39, 'kutoka'), (40, 43, 'kwa'), (44, 46, 'wa'), (47, 53, 'fazili'), (54, 57, 'PAM')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'chakulayaku aribika yaku toka kwa wa fazili PAM tuta ijuwa je?' with intent 'chakula_haribika_swa'. Make sure the start and end values of entities ([(0, 7, 'chakula'), (44, 47, 'PAM')]) in the training data match the token boundaries ([(0, 11, 'chakulayaku'), (12, 19, 'aribika'), (20, 24, 'yaku'), (25, 29, 'toka'), (30, 33, 'kwa'), (34, 36, 'wa'), (37, 43, 'fazili'), (44, 47, 'PAM'), (48, 52, 'tuta'), (53, 58, 'ijuwa'), (59, 61, 'je')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'ukuGomawaalimu wakimbizi wata pata makazi?' with intent 'kazi_za_goma_swa'. Make sure the start and end values of entities ([(0, 3, 'uku'), (3, 7, 'Goma'), (7, 24, 'waalimu wakimbizi'), (35, 41, 'makazi')]) in the training data match the token boundaries ([(0, 14, 'ukuGomawaalimu'), (15, 24, 'wakimbizi'), (25, 29, 'wata'), (30, 34, 'pata'), (35, 41, 'makazi')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'ukuGomawaganga wakimbizi wata pata makazi?' with intent 'kazi_goma_zitakapata_swa'. Make sure the start and end values of entities ([(0, 3, 'uku'), (3, 7, 'Goma'), (7, 24, 'waganga wakimbizi'), (35, 41, 'makazi')]) in the training data match the token boundaries ([(0, 14, 'ukuGomawaganga'), (15, 24, 'wakimbizi'), (25, 29, 'wata'), (30, 34, 'pata'), (35, 41, 'makazi')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'hawa wa askari wenye wako apatuna eza waaminiya?' with intent 'usalama_askari_swa'. Make sure the start and end values of entities ([(8, 14, 'askari'), (26, 29, 'apa')]) in the training data match the token boundaries ([(0, 4, 'hawa'), (5, 7, 'wa'), (8, 14, 'askari'), (15, 20, 'wenye'), (21, 25, 'wako'), (26, 33, 'apatuna'), (34, 37, 'eza'), (38, 47, 'waaminiya')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'apa bulengowatoto wangu wata pafika je?' with intent 'usalama_bulengo_swa'. Make sure the start and end values of entities ([(0, 3, 'apa'), (4, 11, 'bulengo'), (11, 23, 'watoto wangu')]) in the training data match the token boundaries ([(0, 3, 'apa'), (4, 17, 'bulengowatoto'), (18, 23, 'wangu'), (24, 28, 'wata'), (29, 35, 'pafika'), (36, 38, 'je')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'chakulaita kuwa na patikana kila siku?' with intent 'malalamiko_kula_chakula_swa'. Make sure the start and end values of entities ([(0, 7, 'chakula'), (28, 37, 'kila siku')]) in the training data match the token boundaries ([(0, 10, 'chakulaita'), (11, 15, 'kuwa'), (16, 18, 'na'), (19, 27, 'patikana'), (28, 32, 'kila'), (33, 37, 'siku')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'kila siku chakulaita kuwa na patikana?' with intent 'malalamiko_kula_chakula_swa'. Make sure the start and end values of entities ([(0, 9, 'kila siku'), (10, 17, 'chakula')]) in the training data match the token boundaries ([(0, 4, 'kila'), (5, 9, 'siku'), (10, 20, 'chakulaita'), (21, 25, 'kuwa'), (26, 28, 'na'), (29, 37, 'patikana')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+/home/ussen/anaconda3/envs/rasa/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: Misaligned entity annotation in message 'tuta pata tena vitambulisho vyetu vilivyo poteya?' with intent 'malalamiko_kiswahili_swa'. Make sure the start and end values of entities ([(29, 33, 'yetu')]) in the training data match the token boundaries ([(0, 4, 'tuta'), (5, 9, 'pata'), (10, 14, 'tena'), (15, 27, 'vitambulisho'), (28, 33, 'vyetu'), (34, 41, 'vilivyo'), (42, 48, 'poteya')]). Common causes: 
+  1) entities include trailing whitespaces or punctuation
+  2) the tokenizer gives an unexpected result, due to languages such as Chinese that don't use whitespace for word separation
+  More info at https://rasa.com/docs/rasa/training-data-format#nlu-training-data
+Epochs: 100%|█| 100/100 [40:23<00:00, 24.23s/it, t_loss=9.22, i_acc=0.999
+2025-05-10 05:39:23 INFO     rasa.engine.training.hooks  - Finished training component 'DIETClassifier'.
+2025-05-10 05:39:23 INFO     rasa.engine.training.hooks  - Starting to train component 'EntitySynonymMapper'.
+2025-05-10 05:39:24 INFO     rasa.engine.training.hooks  - Finished training component 'EntitySynonymMapper'.
+2025-05-10 05:39:24 INFO     rasa.engine.training.hooks  - Starting to train component 'ResponseSelector'.
+2025-05-10 05:39:24 INFO     rasa.nlu.selectors.response_selector  - Retrieval intent parameter was left to its default value. This response selector will be trained on training examples combining all retrieval intents.
+2025-05-10 05:39:24 INFO     rasa.engine.training.hooks  - Finished training component 'ResponseSelector'.
+Processed story blocks: 100%|█| 423/423 [00:00<00:00, 2723.95it/s, # trac
+Processed story blocks: 100%|█| 423/423 [00:05<00:00, 74.40it/s, # tracke
+Processed story blocks: 100%|█| 423/423 [00:05<00:00, 70.57it/s, # tracke
+Processed story blocks: 100%|█| 423/423 [00:06<00:00, 66.02it/s, # tracke
+Processed rules: 100%|█████| 8/8 [00:00<00:00, 2145.42it/s, # trackers=1]
+2025-05-10 05:39:44 INFO     rasa.engine.training.hooks  - Starting to train component 'MemoizationPolicy'.
+Processed trackers: 100%|█| 423/423 [00:00<00:00, 2786.73it/s, # action=8
+Processed actions: 857it [00:00, 7921.56it/s, # examples=857]
+2025-05-10 05:39:44 INFO     rasa.engine.training.hooks  - Finished training component 'MemoizationPolicy'.
+2025-05-10 05:39:44 INFO     rasa.engine.training.hooks  - Starting to train component 'RulePolicy'.
+Processed trackers: 100%|███| 8/8 [00:00<00:00, 1328.84it/s, # action=17]
+Processed actions: 17it [00:00, 11744.88it/s, # examples=16]
+Processed trackers: 100%|█| 423/423 [00:00<00:00, 2812.71it/s, # action=8
+Processed trackers: 100%|████████████████| 8/8 [00:00<00:00, 1078.92it/s]
+Processed trackers: 100%|████████████| 431/431 [00:00<00:00, 1484.31it/s]
+2025-05-10 05:39:45 INFO     rasa.engine.training.hooks  - Finished training component 'RulePolicy'.
+2025-05-10 05:39:45 INFO     rasa.engine.training.hooks  - Starting to train component 'TEDPolicy'.
+Processed trackers: 100%|█| 923/923 [00:00<00:00, 1971.50it/s, # action=2
+Epochs: 100%|█| 100/100 [03:19<00:00,  2.00s/it, t_loss=4.52, loss=3.21, 
+2025-05-10 05:43:09 INFO     rasa.engine.training.hooks  - Finished training component 'TEDPolicy'.
+Your Rasa model is trained and saved at 'models/20250510-041215-vicious-microphone.tar.gz'.
+(rasa) ussen@ussen-HP-Z640-Workstation:~/ssl-compression-on-mobile/bot-haki$ 

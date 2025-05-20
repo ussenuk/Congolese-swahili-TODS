@@ -1,0 +1,394 @@
+{
+  "medicine_type": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "sickness_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "measurement_type": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "emotion_type": 1
+    }
+  },
+  "time": {
+    "precision": 1.0,
+    "recall": 0.8947368421052632,
+    "f1-score": 0.9444444444444444,
+    "support": 19,
+    "confused_with": {}
+  },
+  "ingredient_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "population_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "meal_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "organization_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "order_type": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {}
+  },
+  "sickness_type": {
+    "precision": 0.868421052631579,
+    "recall": 0.8918918918918919,
+    "f1-score": 0.88,
+    "support": 37,
+    "confused_with": {}
+  },
+  "country_name": {
+    "precision": 0.8636363636363636,
+    "recall": 1.0,
+    "f1-score": 0.9268292682926829,
+    "support": 19,
+    "confused_with": {}
+  },
+  "army_name": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {}
+  },
+  "change_amount": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "currency_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "language_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "rebel_name": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 8,
+    "confused_with": {}
+  },
+  "salary_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "organization_name": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "population_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "government_type": {
+    "precision": 0.9166666666666666,
+    "recall": 0.5789473684210527,
+    "f1-score": 0.7096774193548387,
+    "support": 19,
+    "confused_with": {
+      "government_name": 3
+    }
+  },
+  "device_name": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {}
+  },
+  "song_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "drug_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "event_name": {
+    "precision": 0.8918918918918919,
+    "recall": 0.868421052631579,
+    "f1-score": 0.88,
+    "support": 76,
+    "confused_with": {
+      "sickness_type": 1
+    }
+  },
+  "ingredient": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "weather_descriptor": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "tribe_name": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6,
+    "confused_with": {
+      "place_name": 1
+    }
+  },
+  "mountain_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "house_place": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 9,
+    "confused_with": {
+      "business_type": 1
+    }
+  },
+  "organism_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "language_type": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {}
+  },
+  "business_type": {
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7142857142857143,
+    "support": 7,
+    "confused_with": {
+      "event_name": 1,
+      "business_name": 1
+    }
+  },
+  "date": {
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9285714285714286,
+    "support": 28,
+    "confused_with": {
+      "event_name": 1
+    }
+  },
+  "relation": {
+    "precision": 0.7938144329896907,
+    "recall": 0.875,
+    "f1-score": 0.8324324324324325,
+    "support": 88,
+    "confused_with": {
+      "person": 6
+    }
+  },
+  "government_name": {
+    "precision": 0.7894736842105263,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.8333333333333333,
+    "support": 17,
+    "confused_with": {
+      "government_type": 1,
+      "relation": 1
+    }
+  },
+  "emotion_type": {
+    "precision": 0.6470588235294118,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.6875,
+    "support": 15,
+    "confused_with": {}
+  },
+  "medical_type": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {}
+  },
+  "food_name": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {}
+  },
+  "device_type": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6,
+    "confused_with": {}
+  },
+  "doctor_type": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "business_name": {
+    "precision": 0.7,
+    "recall": 0.875,
+    "f1-score": 0.7777777777777777,
+    "support": 8,
+    "confused_with": {
+      "person": 1
+    }
+  },
+  "food_type": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "food_name": 1
+    }
+  },
+  "medical_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "list_name": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {}
+  },
+  "handicap_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "place_name": {
+    "precision": 0.9054726368159204,
+    "recall": 0.91,
+    "f1-score": 0.9077306733167083,
+    "support": 200,
+    "confused_with": {
+      "tribe_name": 1
+    }
+  },
+  "definition_word": {
+    "precision": 0.8421052631578947,
+    "recall": 0.8275862068965517,
+    "f1-score": 0.8347826086956522,
+    "support": 58,
+    "confused_with": {
+      "place_name": 1
+    }
+  },
+  "general_frequency": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {}
+  },
+  "person": {
+    "precision": 0.898876404494382,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.8695652173913043,
+    "support": 190,
+    "confused_with": {
+      "relation": 5
+    }
+  },
+  "micro avg": {
+    "precision": 0.8838219326818675,
+    "recall": 0.8696581196581197,
+    "f1-score": 0.8766828217555197,
+    "support": 936
+  },
+  "macro avg": {
+    "precision": 0.8492783559642153,
+    "recall": 0.8134922639053075,
+    "f1-score": 0.8235710046891583,
+    "support": 936
+  },
+  "weighted avg": {
+    "precision": 0.8842245475022422,
+    "recall": 0.8696581196581197,
+    "f1-score": 0.8742984716385315,
+    "support": 936
+  },
+  "accuracy": 0.9360406091370559
+}

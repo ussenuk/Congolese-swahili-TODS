@@ -1,0 +1,8 @@
+Fold1
+
+  Intent metrics: Precision=0.7875, Recall=0.7707, F1-Score=0.7515
+  Entity metrics: Precision=0.9070, Recall=0.9073, F1-Score=0.9047
+  
+  fold 2
+
+

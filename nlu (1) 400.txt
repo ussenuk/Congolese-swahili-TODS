@@ -1,0 +1,3970 @@
+version: "3.1"
+
+nlu:
+  - intent: maji_swa
+    examples:
+      - maji ya kunywa ita toka wapi?
+      - maji ya kunwa ita toka fasi gani?
+      - Namuna gani tuta pata maji kwa iyi kambi?
+      - Ku kunya maji iko mugumu kwa Kambi, tuta tosha maji safi wapi?
+
+intent: mafunzo ya wajawazito_swa
+	examples:
+	-mke wangu ana mimba, ata pata wapi mafunzo ya wazazi?
+	-mafunzo ya wanawake wajawazito mwe wangu ata ipataje wakati huu?
+	-ita wezekana mke wangu apate mafundisho ya wajawazito wakati ni mkimbizi?
+	-mke wangu aliye kimbiya na mimba ata weza pata mafundisho ya wajawazito?
+	-wanawake wakimbizi walio na mimba ita wezekana kupata mafundisho ya wajawazito?
+
+intent: hema_swa
+	examples:
+	-tuna pata hema moja moja, nita ishi je humo na watoto kumi?
+	-nita lala je na watoto kumi katika hema moja?
+	-watoto kumi katika hema moja, hii ita wazekana?
+	-nita fanya je ili nilale katika hema moja na watoto kumi?
+	-hema moja ita tosha kwa familiya ya watoto kumi?
+
+intent: kunyanyaswa_swa
+	examples:
+	-niki nyanyaswa naweza kupata msaada namna gani?
+	-ikiwa mtu ana ni nyanyasa niite nani?
+	-mtu aki ni nyanyasa niji elekeze kwa nani ajili yaku pata msaada?
+	-niki nyanyaswa nani ata ni saidiya?
+	-niki nyanyaswa nita pata msaada wapi?
+
+intent: vita_swa
+	examples:
+	-vita ita isha wakati gani?
+	-vita haita ishaka kwetu?
+	-ju ya nini vita hai ishe?
+	-vita ita dumu milele kwetu?
+	-hii vita haina suluhisho?
+
+intent: choo_swa
+	examples:
+	-hatuna choo,tuta ishi je?
+	-tuta fanya je juu ya choo?
+	-tuki taka enda chooni tufanye je katika kambi?
+	-watu wamekosa choo kwa nini?
+	-choo zita jengwa wakati gani?
+
+intent: kupokelewa_swa
+	examples:
+	-wakaaji hawa tu pokeye vizuri, tufanye je?
+	-tuishi je na wakaaji ambao wana katala kutu itika?
+	-kuna wakaaji wenye wana tupokeya viabya, tuta ishi je nao?
+	-wakaaji ambao wana katala tupokeya tuishi nao namna gani?
+	-wakaaji hawa tupoekeye vizuri, tuta weza ishi nao?
+
+intent: kupata ndui_swa
+	examples:
+	-nili kimbiya na mtoto wangu mchanga ata pata ndui wapi?
+	-ndui kwa watoto wachanga ita patokana wakati huu?
+	-ita wezekana mtoto wangu mchanga apate ndui katika ukimbizi?
+	-ndui ita patikana kwa watoto wa kimbizi?
+	-kwaku pata ndui ajili ya mtoto wangu mchanga, niji elekeze wapi?
+
+intent: chakula_swa
+	examples:
+	-tuna pata chakula maramoja kwa juma, tuta ishi namna gani bila kula?
+	-kwa nini tuna pokeya chakula maramoja kwa juma?
+	-chakula ya mara moja kwa juma ina weza kutosheleya watu?
+	-tuna pokeya mara moja chakula kwa juma moja,tuta tosha yengine wapi?	
+	-kwaku pokeya chakula mara moja kwa juma nita ishi je na watoto kumi?
+
+intent: maji_swa
+	examples:
+	-maji ina kuwa kidogo katika kambi kwa nini?
+	-maji ina kuwa kidogo, ina wezekana iongezwe?
+	-tuta ishi je na maji ni ya kidogo katika kambi
+	-ikiwa maji ina bakiya kidogo katika kambi tuta ishi namna gani?
+	-maji ina kuwa kidogo kwenye kambi,ita ongezwa?
+
+intent: matibabu_swa
+	examples:
+	-tuta pata matibabu ya bure?
+	-matibabu ita pewa bure kwa wakimbizi?
+	-namna gani wakimbizi wata pata matibabu?
+	-matibabu ya bure ita wezekana juu ya wakimbizi?
+	-matibabu ya wakimbizi ta pangiwa namna gani?
+
+intent: kazi_sw
+	examples:
+	-ni namna gani naweza kuishi na watoto kumi bila kazi?
+	-nina watoto kumi nita ishi nao namna gani na sina kazi?
+	-nina fika mjini,nilikua mlimaji sina kazi nita ishi je na watoto kumi?
+	-nime kimbiya bila chochote na sina ndugu mjini, watoto wangu wakumi nita watunza je?
+	-watoto wangu wakumi nita ishi nao je katika hali ya ukimbizi na sina kazi?
+
+intent: masomo_sw
+	examples:
+	-watoto wetu wata soma bure?
+	-watoto wetu wata someya wapi?
+	-watoto wetu wata soma namna gani?
+	-masomo ya bure ita wezekana juu ya watoto wakimbizi?
+	-namna gani watoto wakimbizi wata endelesha masomo?
+
+intent: vyeti vya shule_swa
+	examples:
+	-hatuna vyeti vya shule, watoto wata andikwa shuleni?
+	-bila vyeti vya shule, watoto wata andikwa shuleni?
+	-hatukuweza kutwala vyeti vya shule vya watoto, wata andikiwa tu?
+	-kama mtoto hana vyeti vya shule ata fanya je ili asome?
+	-ina omba tu vyeti vya shule ju mtoto asome?
+
+intent: watoto walio poteya_swa
+	examples:
+	-watoto walio poteya nani ata tusaidiya kuwa tafuta?
+	- watoto walio poteya tuta watafuta namna gani?
+	-tufanye je ili watoto walio poteya tuwa pate
+	-viongozi wata tu saidiya kutafuta watoto walio poteya?
+	-ni vipi naweza kuona tena watoto wangu walio poteya wakati waku kimbiya vita?
+
+intent: ubakaji_ swa
+	examples:
+	-binti wangu ali bakwa, nimpeleke wapi?
+	-wakati wa ubakaji wahanga waji elekeze wapi?
+	-ubakaji iki ji tokeza, tufanye namna gani?
+	-ni hospitali gani inayo husika na wa wanawake wanao bakwa?
+	-wanao bakwa waji elekeze wapi?
+
+intert: usalama_swa
+	examples:
+	-tuta chungiwa je kiusalama?
+	-katika kambi tuta ishi katika usalama?
+	-nani ata tu chunga katika kambi?
+	-usalama ya wakimbizi ita wezekana?
+	-kuna watu waku linda usalama ya wakimbizi?
+
+intent: viongozi_swa
+	examples:
+	-kwa nini viongozi wame tu nyamaza?
+	-viongozi wame nyamaza sababu gani?
+	-viongozi hawaseme kitu ju ya nini?
+	-viongozi wetu wana nyamaza ili tuishi je?
+	-tuta fanya nini kamaviongozi wana endeleya kunyamaza?
+
+intent: kuhara_swa
+	examples:
+	-Kuna chakula ambazo zina tu harisha  wakati tuna zi pokeya, tuna ruhusiwa kuzi uzisha ili tu nunue chakula ambayo tuna zoweya ?
+	-tuna ruhusiwa kuuzisha chakula yenye ina tu harisha?
+	-chakula ike tu harisha tufanye nini?
+	-tuki uzisha chakula inayo tu harisha ni makosa?
+	-chakula yakutu harisha tuitiye wapi?
+
+intent: kuandikiwa_swa
+	-ni nani njo ata tuandika kama wakimbizi?
+	-wakimbizi wana andikiwa wapi?
+	-wakimbizi wana ji andikisha wapi?
+	-tuji andikishe kwa kiongozi gani?
+	-kiongozi anaye andika wakimbizi ana patikana wapi?
+
+intent: maisha_swa
+	examples:
+	-tuta rudiliya maisha yetu ya kawaida ?
+	-maisha yetu ita rudiya kama zamani?
+	-kiisha vita ita wezekana turudiliye maisha yetu ya zamani?
+	-maisha yetu ya zamani tuta ipata tena?
+	-kiisha vita nini itafanyika juu maisha yetu irudiye kama zamani?
+
+intent: serkali_swa
+	examples:
+	-serkali ita tupatiya misaada?
+	-serkali ita tu saidiya je?
+	-serikali yetu ili panga kutu saidiya?
+	-tuta pata msaada ya serkali?
+	-msaada ya serkali ita patikana?
+
+intent: kazi_swa
+	examples:
+	-tuta pata makazi uku?
+	-uku kuko makazi?
+	-kazi zita patikana uku?
+	-watu wata tupa makazi?
+	-tuta tumika?
+
+intent: kazi_swa
+	examples
+	-tuna weza fanya kazi gani huku?
+	-uku mukimbizi ana weza fanya nini?
+	-kazi gani mkimbizi ana wea fanya uku?
+	-kazi gani zina weza patikana uku?
+	-kuna makazi ambazo wakimbizi wana weza fanya uku?
+
+intent: msaada_swa
+	examples:
+	-siye bote tuta pata musaada?
+	-musaada ita patikana kwa sisi wote?
+	-kuta patikana msaada ya siye bote?
+	-ita wezekana kutu saidiya siye bote?
+	-msaada yaku eneya wakimbizi wote ita patikana?
+
+intent: msaada_swa
+	examples:
+	-mtu mwenye hapate msaada ata uliza nani?
+	-kama mtu hapate msaada ata ji elekeza wapi?
+	-kama mtu haku pata musaada ata uliza nani?
+	-mtu ake kosa msaaada aulize nani?
+	-msaada ike kosekana tuta uliza nani?
+
+intent: kuandikisha_swa
+	examples:
+	-nike zala, nita andikisha mutoto wangu wapi?
+	-mutoto wangu nimu andikishe wapi wakati nita mu zala?
+	-kuandikisha watoto wenye wame zaliwa ni wapi?
+	-mutoto wangu aliye zaliwa mu vita nimu andikishe wapi?
+	-ni wapi njo kwaku andikisha watoto wenye wame zaliwa mu vita?
+
+intent: mashindano ya serkali_swa
+	examples:
+	-wa finalists wakimbizi wata fanya mashindano ya serikali kama wengine?
+	-mashindano ya serikali ita fanyika piya na kwa wakimbizi?
+	-wakimbizi wa finalistes wata pokelewa kwa mashindano ya serikali?
+	-serikali ita ruhusu wa finalistes wa kimbizi wafanye mashindano?
+	-kwa wa finalistes walio  kimbiya wata fanya je mashindano ya serikali?
+
+intent: mashindano ya serikali_swa
+	examples:
+	-wa finalists wata fanya mashindano ya serikali kwa bure?
+	-wa finalistes wakimbizi wana weza fanya mitiyani ya serikali kwa bure?
+	-mashindano ya serikali ita wezekana kwa bure kwa wa finalistes wakimbizi?
+	-kufanya mashindano ya serkali kwa bure ita kuwa haki ya wa finalistes wakimbizi?
+	-wa finalistes wakimbizi wata waitikiya kufanya mashindano ya serikali kwa bure?
+
+intent: haki_swa
+	examples:
+	-haki zetu ni gani?
+	-tuna haki?
+	-wakimbizi tuna haki gani?
+	-haki za wakimbizi ni zipi?
+	-haki za wakimbizi zina julikana?
+
+intent: malisho mabaya_swa
+	examples: 
+	-watoto wenye malisho mabaya tu wa peleke wapi?
+	-kuna kituo inayo husika na watoto wa malisho mabaya?
+	-watoto wenye malisho mabaya wata tunzwa namna gani?
+	-watoto wenye malisho mabaya wata tunziwa wapi?
+	-malisho mabaya kwa watoto ita tunzwa vipi?
+
+intent: wakimbizi_swa
+	examples:
+	-namna gani tuta juwa wakimbizi wa kweli na wa uongo?
+	-ni nani ana husika naku tambulisha wakimbizi wa kweli na ku tosha wa uongo?
+	-wakimbizi wa uongo wata julikana namna gani?
+	-ni service gani ambayo ita gundua wakimbizi wa uongo?
+	-wakimbizi wa uongo wata gunduliwa namna gani?
+
+intent: uizi_swa
+	examples: 
+	-tuki bana mwizi tumpeleke wapi?
+	-mwizi aki naswa apekelekwe kwa nani?
+	-wakimbizi wake kamata mwizi wamu bebe wapi?
+	-ikiwa kuna kuwa wizi, tuwa fikishe kwa nani?
+	-wizi tuwa fanye nini tuke wa kamata?
+
+intent: mafugo_swa
+	examples: 
+	-tuki poteza mafugo yetu tuji eleze kwa nani?
+	-walio poteza mafugo wa ji eleze wapi?
+	-mafugo yenye ili poteya ina weza patikana?
+	-mifugo ilio poteya ina tafutiwa na nani?
+	-kwa mifugo ilio poteya tuitafute je?
+
+intent: kulala_swa
+	examples:
+	-wanawake na wanaume wana lala pamoja katika hangar kwa nini?
+	-ni kawaida kuacha wanaume na wanamuke walale nafasi moja?
+	-kwa nini viongozi wame acha wanaume na wanawake walale fasi moja?
+	-hakuna shida fulani wakati wanawake na wanaume wana lala fasi moja?
+	-wanawake wana changiya nafasi yaku lala na wanaume, hii ni vizuri?
+
+intent: msaada_swa
+	examples: 
+	- kwa nini viongozi wetu hawa tu saidiye ila tu ni wa humanitaires?
+	-viongozi wata tu saidiya wakati gani?
+	-kwa nini ni wa humanitaires tu njo wana tu saisiya bila viongozi?
+	-viongozi ndio wali tu wa humanitaires watu saidiye?
+	-wa humanitaires wana tu saidiya wenyewe kwa nini?
+
+intent: vita_swa
+	examples: 
+	-kwa nini vita ili anziya kwetu?
+	-vita ili anziya kwetu ju ya nini?
+	-kwetu njo kuli anziya vita ju ya nini?
+	-ju ya nini kwetu njo vita ili anziya?
+	-kuna sababu ambazo zili tuma  vita ianziye kwetu?
+
+intent: uchafu_swa
+	examples: 
+	-tuta tupa uchafu wapi?
+	-nafasi gani ndio ina pokeya uchafu?
+	-kwaku tupa uchafu ni nafasi gani?
+	-uchafu ni yaku tupa wapi?
+	-tutupe uchafu kwa nafasi gani?
+
+intent: kurudi_swa
+	examples:
+	-tuki taka rudi tuishi na wa rebelles ni shida?
+	-ikiwa mtu ana taka arudi kuishi na rebelle ata pata shida?
+	-kurudi kuenda ishi na rebelle ina leta shida?
+	-mtu ake rudi kwani maisha ina kuwa nguvu ni shida?
+	-mtu aki rudi kwenda ishi na wa rebelles ata azibiwa?
+
+intent: vita_swa
+	examples: 
+	-kwa nini M23 ime rudi tena?
+	-M23 ina kuja tena kutafuta nini?
+	-kwa nini M23 ime anza vita tena?
+	-M23 ime rudiya juya nini?
+	-vita ya M23 ilikuaka haiya isha?
+
+intent: vita_swa
+	examples: 
+	-kwa nini jeshi yetu ime acha M23 iendeleye kutu piganisha?
+	-jeshi yetu ime tuacha katika mikono ya M23 ju ya nini?
+	-M23 ina tu vamiya kwa nini na jeshi yetu iko pale? 
+	-tuna vamiwa na M23 jeshi yetu ina fanya nini?
+	-jeshi yetu ime shindwa kupigana na M23?
+
+intent: maongezi_swa
+	examples:
+	-kwa nini viongozi wetu hawataki kuongeya na wa Rwanda ili vita iishe?
+	-viongozi wa kongo na wa rwanda hawa ongeye kwa nini?
+	-ina omba nini ili viongozi wa rwanda na wa kongo waongeye?
+	-viongozi wa kongo na wa rwanda wana katala maongezi juya nini?
+	-wakongomani na wanyarwanda wana shindwa ongeya ju ya nini?
+
+intent: vita_swa
+	examples: 
+	-juu ya nini kongo na rwanda vina pigana?
+	-kongo na rwanda wame fiya nini?
+	-ni nini shida kati ya kongo na rwanda?
+	-rwanda ina piganisha congo juu ya nini?
+	-kongo ili fanya rwanda nini?
+
+intent: askari_swa
+	examples:
+	-kwa nini askari wetu wame kimbiya wakati wa vita?
+	-juu ya nini wa akari wetu wana kimbiya pahali paku pigana?
+	-wakati wa vita juu ya nini askari watu wana kimbiya?
+	-askari wetu kwa nini wana kimbiya saa ya vita?
+	-vita iki karibiya, juu ya nini askari wetu wana kimbiya?
+
+intent: viongozi_swa
+	examples:
+	-viongozi wetu wata kuja tuona wakati gani?
+	-ni wakati gani njo viongozi watakuya ona wakimbizi?
+	-viongozi wata kuya tu tembeleya siku gani?
+	-kwa nini viongozi hawa kuje tuona?	
+	-viongozi wetu juya nini wame shindwa kuya tuona?
+
+intent: wazalendo_swa
+	examples:
+	-kwa nini wazalendo wana nyanyasa wakimbizi?
+	-wazakendo wana nyanyasa wakimbizi sababu gani
+	-ju ya nini tuna nyanyaswa na wazalendo?
+	-wazalendo wana nyanyasa wakimbizi juu ya nini?
+	-wakimbizi wame sumbuliwa na wazalendo juu ya nini?
+
+intent: wazalendo_swa
+	examples:
+	-kwa nini wazalendo wame changana ne jeshi yetu?
+	-juu ya nini bana changa wazalendo na jeshi yetu?
+	-kuchanga wazalendo na jeshi ni vizuri?
+	-juu ya nini jeshi yetu imeitika kuchangana na wazalendo?
+	-wazalendo wame kutanika je katika jeshi?
+
+intent: masomo_swa
+	examples:
+	-kwa nini watoto wetu hawa some?
+	-watoto wetu hawa some ju ya nini?
+	-masomo ime kuwa shida kwa watoto wetu juu ya nini?
+	-kwa nini viongozi hawa waziye kusomesha watoto wetu?
+	-watoto wetu hawana haki ya kusoma?
+
+intent: vita_swa
+	examples:
+	-nani ana faidika na iyi vita?
+  	-iyi vita ina faidiya nani?
+	-ni nani njo aa pata faida kwa iyi vita?
+	-nani ana tafuta yake yake katika hii vita?
+	-vita iyi niku faida ya nani?
+
+intent: vita_swa
+	examples:
+	-kwa nini rwanda ina piganisha kongo?
+	-kongo ina pigana na rwanda juu ya nini?
+	-rwanda ina piganisha kongo sbabau gani?
+	-rwanda ina tafuta nini kupiganisha kongo?
+	-kwa nini rwanda ina piganisha kongo kila siku?
+
+intent: vita_swa
+	examples:
+	-kwa nini vita ina anziya rutchuru na hakuna madini?
+	-juu ya nini rutchuru njo kuna anziya vita?
+	-vita ili anziya rutchuru sababu gani na hakuna madini?
+	-rutchuru hakuna madini, juu ya nini njo kwenye vita ili anziya?
+	-vita ya rutchuru ni ya nini ijapo hakuna madini?
+
+intent: kuzika_swa
+	examples:
+	-nani ata zika wale wenye wali kufiya njiyani?
+	-wenzetu wenye wali kufiya mu njiyanani njo ata wazika?
+	-kuko service ambayo ita zika wale wenye wali kufiya munjiya?
+	-wale wote wenye wali kufa waki kimbiya wata zikiwa je?
+	-wenye walikufa mu njiya waki kimbiya nani njo ata wazika?
+
+intent: kuliya_swa
+	examples:
+	-tuli koseya mungu nini?
+	-ju ya nini mungu n tu achiliya?
+	-mungu kwa nini me tuachiliya?
+	-ni makosa gani tuli fanye kwa mungu?
+	-ni sababu gani mungu ana tu acha tu teseke?
+
+intent: kuliya_swa
+	examples
+	-kwa nini tun lala katika ma baches?
+	-juya nini tuna ndani ya ma baches mu baridi?
+	-mu ma baches njo fasi yaku ishi?
+	-tuna lala ndani ya ma baches ju ya nini?
+	-baches njo tu nyumba za wakimbizi?
+
+intent: kuliya_swa
+	examples
+	-viongozi wame sema wata maliza vita namna gani?
+	-namna gani njo viongozi wata maliza hii vita?
+	-hii vita viongozi wata imaliza namna gani?
+	-viongozi wana waza kumaliza hii vita namna gani?
+	-hii vita viongozi wame sema ita ish namna gani?
+
+intent: vita_swa
+	examples
+	-hiii vita ili anza je?
+	-namna gani njo iyi vita ili anza?
+	-ni je njo hii vita ime anza tena?
+	-vita ime anza tena je?
+	-hii vita ime anziliya tena juya nini?
+
+intent: kuliya_swa
+	examples
+	-tuna pishana nini na wakongomani wengine?
+	-wakongomani wengine ni wazuri kutu shinda?
+	-tuna kosa nini ju tukuwe saa wakongomani wengine?
+	-wengine wakongomani ni wa lazima kutu shinda?
+	-wakongomani wengine wana tushinda nini?
+
+intent: ubakaji_swa
+	examples
+	-tuna bakwa ju ya nini?
+	-ju ya nini mabandiya wana tu baka?
+	-wana tu bakasababu gani?
+	-sababu gani wabinti na waamama wana bakwa?
+	-wamama na wabinti wana bakwa kwa nini?
+
+intent: kuliya_swa
+	examples
+	-rwanda ina faida gani kwaku uwa wakongomani?
+	-rwanda ina pata nini saa ina uwa wakongomani?
+	-wanyarwana wana faidika nini ku damu ya wakongomani?
+	-jeshi ya rwanda ina pata nini kuua wakongomani?
+	-nini njo rwanda ina faidika kwaku uwa wakongomani?
+
+intent: kuliya_swa
+	examples
+	-ju ya nini kongo haipige rwanda?
+	-kongo haipige rwanda juya nini?
+	-kongo ina chunga nini ju ipige rwanda?
+	-ju ya nini kongo ina kataa kupiga rwanda?
+	-kongo hai wezi piga rwanda?
+
+intent: kuliya_swa
+	examples
+	-ju ya nini eac,sadec na wazungu hawa pane malipizi kwa rwanda?
+	-juu ya nini rwanda haipatake malipizi?
+	-rwanda haipatake malipizi kutoka kwa sadec,eac ama wazungu?
+	-ina omba nini juu rwanda ipate malipizi?
+	-ili rwanda ipate makipizi ina omba nini?
+
+intent: kuliya_swa
+	examples
+	-viongozi wa kongo wali patanaka nini na m23?
+	-kuko mapatano gani kati ya kongo na m23?
+	-ni mapatano ya namna gani njo kongo ili kamatakak na m23?
+	-m23 ina dayi nini kwa viongozi wa kongo?
+	-ni nini yenye iko kati ya serikali ya kongo na m23?
+
+intent: kuliya_swa
+	examples
+	-m23 ina faida gani kwaku uwa wakongomani?
+	-m23 ina pata nini saa ina uwa wakongomani?
+	-m23 wana faidika nini ku damu ya wakongomani?
+	-jeshi ya m23 ina pata nini kuua wakongomani?
+	-nini njo m23 ina faidika kwaku uwa wakongomani?
+
+intent: kuliya_swa
+	examples
+	-ju ya nini rwanda ina sapoti m23?
+	-rwanda ina sapoti adui wa kongo ju ya nini?
+	-m23 ina sapotiwa na rwanda ju ya nini?
+	-juu ya nini rwanda ina sapoti wale ambao wana uwa wakongomani?
+	-kwa nini rwanda ina pana pesa ku wauwaji wa wakongomani?
+
+intent: kuliya_swa
+	examples
+	-ju ya nini uganda nayo ime gaukiya kongo mugongo?
+	-uganda nayo ime kuwa adui ya congo
+	-kwa nini uganda ina sapoti wanao tatiza kongo?
+	-kwa nini wanao tatiza kongo wana pata sapoti ya uganda?
+	-uganda ina pata nini ku geuziya congo mgongo?
+
+intent: kuliya_swa
+	examples
+	-viongozi wetu wana tu waziya nini?
+	-viongozi wetu wana waza waza sisi tuta ishi namna gani?
+	-viongozi wana waza nini juu yetu?
+	-sisi tuna wezachunga nini kwa viongozi
+	-viongozi wetu wata tu saidiya je?
+
+intent: kuzika_swa
+	examples
+	-tuta kuwa na zika watu wetu wapi?
+	-wenzetu waki fariki tukuwe na wazika wapi?
+	-makaburi kwaku zika wakimbizi zita kuwa?
+	-kuna makaburi ilio andaliwa juu ya wakimbizi?
+	-wakimbizi wata kuwa na zikiwa wapi?
+
+intent: kuzika_swa
+	examples
+	-nani ata kuwa natu sadiya kwa maziko?
+	-kuna watu watakao kuwa natu saidiya kuzika wenzetu?
+	-wenzetu wanao  kufa kuko waku tusaidiya kubazika?
+	-kuna msaada ju ya kuzika wakimbizi?
+	-wakimbizi waki kufa ni nani ata saidiya kwa maziko?
+
+intent: kambi_swa
+	examples
+	-kwa nini wakimbizi wote hawa tiliwe fasi moya?
+	-juu ya nini habiko na tiya wakimbizi wote fasi moya?
+	-juu ya nini hakuna kambi moja juu ya wakimbizi wote?
+	-wakimbizi wote haba wezi tiliwa fasi moya?
+	-serkali hainge tiya wakimbizi xote fasi moya?
+
+intent: usalama_swa
+	examples
+	-kwa ninimasasi ina liya kila siku katika kambi?
+	-juu ya nini hakuna usalama katika kambi?
+	-wakimbizi hawana haki ya usalama?
+	-wakimbizi wana lala kila siku katika mlio ya masasi juu ya nini?
+	-juu ya nini kila siku wabandiya wana piga masasi katika kambi?
+
+intent: kuliya_swa
+	examples
+	-faida ya kongo ni nini katika hii vita?
+	-congo ina pata nini ndani ya hii vita?
+	-iyi vita ina faida gani kwa wakongomani?
+	-kuna faida gani ya kongo ndani ya hiyi vita?
+	-vita hiyi iko na saidiya wakongomani ku nini?
+
+intent: wazalendo_swa
+	examples
+	-wazalendo wame tokeya wapi?
+	-wazalendo nao ni wanani?
+	-ivi hawa wazalendo nao ni watu gani?
+	-wazalendo ni wanajeshi wa wapi?
+	-na wazalendo nao wali tokeya wapi?
+
+intent: mauwaji_swa
+	examples
+	-ju ya nini amuwaji ina endeleya katika kambi?
+	-juu ya nini bajambazi biko natu uwa mu ma kambi?
+	-kambi zina kuwa amo bauwaji ju ya nini?
+	-mu kambi ju ya nini mauwaji ina endeleya?
+	-mauwaji ju ya nini ina endeleya mu kambi?
+ 
+intent: wazalendo_swa
+	examples
+	-wazalendo biko na mamlaka gani kwa raia?
+	-wazalendo wame pewa mamlaka gani?
+	-kwa nini wazalendo wana pana ma shurti kwa raia?
+	-ni mamlaka njo bazalendo biko nayo ku raia?
+	-raia ina ma shurti zaku pata kutoka kwa wazalendo?
+
+intent: wazalendo_swa
+	examples
+	-wazalendo wake nyanyasa mkimbizi ata enda liliya nani?
+	-ni wapi njo kwaku chongeya wazalendo wanao nyanyasa watu?
+	-ikiwa mzalendo ana fanya makosa, niku ji elekeza wapi kumu staki?
+	-kwa nini hakuna fasi yaku chongeya wazalendo wanao nyanyasa wakimbizi?
+	-wakimbizi wenye wana nyanyaswa na wazalendo wana eza liliya nani?
+
+intent: mateso_swa
+	examples
+	-kwa nini tuna teseka?
+	-ju ya nini tuna teseka?
+	-iyi mateso yote ni juu ya nini?
+	-tuna teseka ju tuli fanya makosa gani?
+	-hii mateso yote ni kwa nini?
+
+intent: kilio_swa
+	examples
+	-viongozi washa tu sacfifier?
+	-tusha kuwa sacrifice ya viongozi?
+	-viongozi wame itikatukufe?
+	-siye njo viongozi wana ona wa sacrifier?
+	-manayake siye njo tusha paniwa sacrifice?
+
+intent: jeshi_swa
+	examples
+	-jeshi yetu ime kosa nguvu yaku pigana?
+	-niku sema tuko na jeshi yenye haina ngufu?
+	-jeshi yetu ina kosa wana jeshi washujaa?
+	-jeshi yetu manake haiko ya nguvu?
+	-jeshi ya congo haina nguvu?
+
+intent: jeshi_swa
+	examples
+	-ju ya nini jeshi yetu hai malize hii vita?
+	-juu ya nini jeshi yetu haishindake vita?
+	-jeshi yetu ju ya nini ina shindiwaka tu?
+	-vita ime shinda jeshi yetu?
+	-njoku sema jeshi yetu haiwezi maliza hii vita?
+
+intent: shule_swa
+	examples
+	-watoto wetu wata soma bila vifaa vya shule?
+	-watoto wetu wata soma je bila vyombo vya shule?
+	-bila vifaa vya shule tuta tuma watoto je ku masoso?
+	-watoto wana funzi wata rudi je ku masomo bila vifaa vya shule?
+	-ku masomo watoto wata soma je bila vifaa ya shule?
+
+intent: shule_swa
+	examples
+	-viongozi wali panga kuapatiya watoto wetu vifaa vya shule?
+	- watoto wetu wata pata vifaa vya shule kutoka kwa viongozi?
+	-vifaa ya shule ya watoto wakimbizi vita toka kwa viongozi?
+	-viongozi wana panga kupatiya batoto yatu vifaa ya shule wakati gani?
+	-kuhusu vifaa ya shule, viongozi wata patiya watoto wakimbizi?
+
+intent: kilio_swa
+	examples
+	-kwa nini tume kosa amani?
+	-ju ya nini hatuna amani?
+	-amani ime kosekana ju ya nini?
+	-amani ita rudiya wakati gani?
+	-kwa nini amani ime kosekana?
+	
+intent: kilio_swa
+	examples
+	- jeshi ya eac ina saidiya kono ku nini?
+	-kongo ina faidika nini kutoka kwa jeshi ya eac?
+	-eac ilikuya saidiya jeshi ya kongo kweli?
+	-wana jeshi wa eac wata itika ku kufiya kongo?
+	-jeshi ya eac iko tayari kupiganiya kongo?
+	
+intent: kilio_swa
+	examples
+	-umoja ya africa ina sema nini ku iyi vita?
+	-umoja wa africa ina panga kusaidiya kongo namna gani kuiyi vita?
+	-ku iyi vita kongo ita pata je msaa ya umoja wa africa?
+	-umoja ya africa ita saidiya kongo je kuiyi vita?
+	-ni lsaada gani njo kongo ita pata kutoka kwa umoja a africa?
+
+intent: kilio_swa
+	examples
+	-kwa nini wasaidizi wamoja wana kula rushwa ju ya ku pana msaada?
+	-wa saidizi wamoja wana kula rushwa ya nini ijapo kazi yao niku tu saidiya?
+	-ju ya nini wasaidizi wamoja wana lomba makuta kwa wakimbizi juya kuwapa musaada?
+	-viongozi wana juwa kama kuna wasaidizi wenye wana lomba pesa kwaku pana musaada?
+	-kwa nini wasaidizi tena wana lomba pesa kwa wakimbizi ambao hawana kitu?
+
+intent: kilio_swa
+	examples
+	-wakimbizi wa uogo wata toshewa nani katika ma kambi?
+	-kwa nini wakimbzi wa uongo hawa toshewe katika makambi?
+	-nani njo ata tosha wakimbizi wa uongo katika makambi?
+	-katika makambikuna yala wakimbizi wa uongo,nani njo ata watosha?
+	-wakimbizi wa uongo wata toka je katika makambi?
+	
+intent: kilio_swa
+	examples
+	-ju ya nini wenye haiko wakimbizi biko nakuya pokeya?
+	-ni kawaida kuona wenye haiko wakimbizi nao wana kuja pokeya?
+	-chakula ya wakimbizi ju ya nini wenye haiko wakimbizi wao wana kuya pokeya?
+	-wenye haiko wakimbizi juu ya nini biko nakuya pokeya?
+	-juu ya nini hakuna malipizi kwa zenye wana kuya pokeya na haiko wakimbizi?
+
+intent: kilio_swa
+	examples
+	-juu ya nini wasaidizi wana pana jetons zakidogo kwa wakimbizi?
+	-jetons za wakimbizi ju ya nini zina kuwa za kidogo?
+	-ina omba nini juu wasaidizi wakuwe na pana jetons zaku tosha kwa wakimbizi?
+	-wakimbizi juu ya nini wana pata jetons za kidogo juu yaku pokeya?
+	-wana tupatiya jetons za kidogo ju ya nini?
+
+intent: kilio_swa
+	examples
+	-wakimbizi wenye wana lumiya wata pata damu ya bure?
+	-mkimbizi aliye umiya ata pata damu kwa bure?
+	-ikiwa mkimbizi ana lazima ya damu ata ipata bure?
+	-wakimbizi wenye wana lumiya hawata uza damu?
+	-mkimbizi ake lumiya ana kuwa na lazima ya damu, ata ipata bure?
+
+intent: kilio_swa
+	examples
+	-juu ya nini wana pokeza wakimbizi chakula bila makala?
+	-tuta towa wapi makala yaku pigiya chakulayenye tuna pokeya?
+	-hawa tupatiye makala ju ya nini?
+	-tuta pata na akala wakati tuta pokeya chakula?
+	-juu ya nini hawaku panga kutu patiya makala wakati wana tupa chakula?
+
+intent: kilio_swa
+	examples
+	-tuta teseka maisha yetu yote?
+	-maisha yetu yote ita kuwa ya mateso tu?
+	-tuta teseka mpaka siku gani?
+	-mateso iyi tuta yi ishi mpaka siku gai?
+	-tuta teseka tu maisha yetu yote ivi?
+
+intent: kilio_swa
+	examples
+	-tuliliye nani?
+	-kilio yetu ita fikiya nani?
+	-tuliliye wapi?
+	-nani njo ata sikiya kilio yetu?
+	-tuta kuwa na liliya nani?
+
+intent: chakula_swa
+	examples
+	- juu ya nini chakula ime panda beyi?
+	-chakula ime panda beyi juya nini?
+	-juu ya nini wachuruzi wana pandisha beyi ya chakula?
+	-kupanda kwa beyi ya chakula ina tokana na nini?
+	-juu ya nini chakula ina uziwa beyi kali mu vita?
+
+intent: kulima_swa
+	examples
+	-viongozi wata tupatiya nafasi yaku lima?
+	-tuta kuwa na pata fasi yaku mlima?
+	-viongozi wata patiya wakimbizi nafasi yaku lima?
+	-nafasi yaku lima ita patikana?
+	-kuta patikana nafasi yenye wakimbizi wata kuwa na lima?
+
+intent: kilio_swa
+	examples
+	-nani njo ata tu teteya?
+	-mutetezi wetu ni nani?
+	-nani njo waku teteya wakimbizi?
+	-nani njo mtetezi wa wakimbizi?
+	-wakimbizi wana tetelewa na nani?
+
+intent: kilio_swa
+	examples
+	-watoto wetu wata kuwa na chezeya wapi?
+	-kuna nafasi yenye ili andaliwa juu ya michezo ya watoto?
+	-watoto wetu wata pata anfasi yaku chezeya?
+	-watoto tukuwe na watula wachezeye wapi?
+	-nafasi gani njo ili andaliwa ju ya michezo ya watoto?
+
+intent: kilio_swa
+	examples
+	-ita wezekana kutosha kambi zimoja ku barabara?
+	-juu ya nini kambi ziko ku barabara?
+	-kambi zimoja ziko ku barabara ju ya nini?
+	-kambi zaku barabara zita toshewa?
+	-juu ya nini hawa toshe kambi zaku barabara?
+
+intent: usafi_swa
+	examples
+	-watoto wakimbizi wata pata mafundisho juu ya usafi?
+	-mafundisho ya usafi ita wezekana juu ya watoto?
+	-watoto wakimbizi nani ata wafundisha juu ya usafi?
+	-usafi watoto wakimbizi wata ijuwa je?
+	-kuko shirika yenye ina ji husisha na ku fundisha watoto usafi?
+
+intent: hema_swa
+	examples
+	-hema zetu zike aribika tuta pata zengine?
+	-tuta pata hema zengine izi wike aribika na nvula?
+	-nani ata tupatiya hema zengine izi zike aribika?
+	-hema zengine zita patikana wakati izi wita arbika?
+	-tita lomba kwa nani hema saa izi zita aribika?
+
+intent: kujikinga_swa
+	examples
+	-wakimbizi wata fundishwa gisi yaku ji kinga na maradhi ya ngono?
+	-juu ya marazi ya ngono wakimbizi wata fundishwa kuji kinga?
+	-wakimbizi wata funzwa na nani gisi yaku ji kinga na marazi ya ngono?
+	-mafundisho yaku ji kinga juu ya marazi ya ngono ita wezekana juu ya wakimbizi?
+	-wakimbizi wata ji funza je kuji kinga na marazi ya ngono?
+	
+intent: rwanda_swa
+	examples
+	-tume koseya rwanda nini?
+	-siye raia tuko na shida gani na rwanda?
+	-rwanda tume ifanya nini?
+	-rwanda tume ifanyiya makosa gani?
+	-tume fanyiya rwanda makosa gani?
+
+intent:maji_swa
+	examples
+	-iyi maji iko safi?
+	-maji iyi iko safi?
+	-maji hii ina stahili?
+	-tuna weza tumiya hii maji bila shida?
+	-kuko dawa ndani ya iyi maji?
+	
+intent: rwanda_swa
+	examples
+	-rwanda ina furahi kuuona tuna teseka?
+	-rwanda ina ridhika kuona tuna teseka?
+	-mateso yetu ina furahisha rwanda?
+	-rwanda ina furahishwa na mateso yetu?
+	-tuna teseka na rwanda ina furahi?
+	
+intent: rwanda _swa
+	examples
+	-rwanda ina pata nini katika mateso yetu?
+	-rwanda ina faidika nini saa tuna teseka?
+	-tuna teseka rwanda ina pata nini?
+	-ni malipo gani rwanda ina pata saa tuna teseka?
+	-mateso yetu ina patiya rwanda nini?
+	
+intent: jeshi_swa
+	examples
+	-wana jeshi wetu hawata ishiya ku vita?
+	-iyi vita haita maliza wana jeshi wetu?
+	-jeshi yetu haita malizika ndani ya hii vita?
+	-wana jeshi wetu hawata malizika na vita?
+	-vita haita jeshi yetu yote?
+	
+intent: jeshi_swa
+	examples
+	-jeshi yetu ita kuya tugomboa siku gani?
+	-tuta gombolewa wakati gani?
+	-jeshi yetu ita tugomboa wakati gani?
+	-siku gani njo jeshi yetu ina panga kutu gomboa?
+	-jeshi yetu ita tu gomboa kweli?
+	
+intent: jeshi_swa
+	examples
+	-jeshi yetu ina juwa kama tuna teseka?
+	-iyi lateso yetu jeshi ina ijua?
+	-tuna teseka jeshi ina juwa?
+	-jeshi yetu ina juwa mateso yenye tuna pitiya?
+	-jeshi yetu ina juwa namna gani tuna teswa?
+
+intent: rwanda_swa
+	examples
+	-ju ya nini rwanda ina chukiya kongo?
+	-kongo ime chukiliwa na rwanda ju ya nini?
+	-rwanda ina tu chukiya kwa nini?
+	-juu ya nini rwanda ina tu chukiya?
+	-rwana ina chukiya kongo sababu gani?
+	
+intent: chunvi_swa
+	examples
+	-tuta pata chunvi wapi?
+	-chunvi tuta ipata wapi?
+	-wapi njo tuta pata chunvi?
+	-tuta  tosha chunvi wapi?
+	-tuna weza pata chunvi?
+	
+intent: maji_swa
+	examples
+	-tuta juwa je kama maji iko safi?
+	-maji safi tuta ijuwa je?
+	-maji yenye iko safi tuta ijuwa je?
+	-maji safi ita julikana je?
+	-tuta juwa namna gani maji yenye ko safi?
+	
+intent: maji_swa
+	examples
+	-tuta shoteya maji mu nin?
+	-maji tuta ishiteya mu nini?
+	-kitu gani njo tushoteye ndani maji?
+	-maji tuishoteye ndani ya nini?
+	-nini njo tushoteye amo maji?
+	
+intent: kanisa_swa
+	examples
+	-kanisa iko wapi apa [kanyarutshinya ] ?
+	-kanisa tuta ipata wapi?
+	-wapi njo kuko kanisa?
+	-kanisa iko ngambo gani?
+	-wapi njo kanisa iko?
+
+intent: dini_swa
+	examples
+	-dini zote zina itikiwa apa [nyirangongo ]?
+	-apa [nyirangongo ]hakuna shida ya dini?
+	-dini zote zina tumika apa [nyirangongo ]bila shida?
+	-apa [nyirangongo ]dini zote zina itikiwa?
+	-watu wa apa [nyirangongo ]wana itika dini zote?
+	
+intent: kanisa_swa
+	examples
+	-kuna kanisa ngapi apa [nyirangongo ]?
+	-apa kuko kanisa ngapi?
+	-kanisa ngapi njo ziko apa [nyirangongo ]?
+	-kanisa za apa ziko ngapi?
+	-apa [nyirangongo ]kuna patikana kanisa ngapi?
+	
+intent: kanisa_swa
+	examples
+	-tuna weza jenga kanisa yetu ndani ya kambi?
+	-tuna ruhusa yaku jenga kanisa ndani ya kambi?
+	-ndani ya kambi tuko na ruhusa yaku jenga kanisa?
+	-kanisa yetu tuna weza ijenga ndani ya kambi?
+	-tuka jenga kanisa ndani ya kambi ni mubaya?
+	
+intent: chakula_swa
+	examples
+	-tuweke chakula namna gani?
+	-namna gani njo tuweke chakula?
+	-chakula tuiweke namna gani?
+	-tuna weza weka chakula vipi?
+	-ni vipi njo tukuwe na weka chakula?
+
+intent: bwaki_swa
+	examples
+	-watoto waki gonjwa bwaki tuwa peleke wapi?
+	-wapi njo tupeleke watoto waku gonjwa bwaki?
+	-watoto waku gonjwa bwaki wepelekwe wapi?
+	-ni wapi njo tukuwe na peleka watoto kama wana gonjwa bwaki?
+	-watoto kama wana gojnwa bwaki tukue na wabeba wapi?
+
+intent: bwaki_swa
+	examples
+	-wajawazito waki gonjwa bwaki tuwa peleke wapi?
+	-wapi njo tupeleke wajawazito waku gonjwa bwaki?
+	-wajawazito waku gonjwa bwaki wepelekwe wapi?
+	-ni wapi njo tukuwe na peleka wajawazito kama wana gonjwa bwaki?
+	-wajawazito kama wana gojnwa bwaki tukue na wabeba wapi?
+	
+intent: kulima_swa
+	examples
+	-tuna weza lima ndani ya kambi?
+	-tuna ruhusa yakulima ndani ya kambi?
+	-kulima ndani ya kambi ina ruhusiwa?
+	-viongozi wata itika tulime katika kambi?
+	-katika kambi ina ruhusiwa kulima ndani?
+	
+intent: wakati_swa
+	examples
+	-ni wakati gani njo tukuwe na rudiya ndani ya kambi?
+	-saa ngapi njo wakimbizi wakuwe na rudiya katika kambi?
+	-ni saangapi njo tukuwe na rudiya katika kambi?
+	-katika kambi tuna weza kuwa na rudiya sangapi?
+	-wakati gani njo tuna takiwa kukuwa na rudiya mu kambi?
+	
+intent: hema_swa
+	examples
+	-hema yangu ike aribika nilombe msaada kwa nani?
+	-nani njo ata nisaidiya hema yangu ike ariibika?
+	-nilombe msaada kwa nani kama hema yangu ina aribika?
+	-kwa nani njo tuta lomba msaada hema ike aribika?
+	-hema ike aribike kwa nani njo naeza lomba msaada?
+	
+intent: dawa_swa
+	examples
+	-dawa za watu wa ukumwi zita onekana?
+	-watu waku gonjwa ukimwi wata pata dawa yao?
+	-dawa za wagonjwa wa ukimwi zita patikana?
+	-wagojnwa wa ukimwi wata pata dawa yao wapi? 
+	-dawa za wagojnwa wa ukimwi ita onekana katika kambi?
+	
+intent: dawa_swa
+	examples
+	-dawa za watu wa sukari zita onekana?
+	-watu waku gonjwa sukari wata pata dawa yao?
+	-dawa za wagonjwa wa sukari zita patikana?
+	-wagojnwa wa sukari wata pata dawa yao wapi? 
+	-dawa za wagojnwa wa sukari ita onekana katika kambi?
+	
+intent: chakula_swa
+	examples
+	-wata gabula chakula za watu wa régime?
+	-watu wa régime wata pata chakula?
+	-chakula ya watu wa régime ita patikana?
+	-watu wa régime wata wa gabuliya chakula yao?
+	-waku gabula chakula wali waza watu wa régime?
+	
+intent: chadaruwa_swa
+	examples
+	-tuta pata chadaruwa za bure?
+	-chadaruwa za bure ziko?
+	-ita wezekana tupate chadaruwa za bure?
+	-chadaruwa za bure zili andaliwa?
+	-tuta pata chadaruwa bila malipo?
+	
+intent: wagonjwa wa kichwa_swa
+	examples
+	-dawa za watu wa magonjwa ya kichwa zita onekana?
+	-watu waku gonjwa kichwa wata pata dawa yao?
+	-dawa za wagonjwa wa kichwa zita patikana?
+	-wagojnwa wa kichwa wata pata dawa yao wapi? 
+	-dawa za wagojnwa wa kichwa ita onekana katika kambi?
+	
+intent: psychologues_swa
+	examples
+	-tuta onana na wa psychologues?
+	-wa psychologues wata patikana juu yetu?
+	-tuta pata wa psychologues?
+	-kuna wa psychologues ambao wata tu fatiliya?
+	-ita wezekana tuonane na wa psychologues?
+	
+intent: volkeno_swa
+	examples
+	-volkeno [nyirangongo ] ike tomboka tuta fanya je? 
+	-kama volkeno [nyirangongo ] ina tomboka tuta kuwa je?
+	-tuta fanta je kama volkeno [nyirangongo ] ina tomboka?
+	-tuta enda wapi kama volkeno [nyirangongo ] ina tomboka? 
+	-kama volkeno [nyirangongo ] ina tomboka tuta enda wapi?
+	
+
+intent: nvula_swa
+	examples
+	-nvula ike zamisha hema zetu tuta fanya nini?
+	-kama nvula ina zamisha hema zetu tuta fanya je?
+	-nvula ike zamisha hema zetu tuliliye nani?
+	-tuta fanya je hema zetu zike zama na nvula?
+	-kama hema zetu zina zama na nvula tuta fanya je?
+
+intent: ambulance_swa
+	examples
+	-ambulances ziko?
+	-uku [mugunga]kutakuwa ambulance?
+	-tuta kuwa na pata ambulance?
+	-kuko ambulance uku [mugunga]?
+	-ambilance ita patikana uku [mugunga]?
+	
+intent: usafi_swa
+	examples
+	-nani ana husika ka usafi ndani ya kambi?
+	-usafi ya kambi ni nani ana husika nayo?
+	-usafi yamu kambi ita fanyika na nani?
+	-kambi ita safishiwa na nani?
+	-ni nani njo ata kuwa na fanya usafi wa kambi?
+	
+intent: chakula_swa
+	examples
+	-kama chakula ya wa fazili [PAM] ina haribika tuta juwa je?
+	-kama wa fazili [PAM] wana tupatiya chakula yaku aribika tuta juwa je?
+	-nini njo ita tuonesha kama chakula yaku pokeya ina aribika?
+	-tuta juwa je chakula yaku aribika kutoka kwa wa fazili [PAM]?
+	-chakula yaku aribika yaku toka kwa wa fazili [PAM] tuta ijuwa je?
+	
+
+intent: dawa_swa
+	examples
+	-kama dawa ina haribika tuta juwa je?
+	-kama dawa aribika tuta juwa je?
+	-nini njo ita tuonesha kama dawa ina aribika?
+	-tuta juwa je dawa yaku aribika kutoka kwa wa fazili [PAM]?
+	-dawa yaku aribika tuta ijuwa je?
+	
+intent: uzazi_swa
+	examples
+	-tuta panga uzazi je?
+	-tupange uzazi namna gani?
+	-uzazi tuta ipanga namna gani?
+	-ni je njo tuta panga uzazi?
+	-uzazi tuta ipanga je?
+	
+intent: uzazi_swa
+	examples
+	-kuna mtu ata tu fundisha kupanga uzazi?
+	-kuko mtu ali chaguliwa juu yaku tu fundisha kupanga uzazi?
+	-kuna mtu mwenye ana husika kufundisha wakimbizi kupanga uzazi?
+	-juu yaku pata mafunzo yaku panga uzazi kuko mtu ali tayarishwa?
+	-tuta pata je mafunzo yaku panga uzazi?
+	
+intent: choo_swa
+	examples
+	-nani njo ata tujengeya choo?
+	-choo ita jengwa na nani?
+	-kuna mtu ata kuja tujengeya choo?
+	-ni mfazili gani njo ata tujengeya choo?
+	-kujenga choo ya wakimbizi ni kazi ya nani?
+	
+intent: magongwa_swa
+	examples
+	-namna gani tuta epuka malali ya [kifu kikuu](sikness_type)?
+	-tuta epuka je malali ya k[kifu kikuu](sikness_type)?
+	-malali ya k[kifu kikuu] (sikness_type)iepuka je?
+	-ni namna gani njo tuta epuka mali ya [kifu kikuu](sikness_type)?
+	-tuji kinge je na malali ya [kifu kikuu](sikness_type)? 
+	
+intent: magonjwa_swa
+	examples
+	-namna gani tuta epuka malali ya [infections] (sikness_type)?
+	-tuta epuka je malali ya [infections](sikness_type)?
+	-malali ya[infection](sikness_type)  tuta iepuka je?
+	-ni namna gani njo tuta epuka mali [infections](sikness_type)?
+	-tuji kinge je na malali ya [infections](sikness_type)? 
+	
+intent: homa_swa
+	examples
+	-namna gani tuta epuka [homa](sikness_type)?
+	-tuta epuka je [homa](sikness_type)?
+	-[homa](sikness_type) tuta iepuka je?
+	-ni namna gani njo tuta epuka [homa](sikness_type)?
+	-tuji kinge je na [homa](sikness_type)? 
+	
+intent: magongwa_swa
+	examples
+	-namna gani tuta epuka [malaria] (sikness_type)?
+	-tuta epuka je [malaria](sikness_type)?
+	-[malaria] (sikness_type)tuta iepuka je?
+	-ni namna gani njo tuta epuka [malaria](sikness_type)?
+	-tuji kinge je na [malaria](sikness_type)?
+
+intent: magongwa_swa
+	examples
+	-nani ata hudumiya walemavu?
+	-kuna mtu ambaye ata hudumiya walemavu?
+	-walemavu wata hudumiwa na nani?
+	-ni nani njo ata hudumiya walemavu?
+	-walemavu wata kuwa na hudumiwa na nani?
+	
+intent: masomo_swa
+	examples
+	-masomo yamu kambi ita kuwa na tumika kila siku?
+	-mu kambi masomo ita kuwa na tumika kila siku? 
+	-kila siku masomo yamu kambi ita kuwa na tumika?
+	-kila siku masomo yamu ita kuwa na pokeya wanafuzi?
+	-tukuwe na tuma watoto kila siku kwenye masomo yamu kambi?
+
+intent: kazi_swa
+	examples
+	-waalimu wakimbiizi wata endeleya ku lipiwa?
+	-serkali ita endeleya kulipa waalimu wakimbizi?
+	-waalimu wakmbizi wata endeleya kupata mshahara yao?
+	-mshaara ya waalimu wakimbizi ita kuwa na kuja?
+	-serkali ita endeleya kutuma mshahara ya waalimu wakimbizi?
+	
+intent: kazi_swa
+	examples
+	-waalimu wakimbizi wata pata kazi uku [goma]?
+	-uku[goma]waalimu wakimbizi wata pata makazi?
+	-waalimu wakimbizi wata itikiwa katika shule za uku [goma]?
+	-[goma] wata itika kutumika na waalimu wakimbizi?
+	-waalimu wa [goma] wata itika kutumika na waalimu wakimbizi?
+	
+intent: kazi_swa
+	examples
+	-waganga wakimbiizi wata endeleya ku lipiwa?
+	-serkali ita endeleya kulipa wanganga wakimbizi?
+	-wanganga wakmbizi wata endeleya kupata mshahara yao?
+	-mshaara ya wanganga wakimbizi ita kuwa na kuja?
+	-serkali ita endeleya kutuma mshahara ya wanganga wakimbizi?
+	
+intent: kazi_swa
+	examples
+	-waganga wakimbizi wata pata kazi uku [goma]?
+	-uku[goma]waganga wakimbizi wata pata makazi?
+	-waganga wakimbizi wata itikiwa katika shule za uku [goma]?
+	-[goma] wata itika kutumika na waganga wakimbizi?
+	-waganga wa [goma] wata itika kutumika na waganga wakimbizi?
+	
+intent: kazi_swa
+	examples
+	-wafanya kazi wa serkali waji oneshe kwa nani?
+	-wafanya kazi wa serkali waone nani?
+	-wafanya kazi wa serkali wata ona nani?
+	-kwa nani njo wafanya kazi wa serkali waende jionesha?
+	-nani njo iko na pokeya wafanya kazi wa serkali?
+		
+intent: uchuruzi_swa
+	examples
+	-tuna eza fanya uchuruzi ndani ya kambi?
+	-tuna ruhusiwa kuchuruza ndani ya kambi?
+	-tuna weza churuza ndani ya kambi?
+	-ndani ya kambi tuko na ruhusa yaku churuza?
+	-uchuruzi ndani ya kambi ina ruhusiwa?
+	
+intent: kuni_swa
+	examples
+	-tuna eza enda twala kuni ndani ya parc ya [virunga]?
+	-tuna ruhusiwa kukata kuni ndani ya parc ya [virunga]?
+	-ndani ya parc ya [virunga] tuna ruhusiwa kuenda tafuta kuni?
+	-tuna weza pata kuni ndani ya parc ya [virunga]?
+	-tuki enda twala kuni ndani ya parc ya [virunga] ni vibaya?
+	
+intent: uongozi_swa
+	examples
+	-nani njo ata tusimamiya ?
+	-mwenye ata tu simamiya ni nani?
+	-nani njo ali chaguliwa kusimamiya wakimbizi?
+	-msimamizi wetu ni nani?
+	-ni nani njo msimamizi wetu?
+	
+intent: uongozi_swa
+	examples
+	-kiongozi wa kambi ana pashwa kuwa tu mukimbizi?
+	-ni mkimbizi tu njo ana pashwa ongoza wakimbizi?
+	-ni lazima mtu akuwe mkimbizi ju yaku ongoza wakimbizi?
+	-wakimbizi wana pashwa ongozwa tu na mkimbizi kama wao?
+	-ina bidi tu mtu akuwe mkimbizi ju yaku ongoza wakimbizi?
+
+intent: vita_swa
+	examples
+	-apa[kanyarutshinya]tuko mbali na vita?
+	-apa[kanyarutshinya] ni mbali na [rutshuru]kwenye kuko vita?
+	-[kanyarutshinya] iko mbali sana na [rutshuru] kwenye vita iko?
+	-vita iko mbali na apa [kanyarutshinya]?
+	-kwenye kuko vita ni mbali na apa [kanyarutshinya]?
+	
+intent: vita_swa
+	examples
+	-nini ina onesha kama apa[kanyarutshinya]kuko salama?
+	-tuta juwa je kama apa [kanyarutshinya] kuko usalama?
+	-ni nini njo ita tuonesha kama apa [kanyarutshinya] kuko usalama?
+	-usalama ita julikana je apa [kanyarutshinya]?
+	-dalili gani jjo ita onesha kama apa [kanyarutshinya] uko usalama? 	
+
+intent: vita_swa
+	examples
+	-nina eza weka wapi documents zangu za parcelle?
+	-ni tafutiye wapi documents zangu za parcelle?
+	-documents zangu za parcelle ni zi tafutiye wapi?
+	-niende tafutiya wapi documents zangu za parcelle?
+	-nani njo nione ju nipate document za parcelle yangu?
+	
+intent: usalama_swa
+	examples
+	-apa ndani ya kambi kuko salama kwa watoto?
+	-watoto wetu biko katika usalama apa ndni ya kambi?
+	-ndani ya kambi kuko usalama juu ya watoto? 
+	-usalama iko ndani ya kambi juu ya watoto?
+	-watoto wakimbizi wata ishi katika usalama apa? 
+	
+intent: vita_swa
+	examples
+	-apa tuko wapi ?
+	-ni wapi apa kwenye tuna fika?
+	-tuna fika wapi?
+	-apa ni wapi?
+	-wapi apa kwenye tuko?
+	
+intent: vita_swa
+	examples
+	-ju ya nini karibu na siye kuko position ya jeshi [FARDC] ?
+	-position ya jeshi [FARDC] ina fanya nini pembeni ya wakimbizi?
+	-nani ali ruhusu position ya eshi [FARDC] ikuwe pembeni ya wakimbizi?
+	-wakimbizi wana eza ishi pembeni ya position ya jeshi [FARDC]?
+	-ina ruhusiwa position ya jeshi ikuwe pembeni ya wakimbi?
+	
+intent: vita_swa
+	examples
+	-jeshi iko na ruhusa yaku ingiya mu kambi ?
+	-wa askari wana eza ingiya ndnai ya kambi?
+	-ni  kawaida jeshi kuingiya ndani ya kambi?
+	-ndani ya kambi jeshi ana ruhusiwa kuingiya?
+	-nani ali ruhusu wana jeshi kufika ndani ya kambi?
+	
+intent: lugha_swa
+	examples
+	-uku [kanyarutshinya] wakaaji wana sema lugha gani?
+	-wakaaji wa uku [kanyarutshinya] wana semaka lugha gani?
+	-ni lugha gani njo watu wana semaka apa [kanyarutshinya]?
+	-lugha gani njo ina semewaka na wakaaji wa apa [kanyarutshinya]?
+	-apa [kanyarutshinya] watu wana semaka lugha gani?
+
+intent: lugha_swa
+	examples
+	-uku [nyiragongo] watu juwa luga yetu [kinyarwanda]?
+	-watu wa uku [nyiragongo] wana sikiyaka lugha yetu?
+	-lugha yetu ina julikana uku [nyiragongo]?
+	-kuna watu wa apa [nyiragongo]wenye wana juwa lugha yetu [kinyarwanda]?
+	-tuta pata apa[nyiragongo] watu wakusema lugha yetu [kinyarwanda]?
+	
+intent: usalama_swa
+	examples
+	-apa Tuko ku mpaka na [rwanda], haiko shida?
+	-haiko shida kuishi ku mpaka na [rwanda]?
+	-kuikala apa ku mpaka na[rwanda] haita tu leteya shida ya usalama?
+	-tuko ndani ya usalama ata kama tuko ku mpaka na [rwanda]?
+	-kukuwa apa ku mpaka na [rwanda] haiko shida?
+	
+intent: usalama_swa
+	examples	
+	-vita ike fika [nyiragongo]apa tuta enda wapi?
+	-apa [nyiragongo] vita ike fika tuta enda wapi?
+	-tuna weza kimbiliya wapi kama vita ina fika apa [nyiragongo]?
+	-[nyiragongo] nako vita ike fika tuta enda wapi?
+	-vita ike fika mpaka uku [nyiragongo] tuta kimbiliya wapi?
+	
+intent: mtandao_swa
+	examples	
+	-kuko mtandao apa?
+	-mtandao iko apa?
+	-apa tuta pata mtandao?
+	-mtandao ita patikana apa?
+	-apa tuta pata mtandao?
+		
+intent: usalama_swa
+	examples
+	-tuta juwa je kama vita haita fika apa [nyiragongo]?
+	-nini njo ita onesha kama vita haita fika apa [nyiragongo]?
+	-tuta juwa je kama apa [nyiragongo] vita haita fika?
+	-apa [nyiragongo] tuta juwa je kama vita haita fika?
+	-tuta kuwa na uhakika gani kama vita haita fika apa [nyiragongo]?
+
+intent: usalama_swa
+	examples	
+	-tunaeza aminiya askari wenye tuna kutana apa?
+	-askari wenye tuna kutana apa ni waaminifu?
+	-hawa wa askari wenye wako apa tuna eza waaminiya? 
+	-wa askari wenye wana ishi apa ni watu wazima?
+	-wa askari wenye wako apa tuna weza waaminiya?
+	
+intent: jamaa_swa
+	examples
+	-jamaa yangu ntaipata je?
+	-jamaa yangu nita watosha wapi?
+	-ita wezekana nipate jamaa yangu?
+	-jamaa yangu nita itosha wapi?
+	-nita fanya je ju nipate jamaa yangu?
+	
+	
+intent: usalama_swa
+	examples
+	-nita juwa je kama watoto wangu wangali wazima?
+	-kama watoto wangu wangali wazimanita juwa je?
+	-nini njo ita ni julisha kama watoto wangu wangali wazima?
+	-nifanye je ju nijuwe kama watoto wangu wangali wazima?
+	-kama watotowangu wangali wazima nini njo ita ni julisha?
+	
+intent: usalama_swa
+	examples
+	-watoto wangu wata weza nikuta hapa [bulengo] ?
+	-apa [bulengo]watoto wangu wata pafika je?
+	-watoto wangu wata fika je apa [bulengo]?
+	-nifanye je ili watoto wangu wani kutane hapa [bulengo]?
+	-watoto wangu wata pata njiya ju wani kutane [bulengo]?
+	
+intent: usalama_swa
+	examples
+	-tuta wezaka sahau je iyi mambo yote ya vita?
+	-ita wezekana tusahau iyi mambo ya vita siku moja?
+	-mambo ya vita tuta isahawaka?
+	-iyi mambo ya vita tuta wezaka isahau?
+	-tufanye je ili tusahau iyi mambo ya vita siku moja?
+	
+intent: usalama_swa
+	examples
+	-kwa nini nina hasira ?
+	-hiyi hasira yenye niko nayo ni ju ya nini?
+	-nina hasira kubwa juu ya nini?
+	-iyi hasira ina toka wapi?
+	-iyi hasira kubwa yenye niko nayo ina tokeya wapi?
+	
+intent: uoga_swa
+	examples
+	-nita rudiya na roho kama ya zamani ?
+	-nita rudiliya hali yangu ya zamani?
+	-roho yangu ita rudiya kama zamani?
+	-ita wezekana ni rudiye kama nilikuaka zamani?
+	-hali yangu ya zamani nita ipata tena?
+
+intent: hali_swa
+	examples	
+	-kwa nini nina choka kila wakati?
+	-juu ya nini kila wakati niko na sikiya nina choka?
+	-iyi muchoko ya kila wakati ni ya nini? 
+	-muchoko ya kila wakati ina mahanisha nini?
+	-kwa nini kila wakati nina ji sikiya kuchoka sana?
+	
+intent: hali_swa
+	examples	
+	-kwa nini sipate usingizi ?
+	-juu ya nini silalake tena?
+	-niko na kosa usingizi juu ya nini?
+	-usingizi ina kosekana juu ya nini?
+	-sababu gani nina kosa usingizi?
+	
+intent: hali_swa
+	examples	
+	-kwa nini nina lota ndoto za mubaya tu?
+	-juu ya nini niko tu na lota ndoto za mubaya?
+	-ndoto za mubaya ju ya nini?
+	-nini njo iko na tuma nina lota mubaya?
+	-izi ndoto za mubaya kila siku niju ya nini?
+	
+intent: hali_swa
+	examples
+	-watoto wata elewa iyi hali?
+	-watoto wetu wata sikiya iyi hali?
+	-iyi hali watoto wata weza ielewa?
+	-iyi hali ita eleweka kwa watoto?
+	-watoto wana weza sikiya hali hii?
+	
+intent: hali_swa
+	examples
+	-viongozi Wana tu angaikiya ? 
+	-viongozi wana angaikiya hali yetu?
+	-viongozi biko na fatana na hali yetu?
+	-viongozi wana juwa gisi tuna teseka?
+	-hali yetu viongozi wana iiangaikiya?
+
+intent: hali_swa
+	examples
+	-tuna onekana kama mzigo ya wakongomani wengine?
+	-wakongomani wengine waalimuna tuona kma mzigo?
+	-watu wenye haiko wakimbizi wana tuona kama mzigo kwao?
+	-tuna pana sura yaku kuwa mzigo kwa wakongomani wengine?
+	-tuna kuwa mzigo kwa wakongomani wengine?
+	
+intent: malalamiko_swa
+	examples
+	-sisi wote tukamate silaha ?
+	-tukamate silaha sisi wote?
+	-ita omba sisi wote tukamate silaha?
+	-watu wote wakamate silaha?
+	-wakimbizi tukamate silaha?
+	
+intent: malalamiko_swa
+	examples
+	-nani ata tupanguza machozi ?
+	-ni nani ata tu panguza machozi?
+	-mwenye ata tupanguza machozi ni nani?
+	-machozi yetu ita panguziwa na nani?
+	-ni nani ata weza panguza machozi yetu?
+	
+intent: malalamiko_swa
+	examples
+	-tuta kuwa tena watu wazima kweli?
+	-tuta kuwa watu wazima kama zamani?
+	-tuta bakiya watu wazima kichwani?
+	-ndani ya kichwa zetu tuta bakiya wazima?
+	-tuta kuwaka teba watu wazima ndani yetu?
+	
+intent: malalamiko_swa
+	examples
+	-kwa nini hakuna anaye tuelewa?
+	-ju ya nini watu habiko natu elewa?
+	-hakuna anaye tuelewa ju ya nini?
+	-hakuna waku tuelewa kwa nini?
+	-kwa nini watu hawa elewe mateso yetu?
+	
+intent: malalamiko_swa
+	examples
+	-tuta kuwa na kula kila siku?
+	-kila siku tuta kuwa na kula?
+	-tuta kuwa na pata kila siku chakula?
+	-chakula ita kuwa na patikana kila siku?
+	-kila siku chakula ita kuwa na patikana?
+
+intent: malalamiko_swa
+	examples
+	-Mungu iko naona ibi byote ?
+	-ibi byote mungu iko na biona?
+	-mungu iko na ona iyi mateso yetu?
+	-kwa kweli mungu iko na ona ibi byote?
+	-tuna weza sema kama mungu iko na ona iyi mambo yote?
+	
+intent: malalamiko_swa
+	examples
+	-Mungu ana tupenda kweli?
+	-kweli mungu ana tupenda?
+	-tuna weza sema mungu ana tupenda kwemi?
+	-mapendo ya mungu iko juu yetu kweli?
+	-yaani kweli mungu ana weza sema ana tupenda?
+	
+intent: malalamiko_swa
+	examples
+	-mungu njo ana ruhusu tukuwe wakimbizi?
+	-mungu njo ali tufanya wakimbizi?
+	-mungu njo ali penda tukuwe wakimbizi?
+	-mungu njo ali penda tu teseke?
+	-mungu njo ali ruhusu iyi hali itu pate?
+	
+intent: malalamiko_swa
+	examples
+	-duniya iko na faida gani sasa?
+	-faida gani tena ya iyi duniya?
+	-iyi duniya tena ingali na faida?
+	-kuko faida tena ya duniya?
+	-ni faida gani ya duniya tuta ona tena?
+	
+intent: malalamiko_swa
+	examples
+	-mtetezi wetu ni nani ?
+	-nani njo mutetezi wetu?
+	-nani njo ata tu teteya?
+	-ni nani njo mtetezi wetu katika hali hii?
+	-ndani ya hali hii nani njo mtetezi wetu?
+	
+intent: malalamiko_swa
+	examples
+	-tuli poteza vitambulisho tuta vipata tena ?
+	-tuta pata tena vitambulisho vyetu?
+	-vitambulisho vyetu vilipoteya tuta vipata tena?
+	-kiisha kupoteza vitambulisho vyetu tuta vipata tena?
+	-tuta pata tena vitambulisho vyetu vilivyo poteya?
+	
+intent: malalamiko_swa
+	examples
+	-tuta juwa kiswahili je?
+	-namna gani tuta juwa kiswahili?
+	-kiswahili tuta ijuwa je?
+	-tuji funziye wapi kiswahili?
+	-tufanye je ili tuji funze kiswahili?
+	
+intent: malalamiko_swa
+	examples
+	-watu wa [goma] wata tu penda kweli?
+	-[goma] watu wata tupenda kweli?
+	-tuta pendewa na watu wa goma?
+	-kweli wakaaji wa [goma] wata tupenda?
+	-wakaai wa [goma] wata tupenda?
+	
+intent: malalamiko_swa
+	examples
+	-watu wa [goma] wana tabiya kama zetu?
+	-[goma] watu wana tabiya kama zetu?
+	-tabiya zetu zita ambatana na tabiya za [goma]?
+	-wakaaji wa [goma] wana tabiya waku fanan zetu?
+	-tabiya zetu zita kutanana na za watu wa [goma]?
+	
+intent: malalamiko_swa
+	examples
+	-watoto wetu wata pata ba Rafiki uku [goma] ?
+	-watoto wa [goma] wata itika kufanya urafiki na watoto wetu?
+	- watoto wa [goma] wata fanya urafiki na watoto wetu?
+	-watoto wetu wata pata watoto wengine uku [goma] waku cheza nao?
+	-watoto wa [goma] wate ona watoto wetu kama warafiki?
+
+intent: malalamiko_swa
+	examples
+	-watu wa uku [goma] wata itika ku changana na siye ?
+	-uku [goma] watu wata itika kuchangana na siye?
+	-tuta changana bila shida na watu wa [goma]?
+	-[goma] watu wana itikaka kuchangana na wengine?
+	-tuta changana bila mashaka na wakaaji wa [goma]?
+	
+intent: malalamiko_swa
+	examples
+	-maisha yetu ya kesho ita kuwa je ?
+	-kesho yetu ita kuwa je?
+	-ita kuwa je maisha yetu ya kesho?
+	-namna gani maisha yetu ita kuwa kesho?
+	-kesho yetu ita fanan namna gani?
+	
+intent: malalamiko_swa
+	examples
+	-kiisha vita maisha yetu ita kuwa kama zamani?
+	-maisha yatu ita kuwa tena kama zamani kiisha vita?
+	-tuta rudiliya maisha yetu ya zamani kiisha vita?
+	-kiisha vita tuta weza tena ishi kama zamani?
+	-tuta weza ishi tena kama zamani kiisha vita?
+	
+intent: malalamiko_swa
+	examples
+	-tuta ambiya nini vizazi vya kesho ?
+	-tuta elezaka nini kwa watoto wetu kesho?
+	-vizazi vyenye vina kuja tuta waelezeya nini?
+	-ni nini tuta waelezeya watoto wetu kesho?
+	-kesho tuta ambiya nini vizavi vyenye vina kuja?
+	
+intent: masomo_swa
+	examples
+	-watoto wata weza soma ndani ya iyi hali?
+	-ndani ya hii hali watoto wata weza soma kweli?
+	-watoto wata soma kawaida ndani ya hii hali ya ukimbizi?
+	-ndani ya hali ya ukimbizi watoto wata sima vizuri?
+	-watoto wata sikiya mafunzo ndnai ya hali hii?
+	
+intent: malalamiko_swa
+	examples
+	-mnajuwa kama tuna vilonda vya ndani ?
+	-mna jua kama tuna lumiya sana ndani mwetu?
+	-mnanjua kama tume jaa vilonda vya ndani?
+	-vilonda vya ndani vime tuvamiye mnajua hio?
+	-mnajua kama tuna teseka sana na vilonda vya ndani?
+
+intent: mashaka_swa
+	examples
+	-vilonda vya ndani vina pona je?
+	-je vilonda vya ndani vina pona?
+	-ni namna gani njo tuna weza ponya vilonda vyetu vya ndani?
+	-mnajua gisi yaku ponya vilonda vya ndani?
+	-vilonda vya ndani vina dawa?
+	
+intent: mashaka_swa
+	examples
+	-shuleni kwa watoto kuko usalama ?
+	-watoto wetu wata kuwa ndani usalaa katika shule?
+	-usalama iko katika shule za watoto?
+	-tuna eza amini kama shuleni kwa watoto kuko usalama?
+	-mna uhakika kama watoto wata kuwa katika usalama ndani ya shule?
+	
+intent: malalamiko_swa
+	examples
+	-Waalimu wako tayari kupokeya watoto wakimbizi?
+	-watoto wakimbizi wata pokelewa bila shida ndani ya shule?
+	-waalimu hawata bagua watoto wakimbizi?
+	-waalimu wali tayarishwa kupokeya watoto wakimbizi?
+	-watoto wakimbizi wata pokelewa vizuri na waalimu?
+	
+intent: mashaka_swa
+	examples
+	-Waalimu fundisha watoto kupona vidonda vya ndani ?
+	-kuna mafundisho juu ya kupona vidonda vya ndani?
+	-vidonda vyan ndani vita weza pona kupitiya mafundisho ya shule?
+	-waalimu wali tayarishwa juu ya kuponya vilonda vya ndani vya watoto?
+	-waotot wata fundishwa kupona vidonda vya ndani?
+	
+intent: malalamiko_swa
+	examples
+	-siye bote tukuwe wa askari ?
+	-sisi wote tukamate silaha?
+	-tugeuke wa askari siye bote?
+	-siye bote tukuwe wana jeshi?
+	-tukuwe wana jeshi siye bote?
+
+intent: malalamiko_swa
+	examples
+	-watoto wetu hawata kuwa wa maibobo ?
+	-tufanye je ili watoto wetu waikue wa maibobo?
+	-watoto wetu hawata enda barabarani?
+	-tukinge je watoto ili wasi kuwa wa maibobo?
+	-ili watoto wetu waikuwe wa maibobo tufanye je? 
+
+intent: malalamiko_swa
+	examples
+	-juu ya nini watoto wetu Wana onelewa ?
+	-watoto wetu wana onelewa kwa nini?
+	-kwa nini watoto wetu wana onelewa hivi?
+	-juu ya nini ni watoto wetu njo wana onelewa?
+	-watoto wetu wana onelewa hivi kwa nini?
+
+intent: malalamiko_swa
+	examples
+	-kuko vitabu juu ya Watoto ?
+	-kuna kuwa vitabu juu yaku fundisha watoto?
+	-watoto wata pata vitabu?
+	-vitabu vya watoto vita onekana apa?
+	-vitabu vya watoto vita patikana?
+	
+intent: malalamiko_swa
+	examples
+	-Masomo ita saidiya Watoto kusahau vita ?
+	-watoto wata sahau vita waki soma?
+	-watoto wata weza sahau mambo ya vita kupitiya masomo?
+	-masomo ita leta watoto kusahau vita?
+	-iyi via waotot wata isahau kupitiya masomo?
+	
+intent: malalamiko_swa
+	examples
+	-watoto wata pataka tena raha ya Maisha ?
+	-watoto wetu watawezaka pata tena raha ya maisha?
+	-raha ya maisha watoto wetu wata ipataka tena?
+	-kiisha vita watoto wetu wata pataka tena raha ya maisha?
+	-watoto wetu wata pataka tena raha ya maisha kiisha vita?
+	
+intent: malalamiko_swa
+	examples
+	-tuta waambiya watoto wetu nini ili tukiya?
+	-tuambiye watoto nini ina pitikana?
+	-watoto tutu waambiya nini ilitukiya?
+	-hawa watoto tuta waambiya ni nini njo iko na pitikana?
+	-nini njo taumbiye watoto kuhusu vita?
+	
+intent: masomo_swa
+	examples
+	-watoto wata weza masomo ?
+	-ndani ya hii hali watoto wata weza masomo?
+	-masomo ita wezekana kwa watoto ndani ya hali hii?
+	-watoto wata weza soma?
+	-watoto wako kabisa tayari kusoma?
+
+intent: malalamiko_swa
+	examples
+	-tuwa saidiye je ili waweze masomo ?
+	-tusaidiye je watoto ili waweze masomo?
+	-watoto ili waweze masomo tuwasaidiye  je?
+	-ili watoto waweze masomo tuwa saidiye je?
+	-masomo ili watoto waiweze tuwa saidiye je?
+	
+intent: malalamiko_swa
+	examples
+	-watoto wetu wata penda tena Maisha ?
+	-watoto hawa wata pendaka tena maisha?
+	-watoto hawa wata kuwa tena na onjo ya maisha?
+	-watoto wetu wata penda maisha kama zamani?
+	-hawaa watoto wata penda tena maisha gisi ilikua zamamni?
+	
+intent: malalamiko_swa
+	examples
+	-tuchangiye je ku Amani ?
+	-tuta changiya namna gani kwa amani?
+	-tulete mchango gani kwa amani?
+	-tuchangiye je ili amani irudiye?
+	-mchango yetu iteza kuwa gani kwa kuleta amani?
+	
+intent: malalamiko_swa
+	examples
+	-wakati wa sherehe tuta kuwa na raha tena?
+	-tuta wezaka tena fanya sherehe?
+	-tuta pata tena hamu yaku fanya sherehe?
+	-saa ya sherehe tuta kuwa na furahi kama zamani?
+	-tuna weza tena pata  furaha kama zamani wakati wa ma sherehe?
+	
+intent: mashaka_swa
+	examples
+	-watoto wetu wata sherehe je mwaka mpya?
+	-kwa mwaka mpya ijayo watoto wetu wata kuwa na raha?
+	-kusherehe mwaka mpya kwa watoto wetu ita kuwa kama zamani?
+	-watoto wetu wata pata raha yaku sherehe mwaka mpya?
+	-raha ita kuwaka tena kusura za watoto wetu kwa mwaka mpya?
+	
+intent: mashaka_swa
+	examples
+	-na weza aminiya mtu ni mtu [goma]  ?
+	-nina weza aminiya kila mtu [goma] ?
+	-nina weza tumainiya watu wote wa [goma] ?
+	-apa [goma] kuna watu waku aminika?
+	-tuna weza aminiyana na watu wa [goma] ?
+	
+intent: mashaka_swa
+	examples
+	-ni nani ana eza elewa mateso yetu?
+	-nani njo ana weza elewa mateso yetu?
+	-mateso yetu nani njo ana weza ielewa?
+	-nani ana weza kutu elewa katika hii mateso yetu?
+	-iyi mateso yetu ni nani njo ana weza ielewa?
+	
+intent: mashaka_swa
+	examples
+	-tuta wezaka hurumiya wanyarwanda ?
+	-tuta pataka ngufu yaku hurumiya wanyarwanda?
+	-ita wezekanaka siku moja tuhurumiye wanyarwanda?
+	-wanyarwanda tuta wezaka wa hurumiya?
+	-kiisha hiyi yote tuta wezaka hurumiya wanyarwanda?
+	
+intent: mashaka_swa
+	examples
+	-iyi ita tiliwa ndani ya historia ya inchi [kongo] ?
+	-haya yote yata andikiwa ndani ya historia ya inchi [kongo]?
+	-iyi yote gisi iko na pitika ita andikiwaka ndani ya historia ya iyi  [kongo]?
+	-watoto wetu wata kutanaka haya yote ndani ya historia ya [kongo]?
+	-ndani ya historia ya [kongo] wata ongeza amo iyi yenye tuko na pitiya?
+	
+intent: mashaka_swa
+	examples
+	-namna gani tuta tunzwa vilonda vya ndani ?
+	-namna gani njo tuta weza tunziwa vilonda vya ndani?
+	-vilonda vyetu vya ndani vita tunziwa je?
+	-ni namna gani njo tuta tunzwa vilonda vyetu vya ndani?
+	-kwa kutunzwa hivi vilonda vya ndani tuta fanya je?
+
+intent: mashaka_swa
+	examples
+	-tuna weza amini kama Amani ita rudiyaka kwetu [masisi] ?
+	-amani ita rudiyaka kwetu [masisi]?
+	-[masisi] kuta kuwaka tena amani siku moya?
+	-amani ina wezekana tena siku moya [masisi]?
+	-kuna uhakika kama amani ia rudiyaka [masisi]?
+	
+intent: mashaka_swa
+	examples
+	-sheriya ita fanya kazi yake?
+	-sheriya ita tatua iyi hali?
+	-tuna weza kuamini kama siku moja sheriya ita fanya kazi yake?
+	-sheriya ita fanya kazi yake siku moja?
+	-kuna uhakika kama siku moja sheriiya ita fanya kazi yake?
+	
+intent: mashaka_swa
+	examples
+	-ni Mmahakama gani njo iteza fata rwanda ?
+	-wapi njo rwanda ina weza kuwa pata hukumu?
+	-ni mahakama gani njo ina weza hukumu rwanda?
+	-rwanda ina weza hukumiwa na mahakama gani?
+	-tuke taka kufata rwanda tuende kwenye mahakama gani?
+	
+intent: mashaka_swa
+	examples
+	-kuna weza kuwa Amani bila vita?
+	-amani haiwezi patikana bila vita?
+	-bila vita amani haiwezi patikana?
+	-amani bila vita haiwezekane?
+	-tuna weza pata amani bila kufanya vita?
+	
+intent: mashaka_swa
+	examples
+	-iyi vita ni ya nini?
+	-vita iyi ni ya nini?
+	-ni vita ya nini iyi?
+	-ni ya nini iyi vita?
+	-nini njo ina tuma tuko mu vita?
+	
+intent: mashaka_swa
+	examples
+	-nani njo ali anzaka vita ?
+	-ni nani njo ali anzaka iyi vita?
+	-iyi vita nani mwenye ali ianzaka?
+	-ni nani njo ali anzisha vta hii?
+	-vita hii anni njo ali ianzaka?
+	
+intent: mashaka_swa
+	examples
+	-maisha ya kesho ya watoto wetu ita okolewa kweli?
+	-kesho ya watoto wetu ita okolewa?
+	-watoto wetu wata kuwa na maisha mazuri kesho?
+	-maisha ye kesho ya watoto wetu ita okolewa?
+	-kesho maisha ya watoto wetu ita kuwa je?
+	
+intent: mashaka_swa
+	examples
+	-wenye Wana fanya vita kweli wata hukumiwa siku moja?
+	-kuta kuwa sheriya yaku hukumu wenye wana fanya vita leo?
+	-siku moja wanao fanya vita wata hukumiwa?
+	-kuta kuwa hukumu siku moja kwa wale wanao fanya vita?
+	-wenye wana fanya vita kuna siku wata hukumiwa?
+	
+intent: mashaka_swa
+	examples
+	-duniya mzima ina sikiya kilio yetu?
+	-kilio yetu ina sikika duniya mzima?
+	-duniya iko ana sikiya kilio chetu?
+	-watu katika duniya mzima wana sikiya kilio yetu?
+	-ni duniya mzima njo iko na sikiya iyi kilio yetu?
+	
+intent: mashaka_swa
+	examples
+	-umoja wa mataifa ina juwa kama tuna teseka?
+	-umoja wa mataifa ina juwa mateso yetu?
+	-mateso yetu ina julikana kwa umoja wa mataifa?
+	-kwenye umoja wa mataifa washa pata habari kama tuna teseka?
+	-iyi mateso tuko na pitiya ina julikana kwenye umoja wa mataifa?
+	
+intent: mashaka_swa
+	examples
+	-tuta lipa apa kwenye tuna ishi?
+	-apa kwenye tuna ishi tuta pa lipaka?
+	-ina omba tulipe apa kwenye tuna ikala?
+	-bata tulipisha apa kwenye tuna ikala?
+	-apa kwenye tuna ikala kuko mwenye ata kuya tulipisha?
+	
+intent: mashaka_swa
+	examples
+	-nina weza sema apa [goma]ni kwetu?
+	-apa [goma] nako ni kwetu?
+	-naeza ona apa [goma] kama nyumbani?
+	-[goma] ni nyumbani?
+	-ni kwetu apa [goma]?
+	
+intent: mashaka_swa
+	examples
+	-nini njo ita onesha kama apa kuko salama?
+	-tuta juwa je kama tuko ndani ya usalama?
+	-ni dalili gani njo zita tuonesha kama apa kuko usalama?
+	-fasi kwenye kuko usalama tuta pajuwa je?
+	-kama apa kuko usalama tuta juwa je?
+	
+intent: kulala_swa
+	examples
+	-na watoto waku zaliwa Wana weza lala ndani ya hema?
+	-watoto wanchanga tulale nao ndani ya hema?
+	-ndani ya hema tuna weza lala na watoto wetu wachanga?
+	-nime zaa kuna pita siku chache, mtoto huyo ata lala ndani ya hema?
+	-na watoto waku zaliwa tutale nao ndani ya hema?
+	
+intent: kulala_swa
+	examples
+	-na wazehe wakongwe Wana weza lala ndani ya hema?
+	-wazehe piya tulale nao ndani ya hema?
+	-ndani ya hema tuna weza lala na wazehe wetu?
+	-mama yangu ni mzee sana,naye ata lala ndani ya hema?
+	-na wazehe wakongwe tutale nao ndani ya hema?
+	
+intent: kulala_swa
+	examples
+	-tuta lala fasi moya na Watoto ?
+	-wazazi wata lala na watoto nafasi moja?
+	-watoto wata lala na wazazi nafasi moya?
+	-ni nafasi moya njo jamaa muzima ita lala?
+	-watoto tuta lala nao nafasi moya?
+	
+intent: mashaka_swa
+	examples
+	-viongozi wana weza tu achiya iyi nafasi?
+	-ina wezekana viongozi watu achiye iyi nafasi?
+	-iyi nafasi viongozi wana weza tuachiya ayo?
+	-iyi nafasi iteza bakkiya yetu?
+	-baada ya vita tuna weza bakiya na iyi nafasi tuna ishi?
+	
+intent: viwanja_swa
+	examples
+	-kila siku nta kuwa na fata mstari juu ya ku pata chakula?
+	-ju tupate chakula kila siku tukue na enda fata mustari?
+	-ina omba kila siku tukue naenda fata mustari ju tukule?
+	-ju yaku kula, ita omba kila siku tukuwe na enda ku mustari?
+	-kila siku ita omba kuenda ku mustari ju ya kupata chakula?
+	
+intent: mashaka_swa
+	examples
+	-tuta pata chakula sawa sawa?
+	-tuta pata siye bote kipimo moya ya chakula?
+	-tuta pata sisi wote chakula kwa kiwanngo moja?
+	-chakula yenye tuta pokeya ita kuwa sawa sawa?
+	-wafazii wata tu gabuliya chakula sawa sawa?
+	
+intent: chakula_swa
+	examples
+	-na weza chagua chakula yenye Nina penda?
+	-naweza lomba chakula gisi nina penda?
+	-naweza kuwa na pata chakula selon hamu yangu?
+	-wafazili wata kuwa na gabula kulingana na hamu ya watu?
+	-naweza lomba chakula kufatana na hamu yangu?
+	
+intent: chakula_swa
+	examples
+	-tuta kuwa na shiba?
+	-tuta kuwa na pata chakula yaku tu shibisha?
+	-sisi na watoto wetu tuta kuwa na shiba?
+	-tuta kuwa na shiba sisi na watoto wetu?
+	-sisi na watoto wetu wata pata chakua yaku tu shibisha?
+	
+intent: chakula_swa
+	examples
+	-kama chakula hai eneye naeza lomba yengine?
+	-niki pata chakula kidogo naeza lomba yengine?
+	-niki ona chakula ina kuwa kidogo naeza limba yengine?
+	-kama watoto hawa shibe naweza lomba chakula yengine?
+	-naweza lomba chakula yengine kama sipate yaku tosha?
+	
+intent: chakula_swa
+	examples
+	-tuta kuwa na pata chakula yaku ivya?
+	-wata kuwa natu leteya chakula yaku ivya?
+	-tuta kuwa na pokeya chakula yaku ivya?
+	-wafazili wata kuwa na leta chakula yaku ivya?
+	-chakula yenye tuta kuwana pokeya ita kuwa yaku ivya?
+	
+intent: maisha_swa
+	examples
+	-tuna onekana kama wa maskini sana?
+	-watu wana tuona wa maskini sana?
+	-tuna fanana wa maskini sana?
+	-waku tuona ana ona tuko wa maskini sana?
+	-tuna onesha sura za umaskini sana?
+	
+intent: maisha_swa
+	examples
+	-hiyi hali ita dumu siku mingi ?
+	-hali hiyi ita dumu siku mingi?
+	-tuta fanya siku mingi katika hiyi hali?
+	-tuta fanya mda mrefu ndani ya hii hali?
+	-tuta fanya wakati mingi katika hali hii?
+	
+intent: matunzo_swa
+	examples
+	-apa [nyiragongo]kuko vituo ngapi vya afya ?
+	-kuna patikana vituo ngapi vya afya apa [nyiragongo]?
+	-kuko vituo ngapi vya afya apa [nyiragongo]?
+	-[nyiragongo] kuna vituo ngapi vya afya?
+	- ni vituo ngapi vya afya njo vina patikana apa [nyiragongo]?
+	
+intent: maisha_swa
+	examples
+	-na weza eleza nani yenye nili ishi ?
+	-mambo yenye nili ishi jatika vita naweza elezeya nani?
+	-ni nani njo naweza ambiya mamb yenye nili ishi?
+	-nani njo naweza elezeya yenye nili ishi?
+	-yote yenye nili ishi katika vita naweza iambiya nani?
+	
+intent: maisha_swa
+	examples
+	-tuta zala katika hali nzuri apa [nyiragongo]?
+	-watoto wetu wata zaliwa ndani ya hali nzuri?
+	-vituo vya hapa vita tu ruhusu tuzae katika hali nzuri?
+	-apa [nyiragongo] tuta kuwa na zala katika hali nzuri?
+	-tuta kuwa na zala katika hali nzuri ndani ya hiyi hali?
+	
+intent: malalamiko_swa
+	examples
+	-nani ata fatana na [trauma] yetu?
+	-[trauma] yetu ni nani njo ata ifatiliya?
+	-ni nani njo ata fatana na [trauma] zetu?
+	-nani njo ata ji husisha na [trauma] yetu?
+	-hii [trauma] tunayo, ni nani njo ata tu shurulikiya?
+	
+intent: malalamiko_swa
+	examples
+	-waganga wata tu tunza na mapendo ?
+	-ndaninya hali hiyi waganga wata tu tunza na mapendo?
+	-waganga wata itika ku tu tunza na mapendo ijapo hatuna makuta?
+	-tuta tunziwa katika mapendo ndani ya hali hii?
+	-wagangawata tu tunza katika mapendo?
+	
+intent: malalamiko_swa
+	examples
+	-sheriya zamu kambi ni zipi ?
+	-sherya zamu kambi zina sema je?
+	-tuna weza juwa sheriya zamu kambi?
+	-kambi ina sheriya gani?
+	-ni zipi njo sheriya za kambi?
+
+intent: malalamiko_swa
+	examples
+	-mungu iko wapi? 
+	-mungu iko?
+	-mungu angali?
+	-mungu yupo tu?
+	-mungu iko wapi sasa hivi?
+	
+intent: malalamiko_swa
+	examples
+	-mungu ana tu lipiza zambi zetu ?
+	-mungu iko natu lipiza zambi zetu ?
+	-iyi ni malipo ya mungu?
+	-hii hali yenye tuko na pitiya ni laana ya mungu?
+	-mungu njo iko na tu lainiya juu ya zambi zetu?
+	
+intent: malalamiko_swa
+	examples
+	-nita pata ngufu yaku omba Mungu ?
+	-naweza tena omba mungu?
+	-naweza tena pata tena [courage] yaku omba mungu?
+	-naweza tosha wapi tena ngufu yaku omba mungu?
+	-ngufu yaku omba mungu naweza itowa wapi?
+	
+intent: mashaka_swa
+	examples
+	-[MSF] ita tu tunza bure mpaka mwisho ya vita?
+	-tuta tunziwa bure na [MSF] mpaka mwisho ya viita?
+	-[MSF] iko na nguvu yaku tu tunza bure mpaka mwisho?
+	-matunzo ita bakiya ya bure mpaka mwisho?
+	-mpaka mwisho [MSF] ita tu tunza bure?
+
+intent: mashaka_swa
+	examples
+	-[MSF]iko na banganga bazuri ?
+	-waganga wazuri njo wana tumika na [MSF]?
+	-[MSF] ina tumika na waganga wazuri?
+	-wanganga wa [MSF] ni wazuri?
+	-[MSF] iko na tumika na banganga bazuri kweli?
+	
+intent: mashaka_swa
+	examples
+	-[MSF] ita tunza na malali ya kichwa?
+	-malali ya kichwa nayo ita tunzwa na [MSF]?
+	-malali ya kichwa ni moja ya magonjwa zenye [MSF] ita tunza bure?
+	-[MSF] ita tunza malali ya kichwa kwa bure?
+	-tupeleke na wagonjwa wa kichwa kwenye [MSF] watunzwe bure?
+	
+intent: mashaka_swa
+	examples	
+	-[PAM] ita juwa wakimbizi wa uongo?
+	-wakimbizi wa uongo wata julikana na [PAM]?
+	-[PAM] ita tafuta kujuwa wakimbizi wa uongo?
+	-wakati waku gabula chakula [PAM] ita juwa wakimbizi wa uongo?
+	-wakimbizi wa uongo wata onekana  kwenye [PAM]?
+	
+intent: mashaka_swa
+	examples
+	-[PAM] ita juwa je wakimbizi wa uongo kati yetu?
+	-[PAM] ita juwa je kama kuna wakimbizi wa uongo kati yetu?
+	-wakimbizi wanao kuwa kati yetu [PAM] ita wajua je?
+	-hawa wakimbizi wote wa uongo [PAM] ita wagundua je?
+	-ni namna gani njo [PAM] ita gundua wakimbizi wa uongo?
+	
+intent: mashaka_swa
+	examples
+	-wafanya kazi wa [PAM] wakorofi tuta wachongeya wapi?
+	-tuta chongeya wapi wafanyakazi wa [PAM] waku fanya ukorofi?
+	-wakorofi wa [PAM] tuta wachongeya kwa nani?
+	-tukiona mfanya kazi wa [PAM] mkorofi tufikishe habari wapi?
+	-wafanya kazi  wa [PAM] wake fanya ukorofi tuambiye nani?
+	
+intent: mashaka_swa
+	examples
+	-kama mganga wa [MSF]ake ni tunza vibaya nipeleke malalamiko kwa nani?
+	-ikiwa mganga wa [MSF] ana ni kamata mubaya niende wapi?
+	-nike tunziwa mubaya na muganga wa [MSF] niambiye nani?
+	-saa mganga wa [MSF] ana ni tunza mubaya nina eza enda kwa nani?
+	-mganga wa [MSF] ake ni tunza mubaya naeza lalamikiya nani?
+	
+intent: mashaka_swa
+	examples
+	-maisha yangu iko na maana?
+	-maisha yangu ina faa?
+	-maisha yangu ina maana gani?
+	-hapa sasa maisha ina mafaa gani?
+	-maisha yangu ina samani?
+	
+intent: mashaka_swa
+	examples	
+	-kuna siku iyi yote ita badilika ?
+	-haya yote kuna siku yata badilika?
+	-kuko siku iyi mateso ita ishaka?
+	-iyi mateso kuko siku ita badilikaka?
+	-iyi mambo yote kuko siku ita isha?
+	
+intent: mashaka_swa
+	examples
+	-viongozi wetu wata tuambiyaka nini tena?
+	-apa tena viongozi wetu wata tuambiyaka nini?
+	-kuna tena chenye viongozi wetu wata weza tuambiya?
+	-viongozi wana weza tena tuambiya nini kulingana na haya yote?
+	-kwa kuona haya yote viongozi wata tuambiya nini?
+	
+intent: mashaka_swa
+	examples
+	-[UNICEF] ita jenga shule umu mu kambi juu ya watoto ?
+	-mu kambi [UNICEF] ita jengeya watoto masomo?
+	-ita wezekana [UNICEF] ijengeye watoto wetu shule mu kambi?
+	-masomo ya watoto ita jengwa na [UNICEF] ndani ya kambi?
+	-[UNICEF] ina weza jengeya watoto wetu shule ndani ya kambi?
+	
+intent: mashaka_swa
+	examples
+	-[UNICEF] ita patiya watoto vyombo vya shule?
+	-ina wezekaana [UNICEF] ipatiye watoto wetu vyombo vya shule?
+	-watoto wetu wata pata vyombo vya shule kupitiya [UNICEF]?
+	-[UNICEF] ina weza patiya watoto wetu vyombo vya shule?
+	-vyombo vya shule vya watoto, yawezekana tuvi pate kwenye [UNICEF]?
+	
+intent: mashaka_swa
+	examples
+	-tuta pataka tena onjo ya maisha?
+	-onjo ya maisha tuta ipataka tena?
+	-tuta wezaka tena pata onjo ya maisha?
+	-maisha yetu ita kuwaka tena na njo?
+	-tuta pataka onjo ya maisha tena siku moya?
+	
+intent: mashaka_swa
+	examples
+	-watoto wetu wata elewa iyi shida?
+	-watoto wana weza elewa iyi shida?
+	-iyi shida watoto wetu wata ielewa?
+	-watoto wetu wana weza elewa iyi hali?
+	-iyi hali watoto wata ielewa kwepesi?
+	
+intent: mashaka_swa
+	examples
+	-vita ni ya muzuri?
+	-vita ni vizuri?
+	-vita hiyi ni ya muzuri?
+	-hiyi vita ni ya muzuri?
+	-vita ni nzuri?
+	
+intent: mashaka_swa
+	examples
+	-ju ya nini hakuna suhulisho ?
+	-suluhisho haipatikane juu ya nini?
+	-juu ya nini suluhisho haipatikane?
+	-suluhisho juu ya nini haipatikane?
+	-juu ya nini viongozi hawapate suluhisho?
+	
+intent: mashaka_swa
+	examples
+	-nasiye tukamate silaha ?
+	-tukamate silaha na siye?
+	-siye bote tukamate silaha?
+	-tukamate silaha siye bite?
+	-watu wote wakamate silaha?
+	
+intent: mashaka_swa
+	examples
+	-juu ya nini Niko na pumua mubaya?
+	-nina pumua vibaya kwa nini?
+	-ju ya nini nina pumua vibaya siku hizi?
+	-kwa nini nina pumua mubaya?
+	-niko na pumua vibaya siku hizi kwa nini?
+	
+intent: mashaka_swa
+	examples
+	-juu ya nini usiku silale ?
+	-ju ya nini sipatake tena busingizi?
+	-kwa nini nina kosa usingizi?
+	-usiku silale kwa nini?
+	-kwa nini usiku silale?
+	
+intent: mashaka_swa
+	examples
+	-kuna siku Kongo na Rwanda wata ishi kwa Amani?
+	-kongo na rwanda wata sikilizanaka siku moja?
+	-kongo na rwanda wata pataka suluhisho siku moja?
+	-siku moja kongo na rwanda wata sikilizanaka?
+	-kuna siku kongo kuta kuwa amani kati ya kongo na rwanda?
+	
+intent: mashaka_swa
+	examples
+	-watoto wetu wata komala na roho muzuri?
+	-watoto wetu wata komala na roho gani?
+	-roho gani njo watoto wetu wata komala nayo?
+	-katika hali hii watoto wetu wata komala na roho mzuri?
+	-watoto wetu wana weza kuwa na roho mzuri mwa iyi hali?
+	
+intent: mashaka_swa
+	examples
+	-watoto wetu hawata geuka wa bandiya ?
+	-iyi vita haita fanya watoto wetu kuwa ma bandiya?
+	-watoto wetu hawata kuwa mabandiya ndani ya hii vita?
+	-iyi haita geuza watoto wetu kuwa mabandiya?
+	-izi shida zote hazita fanya watoto wetu kuwa mabandiya?
+	
+intent: mashaka_swa
+	examples
+	-juu ya nini bangi iko mu kambi ?
+	-bangi ina patikana je katika kambi?
+	-katika kambi juu ya nini kuko bangi?
+	-juu ya nini ndani ya kambi kuna patikana bangi?
+	-sababu gani bangi ina patikana ndani ya kambi?
+	
+intent: mashaka_swa
+	examples
+	-tuta sahawaka iyi mateso ?
+	-iyi mateso tuta isahawaka?
+	-iyi mateso ita vutikanaka ndani ya roho zetu?
+	-tuta wezaka sahau iyi mateso?
+	-roho zetu zita wezaka sahau iyi mateso?
+	
+intent: mashaka_swa
+	examples
+	-tuna weza pata Amani ya roho siku moja?
+	-tuta pataka amani ya roho siku moja?
+	-amani ya roho tuta ipataka siku moja?
+	-amnai ita rudiyaka ndani ya rooho zetu?
+	-tuta pataka amani ya roho?
+	
+intent: mashaka_swa
+	example
+	-na weza kuwaminiya tena viongozi wa Kongo?
+	-viongozi wa kongo wana aminika?
+	-tuna weza kuwa na sikiya tena maneno ya viongozi wa kongo?
+	-viongzo wa kongo tuna weza waaminiya?
+	-tuaminiye tena viongozi wa kongo?
+	
+intent: mashaka_swa
+	examples
+	-kusema kinyarwanda apa [goma] ita onekana je?
+	-sisi waku sema kinyarwanda [goma] wata tuona je?
+	-wata tuona je sisi waku sema kinyarwanda apa [goma]?
+	-[goma] sisi tunao ongeya kinyarwanda wata tuona je?
+	-wata tuona je [goma] sisi waku sema kinyarwanda?
+	
+intent: mashaka_swa
+	examples
+	-ubaguzi wa kabila ina toka wapi?
+	-unaguzi wa kabila ina tokana na nini?
+	-ubaguzi wa kabila ili anza je?
+	-ili tokeya wapi hii ubaguzi ya kabila?
+	-hii ubaguzi ya ukabila ilitokeya wapi?
+	
+intent: mashaka_swa
+	examples
+	-wanande wata ikala na wa Hutu bila shida apa?
+	-ita wezekana wanande na wa hutu kuikala pamoja?
+	-kuikala pamoja kati ya wanande na wahutu ita wezekana?
+	-wanande na wahutu wata eza ishi pamoja bila shida?
+	-hakuta kuwa shida wanande na wahitu kuikala mapoja?
+	
+intent: mashaka_swa
+	examples
+	-watoto wetu wata pendana ?
+	-mapendo ita kuwa kati ya watoto wetu?
+	-ita wezekana watoto wetu wapendane?
+	-watoto wata pendana ndani ya hii hali?
+	-hali hi ita ruhusu watoto wetu wapendane?
+	
+intent: mashaka_swa
+	examples
+	-sisi wakimbizi wenye tuko [nyiragongo]tuna weza kuwa na enda tembeya [goma]?
+	-wakimbizi ambao wako [nyiragongo] wana ruhusa yaku enda tembeya [goma]?
+	-tuna ruhusa yaku fika katika mji wa [goma]?
+	-[goma] wata itika wakimbizi wakue nafika kule?
+	-tuna weza kuwa na enda tembeya [goma] bila  shida?
+	
+intent: mashaka_swa
+	examples
+	-duniya ita badilikaka siku moya ?
+	-siku moya duniya ita badilikaka ?
+	-duniya siku moya ita badilikaka?
+	-kuko siku duniya ita badilikaka?
+	-duniya ina weza badilikaka siku moya?
+	
+intent: wakati_swa
+	examples
+	-tuta wezaka Rushisha iyi wakati yenye tusha poteza?
+	-iyi wakati yenye tusha poteza tuta wezaka irudisha ?
+	-wakati yenye tusha poteza ita rudiyaka ?
+	-tusha poteza wakati mingi, tuta wezaka irudisha ?
+	-Ina wezekana kurudisha wakati yenye tusha poteza ?
+	
+intent: kifo_swa
+	examples
+	-Hatuta kufa siye bote?
+	-hatuta ishiya muiyi vita?
+	-Iyi vita haita tumaliza ?
+	-siye bita hatuta kufa muiyi vita?
+	-si tuta ishiya muiyi vita?
+	
+intent: mashaka_swa
+	examples
+	- mwisho ya iyi mateso ni nini?
+	- tuta teseka mpaka siku gani ?
+	- iyi mateso mwisho yayo ni nini ?
+	- iyi mateso ita ishiya wapi?
+	- ni nini njo mwisho ya iyi mateso ?
+	
+intent: mashaka_swa
+	examples
+	-tuna weza saidiyana namna gani kati yetu?
+	-ni Namna gani njo tuna weza saidiyana kati yetu?
+	- ni msaada gani tuna weza pana wamoja kwa wengine?
+	- wamoja na wengine tuna weza saidiyana je?
+	- msaada gani tuna weza pana wamoja na wengine?
+	
+intent: ugonvi_swa
+	examples
+	-tuta epuka ugonvi namna gani?
+	-ni namna gani njo tuta epuka ugonvi?
+	-kati yetu ugonvi tuta iepuka namna gani ?
+	-ni vipi njo tuta epuka ugonvi kati yetu?
+	-namna gani kuepuka ugonvi ?
+	
+intent: masambo_swa
+	examples
+	-wa jirani wake kosana wata samba kwa nani?
+	-ikiwa wajirani wana korogana wata enda samba wapi?
+	-wajirani wake korogana wata enda samba wapi?
+	-kwa nani njo wajirani wana weza enda samba kama wana kosana ?
+	-nani njo waku sambisha wajirani wenye wana kosana ?
+
+intent: mashaka_swa
+	examples
+	-tuna onekana kama watu?
+	-tungali na onekana kama watu ?
+	-watu wengine wangali na tu ona kama watu kweli ?
+	-tuna onekana watu kama wengine ?
+	-tungali watu kweli ?
+	
+intent: mali_swa
+	examples
+	-nani ata lipaka mali yetu yenye isha poteya?
+	- mwenye ata tulipaka mami yetu ni nani?
+	- nani njo ata lipaka mali yetu yenye tusha poteza ?
+	- mali yetu yenye tusha poteza nani njo ata ilipaka ?
+	- tuta lipiwaka na nani mali yetu yenye tusha poteza ?
+	
+intent: mashaka_swa
+	examples
+	-wenye wali baki masisi wana ishi je?
+	-benye baki bakiyaka masisi biko na ishi je?
+	-masisi maisha iko je ?
+	- maisha ya wenye wali baki masisi iko je ?
+	-wana ishi je wenye wali bakiya masisi ?
+	
+intent: mashaka_swa
+	examples
+	-ju ya nini ma gombora ziko na anguka mu ma kambi?
+	-mu ma kambi muko na anguka ma gombora kwa nini ?
+	-kwa nini ma gombora Zina anguka mu ma kambi ?
+	-gombora ziko na anguka mu ma kambi kwa nini ?
+	-ni kwa nini gombora zina anguka ndani ya makambi ?
+	
+intent: mashaka_swa
+	examples
+	- apa kuko wa askari waku tosha juya ku tu chunga sisi wote?
+	- askari wenye biko apa wata weza tu chunga?
+	- hawa wa askari wana tosha Akili yaku tulinda ?
+	- askari hawa wata weza tulindiya usalama?
+	- idadi ya hawa wa askari ina tosha kwaku tu lindiya usalama ?
+	
+intent: vita_swa
+	examples
+	- nasiye tuende fanya vita Rwanda ?
+	- tuende nasiye tatiza rwanda ?
+	- tuende piganisha rwanda nasiye ?
+	- tuende nasiye kupiga wanyarwanda ?
+	- tukamate nasiye silaha tuende pigana rwanda ?
+	
+intent: maswali_swa
+	examples
+	-kazi ya [croix rouge]ni nini?
+	- [croix rouge] ina fanya kazi gani?
+	- tuna weza elewa je kazi ya [croix rouge]?
+	- [croix rouge] ina husika na nini?
+	- ni nini njo kazi ya [croix rouge]?
+	
+intent: wakimbizi_swa
+	examples	
+	-mukimbizi ana pashwa kula mara ngapi kwa siku ?
+	-mkimbizi ana stahili kula mara Ngapi kwa siku?
+	-ime semeka kama mkimbizi ana pashwa kula mara ngapi kwa siku ?
+	- ni mara ngapi kwa siku njo mkimbizi ana stahili kula ?
+	- mkimbizi ana haki yaku kula mara Ngapi kwa siku?
+
+intent: wa tutsi_swa
+	examples
+	- Nina weza fanya urafiki na mututsi ?
+	⁃ mutusi ana weza kuwa rafiki wangu?
+	⁃ urafiki na mutusi ina wezekana ?
+	⁃ nina weza kuanzisha urafiki na mutusi ?
+	⁃ urafiki ina wezekana kati ya mutusi na mukongomani ?
+	
+intent: wakimbizi_swa
+	examples
+	- watutsi wote ni watu wabaya ?
+	-watutsi wote ni watu wa roho mbaya?
+	-watutsi wote ni wabaya?
+	- tuna weza sema kama watutsi wote wana roho mbaya?
+	-watutsi wote ni wauwaji?
+	
+intent: undugu_swa
+	examples
+	- Wa nani njo wa ndugu yetu apa?
+	⁃ wandugu wetu ni wanani apa [goma] ?
+	⁃ apa [goma] wanani njo wa ndugu wetu?
+	⁃ nani njo tuna weza ona kama ndugu yetu apa [goma] ?
+	⁃ wanani njo tukamate sawa wandugu apa?
+	
+intent: utulizo_swa
+	examples
+	- tulizo ya iyi matata yote ita fanyikaka ?
+	- iyi matata yote ita wezaka kuwa na kitulizo?
+	- ni tulizo gani yenye ita fanyikaka Kisha iyi mateso yote?
+	- tulizo ita wezaka fanyika baada ya iyi mateso?
+	-tuta wezaka pata  utulizo baada ya hii mateso yote? 
+
+intent: mashaka_swa
+	examples
+	-tuna weza tumaini kama kuta kuwaka [réparation] ?
+	⁃ [réparation] ita fanyikaka baada ya haya yote?
+	⁃ tuna weza chunga [réparation] ya hii mateso yote?
+	⁃ tu chunge [réparation] ya iyi shida yote?
+	⁃ tuamini kama [réparation] ita kuwaka?
+
+intent: mashaka_swa
+	examples
+	- tuna weza ona iyi vita kama [génocide] ?
+	⁃ tuseme Iyi vita kama [génocide]  kwa wakingomani?
+	⁃ iyi yenye tuko na ishi ni [génocide]  ?
+	⁃ iyi vita tuyi fananishe na [génocide] ?
+	⁃ iyi vita ni [génocide] ?
+	
+intent: mashaka_swa
+	examples 
+	-ni wakati gani njo tuna weza sema vita ni [génocide]  ?
+	⁃[génocide]  ni nini?
+	⁃ ni wakati gani njo vita ina itwa [génocide] ?
+	⁃ [génocide]  ni vita ya namna gani ?
+	⁃ vita ya namna gani njo ina itwa [génocide] ?
+		
+intent: mashaka_swa
+	examples
+	- tuna weza kuwa kabila tafauti na tu aminiyane ?
+	⁃ hata kama hatuko kabila moya tuna weza aminiyana ?
+	⁃ tuna weza aminiyana hata hatuko kabila moya ?
+	⁃ watu wenye haiko wa kabila moya sana weza amniniyana ?
+	⁃ uaminifu ita wezekana kati yetu ijapo tuko ma kabila tafauti ?
+
+intent: mashaka_swa
+	examples
+	-mutu waku sema lugha tafauti na miye ana weza ni penda?
+	⁃ naweza pendewa na mutu mwenye haseme lugha yangu?
+	⁃ mutu mwenye haseme lugha moya na moye ana weza ni penda ?
+	⁃ tuna weza pendana inapo hatu seme lugha moya?
+	⁃ mapendo ina wezekana kati ya watu wenye hawa seme lugha moya?
+
+	
+intent: ziwa kivu_swa
+	examples
+	-ziwa kivu iko wapi?
+	-ziwa Kivu ina patikana wapi?
+	⁃ njiya yaku fika kwenye ziwa Kivu ni wapi ?
+	⁃ ziwa Kivu iko ngambo gani?
+	⁃ wapi njo kuko ziwa kivu ?
+		
+intent: muungano_swa
+	examples
+	-tuna weza ungana na hatu juwane ?
+	⁃ hatu juwane, tuta ungana kweli ?
+	⁃ tuta ungana ijapo hatu juwane kati yetu?
+	⁃ tuta ungana je na hatu juwane?
+	⁃ bila kujuwana tuta ungana ?
+	
+intent: watu_swa
+	examples
+	-watu wazuri wangali duniyani?
+	-watu wazuri wana kuwaka tena kuduniya ?
+	-ku iyi duniya kungali watu wazuri?
+	-watu wazuri wangali na kuwaka ku iyi duniya?
+	-iyi duniya ingali na watu wazuri?
+	
+intent: vita_swa
+	examples
+	-juu ya nini iyi vita ina kawiya?
+	-vita ina kawa ju ya nini?
+	-iyi vita ina fanya siku mingi ju ya nini?
+	-ni juu ya nini iyi vita ina kawa?
+	-iyi vita ina kawiya hivi kwa nini?
+	
+intent: amani_swa
+	examples
+	-amani ina kuwaka?
+	-amani ingali na kuwaka?
+	-kuko fasi kwenye kuna kuwaka amani ku duniya?
+	-amani ina kuwaka wapi kuiyi duniya?
+	-amani ina kuwaka ata fasi moya mu [kongo]?
+
+intent: hasira_swa
+	examples
+	-iyi hasira ita ishaka ?
+	-iyi hasira yenye niko na sikiya ita ishaka ?
+	-iyi hasira yenye niko nayo ina weza isha?
+	-ita ishaka iyi hasira?
+	-iyi kisirani ita ishaka?
+	
+intent: mungu_swa
+	examples
+-mungu ata hurumiyaka [rwanda] ?
+-mungu ana weza hurumiya [rwanda]?
+-[rwanda] ina hurumiwaka na mungu ?
+-kweli mungu ana weza hurumiya [rwanda]?
+-mungu ina wezekana ahurumiye [rwanda]?
+
+intent: sheriya_swa
+	examples
+	-na weza lomba sheriya bila hasira?
+	-bila hasira naweza lomba sheriya?
+	-sheriya ina wezekana bila hasira?
+	-naweza lomba sheriya bila kisirani?
+	-bila kisirani naweza lomba sheriya?
+	
+intent: sheriya_swa
+	examples
+	-sheriya ina kuwaka mu [kongo]?
+	-sheriya ina kuwaka wapi mu [kongo]?
+	-tuta pataka sheriya?
+	-sheriya gani yenye ina kuwaka mu [kongo]?
+	-mu [kongo] sheriya ina kuwaka?
+	
+intent: sheriya_swa
+	examples
+	-waziri wa sheriya ni nani?
+	-nani njo waziri wa sheriya?
+	-waziri anaye husika na sheriya njo nani?
+	-sheriya ya [kongo] ina ongozwa na Nani ?
+	-Nani njo ana husika na mambo ya sheriya?
+	
+intent: kibinadamu_swa
+	examples
+	-waziri wa mambo ya kibinadamu ana tu waziya nini?
+	-waziri wa mambo ya kibinadamu ana waza tuna ishi je?
+	-waziri wa mambo ya kibinadamu ana sema nini ju yetu?
+	-waziri wa mambi ya kibinadamu ana waza je ju ya hali yetu?
+	-iyi hali yetu waziri wa mambo ya kibinadamu ana iwaziya je?
+	
+intent: sheriya_swa
+	examples
+-waziri wa [genre, famille et enfant] ni nani?
+-waziri wa [genre, famille et enfant] ana waza nini juu ya hii hali ya watoto wetu?
+-mtazamo wa waziri wa [genre, famille et enfant] ni gani kwa hali yetu?
+-waziri wa [genre, famille te enfant] ana waza tuna ishi je?
+-iyi hali ya watoto wetu, waziri wa [genre, famille te enfant] ana iwaziya nini?
+
+intent: wanyarwanda_swa
+	examples
+	-wanyarwanda wana pata usingizi kweli ?
+	-wanyarwanda wana lalaka kweli?
+	-wanyarwanda wana wezaka lala kweli?
+	-wanyarwanda wana wezaka pata usingizi?
+	-wanyarwanda wana lalaka kweli ?
+
+intent: kutoka_swa
+	examples
+	-tutoke mu [kongo] ?
+	-tuhame tutoke mu [kongo]?
+	-tuende mu inchi zengine?
+	-tutoke mu iyi inchi?
+	-tuende mbali na [kongo] ?
+	
+intent: wanyarwanda_swa
+	examples
+	-[rwanda] ita tu lombaka huruma ?
+	-[rwanda] ita kuyaka lomba huruma?
+	-ita wezekanaka [rwanda] itulombe huruma?
+	-[rwanda] ita wezaka lomba huruma kwa wakongomani?
+	-[rwanda] ita lombaka huruma kuiyi mabaya yote?
+	
+intent: watoto_swa
+	examples
+	-watoto wetu wata pendaka wanyarwanda ?
+	-watoto wetu wata wezaka penda wanyarwanda?
+	-wanyarwanda wata pendewaka na watoto wetu?
+	-watoto wetu wata pendaka wanyarwanda baada ya iyi mateso ?
+	-kulingana na iyi mateso, watoto wetu wata pendaka wanyarwanda ?
+	
+intent: wanyarwanda_swa
+	examples
+	-wanyarwanda wana pendaka watu malize ?
+	-wanyarwanda wana penda watu malize ?
+	-niya ya wanyarwanda niku tu maliza?
+	-wanyarwanda shabaa yao niku tu maliza?
+	-wanyarwanda wana taka watu poteze ?
+	
+intent: watoto_swa
+	examples
+	-namna gani na weza kinga watoto wangu?
+	-watoto wangu ni wa kinge je?
+	-ni kinge je watoto wangu?
+	-watoto ni wa kinge je?
+	-ni je njo nikinge watoto wangu ?
+	
+intent: ndoa_swa
+	examples
+	-ndoa zita kuwa na wezekana?
+	-tuta kuwa na lungisha watoto wetu?
+	-ndani ya kambi kusherehe ndoa ita wezekana?
+	-kusherehe ndoa bita wezekana ndani ya kambi?
+	-watu wata kuwa na lunga ndani ya kambi?
+	
+intent: ndoa_swa
+	examples
+	-nani njo ata kuwa na tu lungisha ?
+	-ni nani njo ata kuwa na lungisha wakimbizi?
+	-wakimbizi wata kuwa na lungisha wa na nani?
+	-kuko mtu waku lungisha wakimbizi ?
+	-nani njo Iko na ruhusa yaku tu lungisha ?
+	
+intent: ndoa_swa
+	examples
+	-tuta kuwa na lungiya wapi ?
+	-tuta kuwa na fanyiya ndoa wapi?
+	-ni wapi njo tukuwe na enda lungiya?
+	-kuko fasi yenye ili tayarishiwa juu ya ndoa za wakimbizi?
+	-ni wapi njo tuta kuwa na enda fanya ndoa sisi wakimbizi?
+	
+intent: ndoa_swa
+	examples
+	-vijana wa uku wana eza owa basika betu?
+	-ba kiyana ya [goma]wana weza penda wa musika wa [rutsuru]?
+	-bakiyana ba[goma] wana eza owa basika baku toka [rutsuru]?
+	-[goma] wanaume wana weza owa wasichana waku toka [rutsuru]?
+	-wasichana waku toka [rutsuru]wana weza pendana na wavijana wa [goma] ?
+	
+intent: maisha_swa
+	examples
+	-uku wana eshimiyaka watu ya kazi?
+	-uku wana eshimiyaka watu waku watumikiya ?
+	-tuke tumikiyana uku wata tueshimiya ?
+	-wata tueshimiya uku tuke anza tumika ?
+	-tuta pata heshima tuke tumikiya watu wauku ?
+		
+intent: maisha_swa
+	examples
+	-hawata kuwa natu ogopa uku?
+	-wata hawata kuwa natu ogopa ?
+	-iyi hali yetu haita kuwa na ogopesha watu?
+	-watu wauku hawata kuwa natu ogopa ?
+	-uku watu hawata kuwa natu ogopa ?
+		
+intent: maisha_swa
+	examples
+	-watu wa uku biko na umutu ?
+	-uku watu biko na umutu ?
+	-watu wana kuwaka na umutu uku ?
+	-umutu una kuwaka ndani ya watu wauku ?
+	-watu wauku wana juwa umutu ?
+		
+intent: maisha_swa
+	examples
+	-ni nafasi gani njo hatuezi enda bila ruhusa ?
+	-wapi njo hatuezi enda bila ruhusa?
+	-ni wapi njo hatuezi fika bila ruhusa?
+	-ni wapi njo hatuezi enda bila ruhusa ya bakubwa ?
+	-ngambo gani njo hatuezi fika bila ruhusa ?
+		
+intent: mazuku_swa
+	examples
+	-tuta kuwa namna gani fasi kwenye kuko mazuku apa lac vert?
+	-tuta ishi je pembeni ya mazuku?
+	-apa mu mazuku tuta ishi je?
+	-apa mu lac vert kuna yala mazuku, tuta ishi je?
+	-apa fasi ya mazuku tuishi ako namna gani?
+	
+intent: mazuku_swa
+	examples
+	-mazuku ni nini ?
+	-mazuku ina fananishwa na nini?
+	-mazuku ni kitu gani?
+	-mazuku njo kitu gani ?
+	-mazuku tuna weza ifananisha na nini?
+	
+intent: mazuku_swa
+	examples
+	-mazuku ina uwa?
+	-mazuku ina uwaka watu?
+	-watu wana weza kufa na mazuku?
+	-mutu ana weza kufa na mazuku?
+	-mazuku ina weza maliza maisha ya mtu?
+	
+intent: mazuku_swa
+	examples
+	-tufanye je ju tusi kufe na mazuku ?
+	-tuji kinge Namna gani na mazuku?
+	-tuna weza fanya je ju tuji kinge na mazuku?
+	-ni ukingo gani njo ina tu faa ju ya mazuku?
+	-tuna weza ji kinga je na mazuku?
+	
+intent: kambi_swa
+	examples
+	-kwa nini wali tu tiya kambi ya bulengo mbali na watu?
+	-juu ya nini tuko mbali na watu uku bulengo?
+	-bana tupeleka mbali na watu juu ya nini?
+	-tuko mbali na watu juu ya nini?
+	-tuko bulengo mbali na bengine juu ya nini?
+	
+intent: kambi_swa
+	examples
+	-kwa nini wali tiya kambi fasi ya mazuku?
+	-juu ya nini kambi yetu iko fasi ya mazuku?
+	-apa kwenye tuko kuko mazuku juu ya nini?
+	-bali tiya kambi katika mazuku juu ya nini?
+	-kambi yetu iko kati kati ya mazuku juu ya nini?
+	
+intent: mazuku_swa
+	examples
+	-mtu ake kamatwa na mazuku tunaeza muokowa je?
+	-tuna weza okowa je mutu mwenye ame kamatwa na mazuku?
+	-mutu mwenye ana kamatwa na mazuku ana weza okolewa je?
+	-mtu waku kamatwa na mazuku tuna weza muokowa namna gani?
+	-tuke ona mutu ana kamatwa na mazuku kumuokowa inaweza fanyika je?
+	
+intent: mazuku_swa
+	examples
+	-mazuku ita ishaka?
+	-mazuku ina weza isha?
+	-tuna weza tumaini kama mazuku ita ishaka?
+	-apa kwenye tuko mazuku ita ishaka?
+	-mazuku ita weza isha ?
+
+intent: mazuku_swa
+	examples
+	-mazuku nayo ni moja kati ya mali za [kongo] ?
+	-mazuku nayo ina weza hesabika kati ya mali za [kongo]?
+	-katika mali za [kongo] tuna weza hesabiya mazuku?
+	-mazuku ina weza kamatiwa kama mali ya [kongo]?
+	-mazuku ni mali?
+	
+intent:amani_swa
+	examples
+	-wapi njo kuna kuwaka Amani mu [kongo]?
+	-kuko fasi kwenye Amani ina kuwaka mu [kongo]?
+	-mu [kongo] wapi njo Amani ina kuwaka ?
+	-amani ina kuwaka ata fasi moya mu [kongo]?
+	-[kongo] iko na fasi kwenye kuna kuwaka amani?
+	
+intent: wakongomani_swa
+	examples
+	-wakongomani wana pendana?
+	-wakongomani wana pendaka wenzao?
+	-kuko mapendo kati ya wakongomani?
+	-wakongomani wana pendaka wakongomani wenzao?
+	-kuna mapendo kati ya wakongomani ?
+	
+intent: duniya_swa
+	examples
+	-duniya ina fika mwisho?
+	-duniya inaataka isha?
+	-tuko mwisho wa duniya?
+	-duniya iko na fika mwisho?
+	-ni mwisho wa duniya
+	-tuna fika mwisho ya duniya?
+	
+intent: vijana_swa
+	examples
+	-wa binti wa [goma] wata penda wa vijana wa [masisi]?
+	-wasichana [goma] wata penda vijana waku ona [masisi]?
+	-vijana waku toka [masisi] wana weza pendewa na wasika wa [goma]?
+	-wasika wa [goma] wata itika ku olewa na vijana wa [masisi]?
+	-ijapo hali ya wa vijana wetu, wana weza pendewa na wa binti wa [goma]?
+	
+intent: vijana_swa
+	examples
+	-wa binti wa [goma] wata itika wa vijana wa [ructhuru] ?
+	-[goma] wasichana wana eza itika kuolewa na vijana wa [ructhuru]?
+	-ikiwa kijana ana toka [ructhuru] ana weaza owa musika wa [goma]?
+	-wasika wa [goma] wata itika ku olewa na vijana wa [ructhuru]?
+	-ijapo hali ya wa vijana wetu wa [ructhuru], wana weza pendewa na wa binti wa [goma]?
+
+intent: kanisa_swa
+	examples
+	-kanisa ita tu saidiya je?
+	-tuna weza chunga msaada gani toka kwa kanisa?
+	-kanisa ita tupatiya msaada gani?
+	-tuna weza ngoja nini kutoka kwa kanisa?
+	-msaada ya kanisa ita kuwa nini?
+	
+intent: vijana_swa
+	examples
+	-vijana wa [goma] wata pokeya je vijana wenzao wa [masisi]?
+	-vijana wa [goma] wata karibisha wenzao namna gani?
+	-vijana wakimbizi wana weza chunga msaada ya namna gani kwa wenzao wa [goma]?
+	-vijana wa [goma] wale ji taidi je kupokeya wenzao?
+	-vijana wakimbizi wata pokelewa je na wenzao wa [goma]?
+	
+intent: vijana_swa
+	examples
+	-kazi ya vijana ita kuwa nini mu kambi?
+	-vijana wata kuwa na fanya nini mu kambi
+	-mu kambi kazi ya vijana ita kuwa nini?
+	-vijana kazi yao ita kuwa nini ndani ya kambi?
+	-ndani ya kambi vijana wata kuwa na kazi gani?
+	
+intent: wababa_swa
+	examples
+	-kazi ya wa baba ni nini ndani ya kambi?
+	-wababa wata kuwa na fanya nini mu kambi
+	-mu kambi kazi ya wababa ita kuwa nini?
+	-wababa kazi yao ita kuwa nini ndani ya kambi?
+	-ndani ya kambi wababa wata kuwa na kazi gani?
+	
+intent: radios_swa
+	examples
+	-ma radios za [goma] Zita tu teteya ?
+	-radios za [goma] Zita kuwa nasi katika mda huu ?
+	-shida zetu Zita kuwa na pita ku radios za [goma]?
+	-ma radios za [goma] Zita kuwa na pitisha malalamiko yetu?
+	-tuta kuwa na sikiya shida zetu kwenye ma radios za [goma]?
+	
+intent: makabila_swa
+	examples
+	-[goma] kuko ubaguzi ya makabila?
+	-[goma] nayo ina watu wa ubaguzi?
+	-ubaguzi ya makabila ina kuwaka [goma]?
+	-katika mji wa [goma]kuna wale ambao wana baguwana juu ya ukabila?
+	-makabila za [goma] zina baguwanaka ?
+	
+intent: makabila_swa
+	examples
+	-kabila gani njo ina watu wengi [goma] ?
+	-[goma] ni kabila gani njo Iko na watu wengi?
+	-ni kabila gani njo ina kuwa na watu wengi pa [goma]?
+	-watu wengi wa [goma]wana kuwa katika Kabila gani?
+	-mjini [goma]ni Kabila gani njo ina kuwa na watu wengi?
+	1. [goma] watu wote wana maisha mazuri ?
+
+
+intent: maisha_swa
+	examples
+	-watu wote wa [goma] wana ishi vizuri?
+	-wakaaji wa [goma] wote ni watajiri ?
+	-[goma] watu wote wana ji weza?
+	-wakaaji wote wa [goma] wame weza maisha?
+	-[goma]  watu wote wana ji weza?
+	
+intent: uchumi_swa
+	examples
+	-[goma]  uchumi ina simama?
+	-uchumi ni nzuri pa goma?
+	-pa [goma]  hali ya uchumi iko sawa?
+	-[goma]  ime ji panga vizuri ki uchumi?
+	-uchumi ya [goma]  ina simama ?
+
+intent: vijana_swa
+	examples
+	-vijana wa [goma] wana changiya je kwa amani ?
+	-ni mchango gani njo vijana wa [goma] wata leta kwaku jenga amani?
+	-ili ku jenga amani, vijana wa [goma] wata changiya je?
+	-vijana wa [goma] wana tarajiya kuleta mchango gani kwa amani?
+	-ili amani irudi, vijana wa [goma] wata changiya je?
+
+intent: usalama_swa
+	examples
+	-hali ya usalama iko je mjini [goma] ?
+	-hali ya usalama ni je pa [goma]?
+	-mjini [goma] hali ya usalama iko je?
+	-vipi kuhusu usalama pa [goma]?
+	-[goma] hali y’a usalama ina endeleya je?
+	
+intent: haki_swa
+	examples
+	-viongozi wa [goma] wana juwa haki zetu ?
+	-[goma] Viongozi wana juwa haki za wakimbizi ?
+	-Viongozi wa mji wa [goma] wale elewa haki za wakimbizi ?
+	-haki za wakimbizi zime julikana na viongozi wa [goma]?
+	-haki za wakimbizi zina eleweka na viongozi mjini [goma]?
+	
+intent: shamba_swa
+	examples
+	-[goma] hakuna shamba, tuta pa ishi je?
+	-tuta ishi je ndani ya mji yenye haina shamba?
+	-ikiwa hakuna shamba [goma], wakimbizi wata ishi je huko ?
+	-walimaji wa fanye nini [goma] kwenye hakuna shamba?
+	-fasi ambapo hakuna shamba tuta paishi je ?
+	
+intent: ukarimu_swa
+	examples
+	-watu wa [goma] ni wakarimu ?
+	-watu wa [goma] wanajuwa pana?
+	-[goma] watu ni wa karimu ?
+	-wakaaji wa [goma] wana kuwa wakarimu?
+	-ukarimu ina kuwa kwa watu wa [goma]?
+	
+intent: wakristu_swa
+	examples
+-wa Kristu wa [goma] wata saidiya wa kristu wenzao wakimbizi ?
+-wakristu wa [goma] wame andaa msaada juu yetu?
+-tuta pata msaada kutoka kwa wa kristu wa [goma] ?
+-tuna weza chunga msaada kutoka kwa wakristu wenzetu wa [goma]?
+-[goma] wakristu wata saidiya wenzao wakristu wakimbizi?
+
+intent: waislamu_swa
+	examples
+-wa islamu wa [goma] wali andaa gisi wata saidiya waislamu wakimbizi ?
+-wa islamu  wa [goma] wame andaa msaada juu yetu?
+-tuta pata msaada kutoka kwa wa islamu  wa [goma] ?
+-tuna weza chunga msaada kutoka kwa wa islamu  wenzetu wa [goma]?
+-[goma] wa islamu  wata saidiya wenzao wakristu wakimbizi?
+
+intent: vita_swa
+	examples
+
+	-iiyi vita ita ishaka je?
+	-namna gani njo iyi vita ita ishaka?
+	-mwisho ya iyi vita ita kuwaka je?
+	-iyi vita ita ishaka namna gani?
+	-ni je njo iyi vita ita ishaka
+	
+intent: vita_swa
+	examples
+	-iongozi biko naona iyi mauwaji yote?
+	-viongozi wana onaka iyi mauwaji yote?
+	-iyi mauwaji yote viongozi biko naiona ?
+	-Viongozi wana onaka iyi mauwaji ?
+	-viongozi biko na ona gisi tuna kufa kiolela?
+
+intent: vita_swa
+	examples
+	-[kongo]  na [rwanda] Nani njo ali anzaka chokoza mwengine ?
+	-kati ya [kongo] na [rwanda] buchokozi ili anziyaka wapi?
+	-buchokozi ili anziyaka kwa nani kati ya [kongo] na [rwanda] ?
+	-[kongo] na [rwanda] nani njo ali anzaka buchokozi?
+	-Nani njo ali anzaka chokoza mwengine kati ya [kongo] na [rwanda]?
+	
+intent: vita_swa
+	examples
+	-ju ya nini haki za binadamu hazi eshimike?
+	-haki za binadamu hazi eshimike sababu gani?
+	-kwa nini haki za binadamu hazi eshimike?
+	-ni sababu gani haki za binadamu hazi eshimike ?
+	-hakuna waku heshimu haki za binadamu kwa nini?
+	
+intent: chakula_swa
+	examples
+	-iyi chakula ya [pam] haita tu gonjwesha ?
+	-chakula yenye tuko na pata ku [pam] haita tu gonjwesha?
+	-hatuta gonjwa tuke kula Iyi chakula ya [pam]?
+	-chakula ya [pam]haita tupatiya magonjwa ?
+	-iyi chakula ya [pam] haita leta magonjwa kati yetu?
+	
+intent: kuni_swa
+	examples
+	-tuta kuwa na tosha kuni wapi?
+	-tuta tosha ma kuni wapi?
+	-makuni tuzi toshe wapi ?
+	-ni wapi njo tuta kuwa na tosha kuni ?
+	-tukuwe na twala kuni nafasi gani?
+	
+intent: kuni_swa
+	examples
+	-[goma] kuna kuwaka makuni ?
+	-[goma] tuta pata kuni?
+	-kuna patikana makuni [goma]?
+	-tuna weza pata kuni [goma]?
+	-[goma] tuna weza pata ako kuni?
+	
+intent: makala_swa
+	examples
+	-mufuko ya makala ni ngapi [goma]?
+	-mufuko ya makali ni ngapi [goma]?
+	-[goma] mufuko ya makala ni makuta ngapi?
+	-makala ni ngapi [goma]?
+	-mufuko ya makala iko na uziwa ngapi [goma]?
+	
+intent: makala_swa
+	examples
+	-[nyiragongo] mufuko ya makala ni ngapi?
+	-mufuko ya makala ni ngapi [nyiragongo]?
+	-mufuko ya makali ni ngapi [nyiragongo]?
+	-[nyiragongo] mufuko ya makala ni makuta ngapi?
+	-makala ni ngapi [nyiragongo]?
+	-mufuko ya makala iko na uziwa ngapi [goma]?
+	
+intent: makala_swa
+	examples
+	-[mercycorps] ita leta mayi siku gani ?
+	-mayi ya [mercycorps] ita fika siku gani?
+	-siku gani njo [mercycorps] ita tuleteya mayi?
+	-[mercycorps] ina panga kuleta mayi uku siku gani?
+	-ni wakati gani Njo [mercycorps] ita leteya wakimbizi maji?
+
+intent: maisha_swa
+	examples
+	-tuta anza ishi mu kambi vizuri siku gani ?
+	-siku gani njo tuta anza ishi vizuri ndani ya kambi?
+	-maisha yamu kambi ita kuwa vizuri siku gani?
+	-ndani ya kambi maisha ya wakimbizi ita kuwa vizuri siku gani?
+	-Maisha ya wakimbizi ndani ya kambi ita kuwa muzuri siku gani?
+	
+intent: maisha_swa
+	examples
+	-nianziliye maisha tena ku mwanzo ?
+	-nianze maisha tena?
+	-nianziliye maisha kama vile siya kuwaka na kitu?
+	-ni rudi nyuma?
+	-nianziliye Maisha upya ?
+	
+intent: maisha_swa
+	examples
+	-watoto wangu wana niona je katika iyi umaskini ?
+	-nina pana Sura gani kwa watoto wangu ndani ya hii umaskini ?
+	-watoto wana niona je katika hii hali?
+	-muiyi hali ya umaskini watoto wana niona je ?
+	-namna gani watoto wangu wana niona ha pa katika umaskini ?
+	
+intent: maisha_swa
+	examples
+	-watoto wangu hawata ni chukiya juu ya umaskini huu?
+	-watoto hawata niona vibaya sababu ya umaskini?
+	-iyi umaskini haita zalisha chuki katika watoto wangu ?
+	-watoto wangu hawata anza ni chukiya sababu ya umaskini?
+	-chuki haita zalika ndani ya watoto kulingana na iyi umaskini?
+	
+intent: maisha_swa
+	examples
+	-watoto wata endeleya kuni sikiya katika umaskini ?
+	-watoto wata ni sikiya tena ijapo niko maskini?
+	-watoto wetu wata tu sikiya katika hii hali ya umaskini?
+	-tuta pata tena heshima ya watoto ndani ya hii umaskini?
+	-katika hii umaskini watoto wata tu heshimu?
+	
+intent: maisha_swa
+	examples
+-juu ya nini maisha ya [goma] iko nguvu ?
+-juu ya nini [goma] maisha Iko nguvu ?
+-[goma][goma] maisha Iko ngufu sababu gani?
+-maisha ya [goma] Iko nguvu juu ya nini?
+-ni sababu gani njo [goma] maisha Iko nguvu hivyo ?
+
+intent: maisha_swa
+	examples
+	-tuta weza maisha ya [goma] bila makazi ?
+	-bila makazi tuta weza ishi maisha ya [goma]?
+	-tuta weza je maisha [goma] bila makazi?
+	-maisha ya [goma] tuta iweza namna gani bila makazi?
+	-bila kazi iyi maisha ya [goma] tuta iweza?
+	
+intent: maisha_swa
+	examples
+	-wa ume wetu hawata geuka wa mwizi?
+	-wa bwana wetu hawata kuwa wa mwizi huu ya umaskini?
+	-waume wetu iyi hali haita wafanya wa mwizi?
+	-iyi hali haita geuza waume wetu kuwa wa mwizi?
+	-juu ya hali ya umaskini waume wetu hawata geuka wa mwizi?
+	
+intent: maisha_swa
+	examples
+	-juu ya nini wana katala tuchome wa mwizi ?
+	-juu ya nini hatuezi choma mwizi?
+	-tuke kamata mwizi juu ya nini tusi mu chome moto?
+	-wana katala tuchome wa mwizi sababu gani?
+	-ni sababu gani njo bana katalaka tuchome wa mwizi?
+	
+intent: maisha_swa
+	examples	
+	-tuke choma mwizi shida ni nini?
+	-nini ita tokeya tuke choma mwizi?
+	-mazara ni nini ikiwa tuna choma mwizi ?
+	-shida ni nini ikiwa tuna choma mwizi?
+	-kama tuna choma mwizi nini ita tokeya?
+	
+intent: wizi_swa
+	examples
+	-wa mwizi wata isha je ndani ya kambi?
+	-ivi Namna gani wa mwizi wata ishaka ndani ya kambi?
+	-mu kambi wa mwizi wata ishaka je?
+	-wa mwizi wata malizikaka je ndani ya kambi?
+	-ndani ya kambi wa mwizi wata ishaka je?
+	
+intent: usalama_swa
+	examples
+	-bunduki Zina fikaka je mu kambi ?
+	-namna gani bunduki zina fikaka mu kambi?
+	-ina kuwa je bunduki zi fike ndani ya kambi?
+	-bunduki zina fikaka namna gani katika kambi?
+	-katika kambi bunduki zina fikaka amo namna gani?
+	
+intent: usalama_swa
+	examples
+	-nani njo ana patiyaka wakimbizi ma bunduki ?
+	-nani njo ana panaka ma bunduki ku wakimbizi?
+	-wakimbizi wana toshaka ma bunduki wapi?
+	-ni mtu gani njo ana patiyaka wakimbizi bunduki?
+	-bunduki zina fikaka je katika mikono ya wakimbizi?
+	
+intent: muchoko_swa
+	examples
+	-kuna dawa yaku maliza muchoko ?
+	-nini ita weza tu saidiya ku maliza muchoko?
+	-iyi muchoko ina weza isha je?
+	-ni dawa gani njo ita weza saidiya ku muchoko?
+	-kuna matibabu Fulani juu yaku maliza muchoko?
+	
+intent: matunzo_swa
+	examples
+	-kwa nini wakimbizi wana tunziwa tu nafasi moja?
+	-juu ya nini wakimbizi wote wana tunziwa tu fasi moja?
+	-sababu gani wakimbizi wote ina imba watunziwe fasi moja?
+	-wakimbizi wote wana tunziwa wote fasi moja tu kwa nini?
+	-kwa nini wakimbizi wote wana tunziwa nafasi moya ?
+	
+intent: watoto_swa
+	examples
+	-watoto wake shindwa masomo suluhisho ina kuwa nini ?
+	-tuta fanya je watoto kama wana shindwa masomo?
+	-suluhisho ita kuwa nini watoto masomo ike wa shinda?
+	-masomo Ike shinda watoto suluhisho ita kuwa nini?
+	-ikiwa watoto wana shindwa elewa elimu suluhisho ni nini?
+	
+intent: duniya_swa
+	examples
+	-duniya ita badilikaka siku moja ?
+	-siku moja kuta kuwaka mabadiliko?
+	-duniya ina eza badilika siku moya?
+	-siku moja duniya ina weza badilika kuwa vizuri?
+	-tuna weza tumaini kama duniya ita badilikaka?
+	
+intent: mapendo_swa
+	examples
+	-watu wata pendanaka siku moja?
+	-watu wata pendanaka kama zamani?
+	-mapendo ita rudiyaka kati ya watu?
+	-kuta kuwaka tena mapendo kati ya watu siku moja?
+	-siku moja watu wata pendanaka tena?
+	
+intent: nyimbo_swa
+	examples
+	-tuko na ruhusa yaku imba nyimbo za kwetu [masisi]?
+	-nyimbo zetu zita itikiwa uku?
+	-tuna weza imba uku [goma] nyimbo za [masisi] ?
+	-wakati wa sherehe tuna weza imba nyimbo za kwetu [masisi]?
+	-nyimbo za[masisi] Tuko na ruhusa yaku zi imba [goma]?
+	
+intent: michezo_swa
+	examples
+	-tuna weza kuwa na cheza michezo ya kwetu [ructhuru]bila shida ?
+	-michezo za [ructhuru] Zita itikiwa [goma]?
+	-[goma] tuta kuwa na ruhusa yaku cheza michezo ya [ructhuru]?
+	-kama tuna sherehe tuna weza cheza micheeo yaku zi kwetu [ructhuru]?
+	-tuta itikiwa kucheza michezo za [ructhuru] pa [goma]?
+	
+intent: wafu_swa
+	examples
+	-watu wenye wali kufa tuta kuwa na wa toleya heshima wapi?
+	-tuta kuwa na enda toleya heshima wapi kwa wale wenye wali tuacha?
+	-wale wenye wali tuacha ndani ya hii vita tuta kuwa na wa toleya heshima wapi?
+	-ni wapi njo tuta kuwa na toleya heshima kwa wenzetu wenye wali tuacha ndani ya?
+	-wenye wali tuacha tuta kuwa na wa toleya heshima wapi?
+	
+intent: wafu_swa
+	examples
+	-tuna weza jenga nafasi ya ukumbusho juu wenzetu wenye wali fariki ?
+	-tuna weza ji jengeya nafasi yaku kumbuka watu wetu?
+	-tuna weza jenga hema ambayo ita kuwa nafasi yaku kumbuka wenzetu?
+	-wenzetu wenye wali tuacha tuna weza wajengeya nafasi ya kuwa kumbuka?
+	-juu ya kumbu kumbu ya wafu wetu tuna weza jenga hema apa?
+	
+intent: wafu_swa
+	examples
+	-wenye wali fariki tuwasahau bila kulipiza kisasi ?
+	-tuta wezaka sahau bila kulipiza kisasi?
+	-tuta wezaka liya wenzetu bila kulipiza kisasi?
+	-ina wezekana kusahau bila kulipiza kisasi?
+	-tuta sahawaka wafu wetu kama hatu lipize kisasi?
+	
+intent: kisasi_swa
+	examples
+	-tuna weza lipiza kisasi je?
+	-ni namna gani njo tuna weza lipiza kisasi?
+	-tuta lipiza kisasi namna gani?
+	-kisasi tuna weza ilipiza je ?
+	-ni je njo tuna weza lipiza kisasi?
+		
+intent: kisasi_swa
+	examples
+	-kulipiza kisasi ina weza poleza myoyo za watoto wetu?
+	-watoto wetu wana weza tulizana tuki lipiza kisasi?
+	-kulipiza kisasi ina weza ponyesha kisirani ya watoto wetu?
+	-kisasi ina weza tuliza myoyo zetu ba za watoto wetu?
+	-juu yaku poleza myoyo za watoto wetu si ni vizuri kulipiza kisasi?
+	
+intent: kisasi_swa
+	examples
+	-watoto wetu hawata komala na chuki ?
+	-watoto wetu hawata anza chukiya wanyarwanda?
+	-chuki haita zalika katika watoto wetu?
+	-watoto hawata kuwa na Akili za maiwaji?
+	-chuki haita ji panda katika myoyo za watoto wetu?
+		
+intent: manunguniko_swa
+	examples
+	-nifanye je wakati nina sikiya nina taka ji uwa?
+	-nike sikiya nina taka ji uwa misa ye je?
+	-nikuwe na fanya nini ju nisi waze byaku ji uwa ?
+	-mawazo yaku ji uwa ike nikuiya nifanye je ?
+	-mawazo yaku taka kuji maliziya maisha ike fika, niji kamate je?
+	
+intent: manunguniko_swa
+	examples
+	-kuji uwa haiwezi tuliza iyi maumivu yenye niko nayo mu roho?
+	-ju yaku ji tuliza, nike jiuwa haezi kuwa sawa?
+	-haiezi kuwa sawa nike ji uwa ju nipunguze maumivu ya moyo?
+	-maumivu ya moyo siezi tu imaliza nike ji maliziya maisha?
+	-kuji maliziya maisha haiezi kuwa suluhisho kwa maumivu ya moyo ?
+	
+intent: manunguniko_swa
+	examples
+	-mungu hapendake wakongomani ?
+	-mungu ashaka chukiya wakongomani?
+	-wakongomani hawa pendewake na mungu ?
+	-mungu haiko wa bakongomani ?
+	-tuna chukiliwa na mungu sisi wakongomani?
+	
+intent: chakula_swa
+	examples
+	-kwa nini tupiganiye chakula ?
+	-tuna piganiya chakula sababu gani?
+	-juu ya nini tuna piganiyaka chakula?
+	-kupiganiy ma chakula kwa nini tuna fanya hivyo ?
+	-ni sababu gani njo watu wana piganiya chakula?
+	
+intent: njala_swa
+	examples
+	-njala haiwezi fanya watu majambazi ?
+	-njala haiwezi tuma tuna geuka mabandiya?
+	-njala haiwezi tufanya wa mwizi?
+	-juu ya njala hatuezi uwana ?
+	-hatuezi gauka wajambazi huu ya njala?
+	
+intent: maisha_swa
+	examples
+	-maisha ike tushinda, tufanye je ?
+	-ikiwa Maisha ina tushinda tuna fanya nini ?
+	-tuke shindwa maisha tufanya Namna gani?
+	-tufanye nini kama maisha ina tushinda?
+	-tufanye je kama maisha ina kuwa nguvu?
+	
+intent: watoto_swa
+	examples
+	-watoto wake shindikana tuta liliya nani ?
+	-tumliliye nani kama watoto wana tushinda ?
+	-kama watoto wana tushinda tuliliye wapi?
+	-tuna weza liliya nani ikiwa watoto wana tushinda ?
+	-watoto wake shindikana tuta liliya nani ?
+	
+intent: maisha_swa
+	examples
+	-waume wetu wake geuka wabandiya tuta fanya je ?
+	-ikiwa waume wetu wata geuka wabandiya tubi pokeye je?
+	-tuji kamate namna gani kama waume wetu wana kuwa mabandiya?
+	-tufanye namna gani kama waume wetu wana kuwa wabandiya ?
+	-kama waume wetu wana geuka wabandiya tufanye nini?
+	
+intent: sheria_swa
+	examples
+	-[cpi] iko na ona haya yote ?
+	-[cpi] ina ona iyi mambo yote?
+	-[cpi] iko na fatiliya haya yote?
+	-[cpi] ina tiya licho yake kwa kongo?
+	-iyi maneno yote ina onekana kwa macho ya[cpi]?
+		
+intent: sheria_swa
+	examples
+	-[cpi] ina weza tusaisiya je ?
+	-ni msaada gani tuna pata kwa [cpi]?
+	-[cpi] ina weza tu leteya msaada gani?
+	-msaada ya namna gani njo tuna weza pata kutoka kwa [cpi]?
+	-[cpi] ina panaka msaada ya namna gani ?
+		
+intent: vita_swa
+	examples
+1.[m23]njo kusema nini?
+-[m23] ina mahanisha nini?
+-maana ya [m23] ni nini?
+-tuna eza elewa [m23] namna gani?
+-[m23]ni nini?
+
+
+
+
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+
+  - intent: greet_swa
+    examples: |
+      - jambo
+      - jambo, unaendelea je
+      - ni dje
+      - ni je
+      - sasa
+      - unaendeleaje
+      - habari ya asubuhi
+      - habari za jioni
+      - habari kani?
+      - habari ya mashiku?
+
+  - intent: greet_fr
+    examples: |
+      - bonjour
+      - bon après-midi
+      - bonsoir
+      - salut, comment
+      - c'est comment?
+      - comment ça va?
+      - ça va?
+      - comment allez-vous?
+      - comment te portes-tu?
+
+  - intent: goodbye_swa
+    examples: |
+      - twonane
+      - kuwa na siku njema
+      - siku njema
+      - kwaheri
+      - kwaheri twonane baadaye
+      - twonane baadaye
+
+  - intent: goodbye_fr
+    examples: |
+      - aurevoir
+      - A la prochaine
+      - au plaisir
+      - au plaisir de nous revoir
+
+  - intent: affirm_swa
+    examples: |
+      - ndio
+      - kweli
+      - bila shaka
+      - hiyo inasikika vizuri
+      - sahihi
+
+  - intent: affirm_fr
+    examples: |
+      - oui
+      - d'accord
+      - sans problème
+      - bien compris
+      - bien noté
+      - bien entendu
+      - entendu
+      - compris
+
+  - intent: deny_swa
+    examples: |
+      - hapana
+      - nimekataa
+      - sitaki
+      - si kweli
+
+  - intent: deny_fr
+    examples: |
+      - non
+      - je refuse
+      - pas intéressé
+      - non, merci
+
+  - intent: mood_great_swa
+    examples: |
+      - poa
+      - niko poa
+      - fiti
+      - najiskia fiti
+      - nina furaha
+
+  - intent: mood_great_fr
+    examples: |
+      - bien
+      - je vais bien
+      - je me porte bien
+      - content
+      - je me porte a merveille
+
+  - intent: mood_unhappy_swa
+    examples: |
+      - nina huzuni
+      - nina huzuni sana
+      - siku yangu ilikuwa mbaya
+      - sijihisi vizuri
+      - huzuni tupu
+      - huzuni nyingi
+      - si nzuri sana
+      - inasikitisha sana
+      - niko na masikitisho
+
+  - intent: mood_unhappy_fr
+    examples: |
+      - j'ai des soucis
+      - je suis triste
+      - j'ai eu une mauvaise journée
+      - je ne me sens pas bien
+      - trop de soucis
+      - pas très bien
+      - je ne me sens pas dans ma peau
+
+  - intent: bot_challenge_swa
+    examples: |
+      - wewe ni roboti?
+      - wewe ni binadamu?
+      - ninazungumza na roboti?
+      - ninaongea na roboti?
+      - ninaongea na mwanadamu?
+      - wewe ni mwanadamu?
+
+  - intent: bot_challenge_fr
+    examples: |
+      - êtes-vous un robot?
+      - êtes-vous un humain?
+      - suis-je en train de parler à un robot?
+      - je parle à un humain?
+      - est-ce un humain?
+
+  - intent: who_are_you_swa
+    examples: |
+      - wewe ni nani?
+      - unaitwaje?
+      - waitwaje?
+      - jina lako ni nani?
+      - nikuiteje?
+      - unaitwaje?
+      - hii ni nini?
+
+  - intent: who_are_you_fr
+    examples: |
+      - qui êtes-vous?
+      - comment vous appelez-vous?
+      - quel est votre nom?
+      - comment dois-je vous appeler?
+      - vous vous appelez?
+      - comment êtes-vous appelé?
+
+  - intent: land_acquistion_swa
+    examples: |
+      - ni nini upatikanaji wa bulongo nchi ya Congo?
+      - upatikanaji wa bulongo nchi ya Congo
+      - bulongo nchi ya Congo
+      - ni nini upatikanaji wa ardhi nchini DRC?
+      - ni nini kupata parcel mu congo
+      - ni nini kupata parcel mu Kinshasa
+      - ni nini kupata mpango mu katanga
+      - kupata mpango mu congo
+      - kupata mpango mu katanga
+      - kupata parcel mu congo
+      - ku uza mpango mu congo ni nini?
+      - ku uza mpango
+      - ni nini ku uza mpango mu congo?
+      - ni nini ku uza parcel mu inchi yetu ya congo?
+      - uuzaji wa mpango mu congo
+      - kupata kwa mpango ni nini?
+      - bana pataka dje ma mpango mu congo?
+      - beko na uzisha dje ma mpango?
+      - ni teketeke kupata mpango mu congo?
+      - kupata fashi mu congo
+      - kupata terrain mu payee yetu ya congo
+
+  - intent: land_acquistion_fr
+    examples: |
+      - c'est quoi l'acquisition de terres au Congo?
+      - Qu'est-ce que c'est que de trouver une parcelle au Congo ?
+      - qu'est-ce que l'acquisition foncière en RDC?
+      - Qu'en est-il de trouver une parcelle au Katanga?
+      - trouver une parcelle au Congo
+      - trouver une parcelle au Katanga
+      - acheter une parcelle au Congo c'est quoi?
+      - acheter une parcelle
+      - c'est quoi acheter une parcelle au congo?
+      - c'est quoi acheter une parcelle dans notre pays le congo?
+      - achat de parcelle au congo?
+      - C'est quoi acquérir une parcelle au congo?
+      - C'est quoi acquérir une parcelle dans notre pays le congo?
+      - acquérir une parcelle c'est quoi?
+      - On acquiert comment une parcelle au congo?
+      - L'on vend comment les parcelles au congo?
+      - C'est facile de trouver une parcelle au congo?
+      - trouver une place au congo
+      - trouver un terrain dans notre pays le congo
+
+  - intent: land_law_swa
+    examples: |
+      - ni nini sheria ya bulongo?
+      - sheria ya bulongo
+      - sheria za ardhi ni zipi?
+      - explique sheria ya bulongo?
+      - kueleza sheria za ardhi
+      - ni ni loi ina concerne ma mpango?
+      - loi ya ma mpango ni yadje?
+      - loi ya ma mpango mu congo
+      - loi ya ma mpango
+      - loi ya kupata mpango
+      - ma sheria ya ma mpango
+      - loi ya ma mpango ni nini?
+      - loi ya ma mpango iko wapi?
+      - unipe sheria ya ma mpango
+      - unipe loi ya ma parcel
+      - sheria na mpango
+      - sheria ya ma mpango
+      - loi ya ma parcel
+
+  - intent: land_law_fr
+    examples: |
+      - quelle est la loi foncière?
+      - quelles sont les lois du pays
+      - explique la loi foncière
+      - explique les lois du pays
+      - loi foncière
+      - c'est quoi la loi concernant les parcelles?
+      - les lois des parcelles sont lesquelles?
+      - lois de parcelles au congo
+      - lois de parcelles  
+      - lois d'obtention de parcelle
+      - les lois des parcelles  
+      - lois des parcelles c'est quoi?
+
+  - intent: land_law_principles_swa
+    examples: |
+      - ni ma kanuni kani ya msingi kuhusu sheria ya bulongo nchi ya Congo?
+      - kanuni kani ya msingi kuhusu sheria ya bulongo nchi ya Congo
+      - ma principe ya mpango mu lualaba
+      - ma principe ya ma mpango
+      - ma prencipe ya inchi
+      - ma prencipe ya sheria ya ma mpango
+      - loi na ma prencipe ya bulongo?
+      - ma kanuni kuhusu sheria ya m'ampango
+      - kanuni za msingi na sheria ya ma mpango mu congo
+      - ma prencipe ya base kulingana na ma mpango
+      - ma kanuni ya ma mpango
+
+  - intent: land_law_principles_fr
+    examples: |
+      - Quels sont les principes de base concernant la loi foncière au congo?
+      - quels sont les principes de base du droit foncier en RDC ?
+      - les principes de parcelle au lualaba
+      - les principes des parcelles
+      - les principes du pays
+      - les principes de lois de parcelles
+      - lois et principes de terrain
+      - les principes des parcelles à kolwezi
+      - principe de parcelle
+      - règles sur la loi des parcelles
+      - principes de base et lois des parcelles au Congo
+      - les principes de base concernant les parcelles
+      - principes des parcelles
+
+  - intent: public_land_swa
+    examples: |
+      - bulongo ya domain public?
+      - ni nini bulongo ya domain public?
+      - ardhi ya umma ni nini?
+      - bulongo ya bantu bote
+      - semeya bulongo bwan bantu bote
+      - semeleya ma bulongo ya bantu bote
+      - fasiliya ni nini bulongo ya donain public
+      - fafanua ardhi ya kikoa cha umma
+      - towa tafsiri ya bulongo ya domain public
+      - wapi bulongo ya domain public?
+      - bulongo ya matumishi ya kila muntu
+      - bulongo ya watu wote
+      - mpango ya kila mutu
+      - mpango ya watu wote
+      - ma mpango ya domain public ni nini?
+
+  - intent: public_land_fr
+    examples: |
+      - qu'est-ce qu'un terrain du domaine public?
+      - qu'est-ce qu'un terrain public ?
+      - le terrain pour tout le monde
+      - parle du terrain pour tout le monde
+      - quelle est la définition d'un terrain du domaine public?
+      - définir les terres du domaine public
+      - fournir une définition de terrain du domaine public
+      - qu'est-ce qu'un domaine public ?
+      - où se trouve le terrain du domaine public?
+      - Terrain de services pour tous
+      - terrain pour tout le monde
+      - parcelle pour chaque personne
+      - parcelle pour tout le monde
+      - les parcelles du domaine public c'est quoi
+
+  - intent: private_land_swa
+    examples: |
+      - ni nini bulongo ya domain private?
+      - bulongo ya domain private
+      - ardhi ya kibinafsi ni nini?
+      - mpango prive
+      - semeya ma mpango prive
+      - semeleya ma mpango ya ma domain prive
+      - fafanua ardhi ya kikoa cha kibinafsi
+      - ma parcel prive
+      - ni nini parcel prive
+      - ma loi kuhusu ma parcel prive
+      - mpango ya muntu prive
+      - parcel prive ya muntu 
+      - parcel prive
+      - parcel ya muntu prive
+      - mpango ya muntu ye moya
+
+  - intent: private_land_fr
+    examples: |
+      - qu'est-ce qu'un terrain du domaine privé?
+      - qu'est-ce qu'un terrain privé ?
+      - terrain privé
+      - parle des terrains privés
+      - parle des terrains des domaines privés
+      - définir le terrain du domaine privé
+      - les parcelles privées
+      - c'est quoi une parcelle privée
+      - lois sur les parcelles privées
+      - parcelle d'une personne privée
+      - parcelle privée d'une personne
+      - parcelle personnelle
+
+  - intent: urban_and_rural_land_swa
+    examples: |
+      - tofauti katika bulongo ya ville and ya mukini
+      - tofauti katika bulongo ya ville and ya mukini ya Congo
+      - ma mpango ya ville and ya ku mukuni ni ya wapi?
+      - ardhi ya mijini na vijijini ni nini
+      - ma mpango ya mu ville and ya mugini
+      - semeya ma fashi ya ville and mukini
+      - tofauti katika bulongo ya ville and ya mukini
+      - kutofautisha ardhi ya mijini na vijijini
+      - ma mpango ya mu ville na ma mpango ya mu pori
+      - ma mpango ya mukizungu na ya ku village
+      - parcel ya mu ville and fashi ya inje ya ville
+      - difference ya mpango ya fashi ya mu ville an fashi ya inje ya ville
+      - bulongo ya ville and bulongo ya inje ya ville
+      - fashi ya mu ville and fashi ya village
+
+  - intent: urban_and_rural_land_fr
+    examples: |
+      - où sont les parcelles de la ville et celles du village?
+      - qu'est-ce que les terres urbaines et rurales
+      - les parcelles de la ville et du village
+      - parle des places en ville et au village
+      - la différence entre terrain urbain et rural
+      - faire la distinction entre terres urbaines et rurales
+      - les parcelles de la ville et les parcelles de la brousse
+      - parcelle de la ville et place en dehors de la ville
+      - différence entre parcelle de la ville et place hors la ville
+      - terrain de la ville et terrain hors de la ville
+      - place en ville et place au village
+
+  - intent: subdivided_and_non-subdivided_land_swa
+    examples: |
+      - tofauti katika bulongo ambayo iliyogawanykwa na bulongo isiyogawanykwa
+      - bulongo ambayo iliyogawanykwa na bulongo isiyogawanykwa
+      - tofauti katika bulongo ambayo iliyogawanykwa na bulongo isiyogawanykwa ya Congo
+      - ni nini bulongo yashipo gwanikwa na bulongo ya kugawanikwa
+      - ni ardhi gani iliyogawanywa na isiyogawanywa
+      - bulongo ya kugawanikwa na bulongo yashipo ku gawanikwa
+      - ni nini fashi ya kugawanika na fashi yashipo ku gawanika?
+      - ma mpango ya shipo ngwanikwa na ma mpango ya kugawanikwa
+      - ma fashi subdivise and ma fashi aina subdivise
+
+  - intent: subdivided_and_non-subdivided_land_fr
+    examples: |
+      - qu'est-ce qu'un terrain loti et un terrain non loti
+      - terrains lotis et terrains non lotis
+      - définir les terrains lotis et les terrains non lotis
+      - faire la distinction entre terrain loti et terrain non loti
+
+  - intent: statutory_and_customary_land_swa
+    examples: |
+      - tofauti katika bulongo ya ki sheria and bulongo coutimiere 
+      - bulongo ya ki sheria and bulongo coutimiere 
+      - fashi ya government na fashi ya ba shefu coutimiere
+      - ardhi ya kisheria na ardhi ya kimila ni nini
+      - bulongo ya loi na fashi coutimiere
+      - semeya bulongo ya ki sheria na bulongo coutimiere
+      - tofauti katika bulongo ya ki sheria and bulongo coutimiere 
+      - difference katika bulongo ya ki sheria na fashi coutimiere
+      - fashi ya shefu wa mugini na government
+
+  - intent: statutory_and_customary_land_fr
+    examples: |
+      - que sont les terres statutaires et les terres coutumières
+      - terres statutaires et terres coutumières
+      - définir les terres statutaires et les terres coutumières
+      - différencier les terres statutaires des terres coutumières
+      - la place du chef coutumier dans le gouvernement
+
+  - intent: land_dispute_swa
+    examples: |
+      - ni wapi ma mambo ya bulongo ina angariwa
+      - mambo ya bulongo ina angariwa
+      - bana mu beba mpango yake
+      - bana mu beba mpango yake mu congo
+      - kukosana nju ya ma mpango
+      - kukokotana nju ya ma mpango
+      - ni wapi ma mambo ya bulongo ina angariwa
+      - migogoro ya ardhi inaangukia wapi?
+      - mambo ya mpango
+      - mambo ya parcel
+      - kubebana ma mpango
+      - bana ni nyanganya mpango
+      - Bana tu beba mpango yetu
+      - ma bukonvi ya ma mpango mu congo
+      - nani anaona makokotano ya mpango mu congo
+      - kukombaniya mpango
+      - nani ana angariya kukombaniya mpango
+      - makokotano ya biwanza ya mpango
+
+  - intent: land_dispute_fr
+    examples: |
+      - on lui a pris sa parcelle
+      - litige foncier
+      - litige foncier RDC
+      - où tombent les litiges fonciers ?
+      - où tombent les conflits fonciers ?
+      - problèmes de parcelle
+      - spoliation de parcelle
+      - ils m'ont ravi la parcelle
+      - ils m'ont pris la parcelle
+      - ils nous ont ravi notre parcelle
+      - les problèmes de spoliation des parcelles
+      - problèmes de parcelle au congo
+      - qui s'occupe des conflits de parcelles au congo
+      - se battre pour la parcelle
+      - conflits des terrains
+
+  - intent: land_admin_swa
+    examples: |
+      - ni wa nani wanasimamiya mambo ya bulongo? 
+      - ni nini ina fanya usimamizi wa ku ongoza mambo ya bulongo?
+      - ni wa nani wanasimamiya mambo ya bulongo?
+      - mamlaka za usimamizi wa ardhi ni akina nani?
+      - ni nini ina fanya usimamizi wa ku ongoza mambo ya bulongo
+      - semeya usimamizi wa ma mpango mu congo
+      - basimamizi ba ma mpango
+      - ni ba nani beko na angariya ma mpango?
+      - ni ba nani beko na angariya ma mpango mu congo?
+      - beko na shimamiya ma mpango
+      - ni nani eko na shimamiya?
+      - bakubwa ya inchi beko na shimamiya ma mpango
+      - ma mpango ina shimamiya na ba nani?
+      - ni wapi beko na shimamiya ma mpango?
+      - ku angariya mambo ya ma mpango
+      - ku fwatiria mambo ya ma mpango
+      - ni article kani iko na onesha bake beko na angariya ma mpango
+      - ni sheriya kani ina onesha bantu bana shimamiya ma mpango
+
+  - intent: land_admin_fr
+    examples: |
+      - qui s'occupe des affaires des terrains ?
+      - qui sont les autorités de gestion foncière ?
+      - parle de l'autorité foncière au congo
+      - les autorités des parcelles
+      - qui se chargent des parcelles ?
+      - les autorités du pays qui se chargent des parcelles
+      - suivi des problèmes des parcelles
+      - Quel article montre les femmes qui se chargent des parcelles
+      - Quelle est la loi qui montre les autorités des parcelles
+
+  - intent: land_title_swa
+    examples: |
+      - ni nini titre ya mpango?
+      - titre ya mpango
+      - titre ya parcel
+      - jina la mpango
+      - mpango na njina
+
+  - intent: land_title_fr
+    examples: |
+      - définir un titre foncier
+      - qu'est-ce qu'un titre foncier ?
+      - titre de la parcelle
+      - parcelle et nom
+
+  - intent: right_to_property_documents_swa
+    examples: |
+      - ni ma documa kani ina pea haki au doit ya kukuwa na mali nchini DRC?
+      - ma documa kani ina pea haki au doit ya kukuwa na mali nchini DRC
+      - documa kani bata kupa kama una uza mpango?
+      - ma documa ya mpango
+      - ma documa ya haki ya mpango
+      - uta pata ma documa kani ya droit ya mpango
+      - droit ya ma parcelle na ma mikanda
+      - ma document na droit ya mpango
+
+  - intent: right_to_property_documents_fr
+    examples: |
+      - quels sont les documents de droit de propriété?
+      - les documents de la parcelle
+      - les documents de droit de parcelle
+      - droit de propriété et documents
+      - documents des parcelles au congo
+
+  - intent: documents_required_for_title_deed_issuance_swa
+    examples: |
+      - ni ma documa kani inahitajika kisheria ili kupewa haki ya kukuwa na titre ya mpango
+      - ma documa kani inahitajika kisheria ili kupewa haki ya kukuwa na titre ya mpango
+      - ni hati gani zinazohitajika kwa utoaji wa hati miliki nchini DRC?
+      - ni mikanda kani unapasha kuya nayo njuya kuapata mpango
+      - ni documa kani uko nayo besoin njuya upate mpango mu congo
+      - ni mikanda kani ya lazima pawe kupata mpango mu kinshasa
+      - uko na lazima na mikanda kani njuya kupata mpango
+      - ni ma document kani bata kulomba njuya kupata mpango
+      - ni mikanda ya dje nju upate ma mpango
+
+  - intent: documents_required_for_title_deed_issuance_fr
+    examples: |
+      - quels sont les documents requis pour l'émission d'un titre de propriété en RDC ?
+      - quels documents sont requis pour la délivrance du titre de propriété?
+      - délivrance des titres de propriété
+      - documents requis pour la délivrance du titre de propriété
+      - aperçu des documents requis pour la délivrance d'un titre de propriété à Kinshasa
+      - quels documents a-t-on besoin pour obtenir une parcelle
+
+  - intent: ordinary_concession_for_agricultural_use_swa
+    examples: |
+      - sheria ina sema nini kuhusu haki ya wa mama nju ya kupata ma mpango?
+      - sheria ina sema nini kuhusu haki ya wa mama nju ya kupata ma mpango ya Congo
+      - ni wapi uta pata terrain ya mashamba
+      - ni hatua gani za kupata kibali cha kawaida kwa matumizi ya kilimo?
+      - kupata terrain ya mashamba
+      - mitafanya ndje ju ni pate mashamba
+      - ma atuwa gani ya kufwata nju ya kupata mpango ya mashamba
+      - mpango ya kulima mashamba
+      - kupata concesion ya mashamba
+      - mi tapataje ka mpango ka kulima bya kurya
+      - mi tapataje fashi ya kulima mashamba
+      - ni hatua gani za kupata kibali cha kawaida kwa matumizi ya kilimo?
+      - hatua za kupata mpango ya mashamba
+      - Terrain ya mashamba
+      - kibali cha kawaida kwa matumizi ya kilimo
+      - minta pata dje terrain ya kurimiya po
+      - fashi ya kulima mashamba
+      - fashi ya kawaida ya kulima mashamba
+      - kafashi ka kulima bya kurya
+
+  - intent: ordinary_concession_for_agricultural_use_fr
+    examples: |
+      - Comment acquérir un terrain pour le champ
+      - quelles sont les démarches pour obtenir une concession ordinaire à usage agricole ?
+      - Quelles sont les démarches pour obtenir un permis normal d'utilisation agricole ?
+      - Obtenir un terrain des champs
+      - parcelle pour cultiver les champs
+      - étapes pour obtenir une parcell pour les champs
+      - concession ordinaire à usage agricole
+      - permis général d'utilisation agricole
+      - comment trouver un terrain pour cultiver
+      - Trouver un champ
+      - Une place pour faire les champs
+      - procédure d'obtention d'une concession ordinaire à usage agricole
+      - la procédure d'obtention d'un permis commun d'exploitation agricole
+      - Comment obtenir des fermes
+      - Où trouverez-vous les terres agricoles?
+
+  - intent: women's_rights_in_land_acquistion_swa
+    examples: |
+      - sheria ina sema nini kuhusu haki ya wa mama nju ya kupata ma mpango?
+      - sheria ina sema nini kuhusu haki ya wa mama nju ya kupata ma mpango ya Congo
+      - sheria ya haki za wanawake katika umiliki wa ardhi
+      - ni sheriya kani iko na semezeya ma droit ya ba mama na kupata ma mpango
+      - ni sheriya ya dje iko na semeya haki ya ba mama na kupata ma mpango
+      - ba mama beko na ma droit nju ya kupata ma mpango?
+      - nje mama naye anaweza kupata fashi yake?
+      - haki ya mama nju ya kupata mpango
+      - governement inasema nini nju wa mama wapate ma mpango
+
+  - intent: women's_rights_in_land_acquistion_fr
+    examples: |
+      - Que dit la loi sur les droits des femmes en matière d'acquisition de terres ?
+      - que dit le gouvernement au sujet de l'acquisition des terrains par les femmes
+      - les femmes et la loi foncière
+      - quels sont les droits des femmes dans l'acquisition de terres?
+      - droits des femmes dans l'acquisition de terres
+      - comment la maman peut-elle trouver une place pour les champs
+      - loi sur les droits des femmes dans l'acquisition de terres
+
+  - intent: matrimonial_regimes_swa
+    examples: |
+      - toa na ueleze taratibu za ndoa nchini DRC
+      - taratibu za ndoa nchini DRC
+      - taratibu za ndoa nchini Congo
+      - serikali na kufafanua taratibu za ndoa nchini DRC
+      - ma regime ya ndowa ya mu congo
+      - sheria za ndoa nchini DRC
+      - ni ma regime kani tuko nayo mwetu mu congo
+      - ni ma regime ngapi ya ndowa iko mu congo
+      - tuko na ma regime kani ya ndowa 
+      - mambo ya ndoa
+      - regime ya ndowa
+      - ma regime ya ndoa ya mu congo 
+      - ma regime ya ndowa mu congo
+      - ma regime ya mariage mu congo
+      - ma regime ni ngapi ya ndoa
+      - batoto na ma regime ya ndowa
+      - regime ya famille mu congo
+      - ndoa na ma regime
+      - uta beba ma regime kani ya ndoa 
+      - regime ya muzuri njuu ya ndowa
+      - ma regime tatu ya ndowa
+      - regime ya ndowa mu jamuri ya kidemokratia ya kongo
+      - loi ina semeya regime ya ndowa 
+      - sheriya ya mariage mu kongo
+
+  - intent: matrimonial_regimes_fr
+    examples: |
+      - Etabli et explicite les régimes matrimoniaux en RDC
+      - régimes matrimoniaux en RDC
+      - quels sont les régimes matrimoniaux
+      - question de mariage
+      - les enfants et les régimes matrimoniaux
+      - régime familial au congo
+      - mariage et régime
+      - quel régime de mariage choisir
+      - bon régime pour le mariage
+      - Loi régissant le régime matrimonial
+      - Droit du mariage au Congo
+
+  - intent: women_land_heritage_swa
+    examples: |
+      - je wanawake wanaruhusiwa kurithi ardhi?
+      - sheria ya urithi wa ardhi na haki za wanawake?
+      - haki za wanawake na urithi wa ardhi
+
+  - intent: women_land_heritage_fr
+    examples: |
+      - les femmes sont-elles autorisées à hériter des terres?
+      - loi sur le patrimoine foncier et droit des femmes ?
+      - l'héritage foncier des femmes

@@ -1,0 +1,5931 @@
+[
+  {
+    "text": "kuwa na siku njema",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "general_frequency",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.6956108808517456,
+        "value": "siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ita wezekana mke wangu apate mafundisho ya wajawazito wakati ni mukimbizi?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "mke wangu",
+        "entity": "relation"
+      },
+      {
+        "start": 29,
+        "end": 53,
+        "value": "mafundisho ya wajawazito",
+        "entity": "event_name"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "value": "wakati",
+        "entity": "time"
+      },
+      {
+        "start": 64,
+        "end": 73,
+        "value": "mukimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 29,
+        "end": 53,
+        "confidence_entity": 0.9338572025299072,
+        "value": "mafundisho ya wajawazito",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 54,
+        "end": 60,
+        "confidence_entity": 0.9991353750228882,
+        "value": "wakati",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 64,
+        "end": 73,
+        "confidence_entity": 0.4343254268169403,
+        "value": "mukimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuna pata hema moja moja, nita ishi je humo na watoto kumi?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "hema",
+        "entity": "house_place"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "watoto",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.9997901916503906,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "vita ita dumu milele kwetu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "vita",
+        "entity": "event_name"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "milele",
+        "entity": "time"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "kwetu",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999702572822571,
+        "value": "vita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9049121141433716,
+        "value": "dumu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9999064207077026,
+        "value": "kwetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ndui ita patikana kwa watoto wa kimbizi?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "value": "wa kimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9839178919792175,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.9687628746032715,
+        "value": "kimbizi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kwa nini tuna pokeya chakula maramoja kwa juma?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "chakula",
+        "entity": "food_name"
+      },
+      {
+        "start": 29,
+        "end": 46,
+        "value": "maramoja kwa juma",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food_name",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9982390999794006,
+        "value": "chakula",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "date",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.6082351207733154,
+        "value": "maramoja",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "date",
+        "start": 42,
+        "end": 46,
+        "confidence_entity": 0.9151902198791504,
+        "value": "juma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ina omba tu vyeti vya shule ju mtoto asome?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "shule",
+        "entity": "place_name"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "mtoto",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9220572113990784,
+        "value": "shule",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.95102858543396,
+        "value": "mtoto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ni hospitali gani inayo husika na wa wanawake wanao bakwa?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 12,
+        "value": "hospitali",
+        "entity": "place_name"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "value": "wanawake",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.6795280575752258,
+        "value": "wanawake",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "viongozi hawaseme kitu ju ya nini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "viongozi",
+        "entity": "government_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_type",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.4616737961769104,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9512421488761902,
+        "value": "kitu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kazi zita patikana uku?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "uku",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "business_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.999928891658783,
+        "value": "kazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.9999337196350098,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuna makazi ambazo wakimbizi wana weza fanya uku?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "makazi",
+        "entity": "business_name"
+      },
+      {
+        "start": 19,
+        "end": 28,
+        "value": "wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "value": "uku",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.7785213589668274,
+        "value": "makazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.9999886155128479,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 45,
+        "end": 48,
+        "confidence_entity": 0.9999881982803345,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ni wapi njo kwaku andikisha watoto wenye wame zaliwa mu vita?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "wapi",
+        "entity": "place_name"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "value": "vita",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9999997019767761,
+        "value": "wapi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 56,
+        "end": 60,
+        "confidence_entity": 0.9999961853027344,
+        "value": "vita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mashindano ya serikali ita fanyika piya na kwa wakimbizi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "mashindano ya serikali",
+        "entity": "event_name"
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "value": "wakimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9474364519119263,
+        "value": "mashindano",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9796518683433533,
+        "value": "serikali",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 47,
+        "end": 56,
+        "confidence_entity": 0.9999994039535522,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "malisho mabaya kwa watoto ita tunzwa vipi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "malisho mabaya kwa watoto",
+        "entity": "sickness_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sickness_type",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.9870149493217468,
+        "value": "malisho mabaya",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sickness_type",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.47328707575798035,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sickness_type",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9061558246612549,
+        "value": "vipi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ni service gani ambayo ita gundua wakimbizi wa uongo?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "service",
+        "entity": "business_type"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "wakimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.7705816626548767,
+        "value": "service",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.9999999403953552,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kwa nini viongozi wame acha wanaume na wanawake walale fasi moja?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "wanaume",
+        "entity": "person"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "value": "wanawake",
+        "entity": "person"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "value": "fasi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9998173713684082,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.8113204836845398,
+        "value": "wanaume",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 39,
+        "end": 47,
+        "confidence_entity": 0.650872528553009,
+        "value": "wanawake",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 55,
+        "end": 64,
+        "confidence_entity": 0.9851002097129822,
+        "value": "fasi moja",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kwa nini viongozi wetu hawa tu saidiye ila tu ni wa humanitaires?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "viongozi",
+        "entity": "government_name"
+      },
+      {
+        "start": 52,
+        "end": 64,
+        "value": "humanitaires",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 9,
+        "end": 22,
+        "confidence_entity": 0.84781414270401,
+        "value": "viongozi wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 52,
+        "end": 64,
+        "confidence_entity": 0.9999723434448242,
+        "value": "humanitaires",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "vita iki karibiya, juu ya nini askari wetu wana kimbiya?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "vita",
+        "entity": "event_name"
+      },
+      {
+        "start": 31,
+        "end": 42,
+        "value": "askari wetu",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999931454658508,
+        "value": "vita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.8186476230621338,
+        "value": "karibiya",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "relation",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.9986249804496765,
+        "value": "askari wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wazakendo wana nyanyasa wakimbizi sababu gani",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "wakimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rebel_name",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9800183176994324,
+        "value": "wazakendo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9985867738723755,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wazalendo wame kutanika je katika jeshi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "wazalendo",
+        "entity": "rebel_name"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "value": "jeshi",
+        "entity": "army_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rebel_name",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9985159635543823,
+        "value": "wazalendo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kwa nini viongozi hawa waziye kusomesha watoto wetu?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "viongozi",
+        "entity": "government_type"
+      },
+      {
+        "start": 40,
+        "end": 51,
+        "value": "watoto wetu",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9853905439376831,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 40,
+        "end": 51,
+        "confidence_entity": 0.9999886751174927,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuko service ambayo ita zika wale wenye wali kufiya munjiya?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "service",
+        "entity": "definition_word"
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "value": "munjiya",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.5174831748008728,
+        "value": "service",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tuli koseya mungu nini?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "mungu",
+        "entity": "list_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mu ma baches njo fasi yaku ishi?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 12,
+        "value": "baches",
+        "entity": "house_place"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "fasi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "business_type",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.6453859806060791,
+        "value": "baches",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9999958872795105,
+        "value": "fasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ju ya nini eac,sadec na wazungu hawa pane malipizi kwa rwanda?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "eac",
+        "entity": "government_type"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "sadec",
+        "entity": "government_type"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "wazungu",
+        "entity": "population_type"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "rwanda",
+        "entity": "country_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "population_type",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9343535304069519,
+        "value": "wazungu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.9856904149055481,
+        "value": "Rwanda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ni nini yenye iko kati ya serikali ya kongo na M23?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "value": "serikali ya kongo",
+        "entity": "government_type"
+      },
+      {
+        "start": 47,
+        "end": 50,
+        "value": "M23",
+        "entity": "rebel_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.2611744701862335,
+        "value": "serikali",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.6457710266113281,
+        "value": "kongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rebel_name",
+        "start": 47,
+        "end": 50,
+        "confidence_entity": 0.9988715052604675,
+        "value": "M23",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "uganda nayo ime kuwa adui ya congo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "uganda",
+        "entity": "country_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country_name",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.8927990198135376,
+        "value": "uganda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9937739372253418,
+        "value": "congo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "viongozi wana waza nini juu yetu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "viongozi",
+        "entity": "government_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9998595714569092,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9949200749397278,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makaburi kwaku zika wakimbizi zita kuwa?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "makaburi",
+        "entity": "place_name"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "value": "wakimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tribe_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6442959308624268,
+        "value": "makaburi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9999719262123108,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "juu ya nini habiko na tiya wakimbizi wote fasi moya?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "value": "fasi moya",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.5893427133560181,
+        "value": "tiya",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9999915957450867,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 42,
+        "end": 51,
+        "confidence_entity": 0.8646747469902039,
+        "value": "fasi moya",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mauwaji ju ya nini ina endeleya mu kambi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "mauwaji",
+        "entity": "definition_word"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "kambi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9992058873176575,
+        "value": "Kambi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuna teseka ju tuli fanya makosa gani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuna",
+        "entity": "relation"
+      },
+      {
+        "start": 5,
+        "end": 11,
+        "value": "teseka",
+        "entity": "emotion_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9774343967437744,
+        "value": "teseka",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.5128945708274841,
+        "value": "tuli",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "viongozi washa tu sacrifier?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "viongozi",
+        "entity": "government_name"
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "value": "sacrifier",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9198110699653625,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bila vifaa vya shule tuta tuma watoto je ku masoso?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.5657714605331421,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 44,
+        "end": 50,
+        "confidence_entity": 0.991216778755188,
+        "value": "masoso",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "viongozi wana panga kupatiya batoto yatu vifaa vya shule wakati gani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "viongozi",
+        "entity": "government_name"
+      },
+      {
+        "start": 41,
+        "end": 56,
+        "value": "vifaa vya shule",
+        "entity": "list_name"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "value": "wakati",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9999075531959534,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.5235801339149475,
+        "value": "batoto",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "list_name",
+        "start": 41,
+        "end": 56,
+        "confidence_entity": 0.6248767971992493,
+        "value": "vifaa vya shule",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.9879216551780701,
+        "value": "wakati",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mateso iyi tuta yi ishi mpaka siku gani?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "siku",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.9564724564552307,
+        "value": "mpaka",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "date",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9708114266395569,
+        "value": "siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "viongozi wata patiya wakimbizi nafasi yaku lima?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "viongozi",
+        "entity": "government_name"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "value": "wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "nafasi",
+        "entity": "place_name"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "lima",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9998428821563721,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9670773148536682,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9985157251358032,
+        "value": "nafasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuko shirika yenye ina ji husisha na ku fundisha watoto usafi?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 55,
+        "value": "watoto",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.7287915349006653,
+        "value": "shirika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 49,
+        "end": 55,
+        "confidence_entity": 0.9999898076057434,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hema zengine zita patikana wakati izi zita aribika?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "hema",
+        "entity": "house_place"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "wakati",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "house_place",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9990201592445374,
+        "value": "hema",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.38582542538642883,
+        "value": "zengine",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9986754655838013,
+        "value": "wakati",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wakimbizi wata fundishwa gisi yaku ji kinga na maradhi ya ngono?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 47,
+        "end": 63,
+        "value": "maradhi ya ngono",
+        "entity": "sickness_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9999995827674866,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sickness_type",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.9605498313903809,
+        "value": "ya ngono",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mateso yetu ina patiya rwanda nini?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "yetu",
+        "entity": "relation"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "rwanda",
+        "entity": "country_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9514271020889282,
+        "value": "mateso",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9887113571166992,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9436289668083191,
+        "value": "Rwanda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kanisa iko wapi apa kanyarutshinya(place_name) ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "kanisa",
+        "entity": "place_name"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "value": "wapi",
+        "entity": "place_name"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "value": "apa",
+        "entity": "place_name"
+      },
+      {
+        "start": 20,
+        "end": 34,
+        "value": "kanyarutshinya",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999971985816956,
+        "value": "kanisa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9999862313270569,
+        "value": "wapi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.995173990726471,
+        "value": "apa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watu wa apa nyirangongo wana itika dini zote?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "apa",
+        "entity": "place_name"
+      },
+      {
+        "start": 12,
+        "end": 23,
+        "value": "nyirangongo",
+        "entity": "place_name"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "dini",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.3803969919681549,
+        "value": "watu wa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9996570348739624,
+        "value": "apa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.998903214931488,
+        "value": "nyirangongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.7982609272003174,
+        "value": "dini zote",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dawa za watu wa ukumwi zita onekana?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "dawa",
+        "entity": "medical_name"
+      },
+      {
+        "start": 8,
+        "end": 12,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "ukumwi",
+        "entity": "sickness_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "medical_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9996989965438843,
+        "value": "dawa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sickness_type",
+        "start": 8,
+        "end": 22,
+        "confidence_entity": 0.9890948534011841,
+        "value": "watu wa ukumwi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tuta juwa je chakulayaku aribika kutoka kwa wa fazili PAM?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "chakula",
+        "entity": "food_name"
+      },
+      {
+        "start": 54,
+        "end": 57,
+        "value": "PAM",
+        "entity": "organization_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.700428307056427,
+        "value": "tuta",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "organization_name",
+        "start": 54,
+        "end": 57,
+        "confidence_entity": 0.9887825846672058,
+        "value": "PAM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta juwa je dawa yaku aribika kutoka kwa wa fazili [PAM]?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "dawa",
+        "entity": "medical_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "medical_name",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9534817337989807,
+        "value": "dawa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "organization_name",
+        "start": 53,
+        "end": 56,
+        "confidence_entity": 0.9900503158569336,
+        "value": "PAM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta panga uzazi je?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "value": "panga uzazi",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9940723180770874,
+        "value": "uzazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "juu yaku pata mafunzo yaku panga uzazi kuko mtu ali tayarishwa?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 38,
+        "value": "mafunzo yaku panga uzazi",
+        "entity": "event_name"
+      },
+      {
+        "start": 44,
+        "end": 47,
+        "value": "mtu",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.21306337416172028,
+        "value": "mafunzo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "event_name",
+        "start": 27,
+        "end": 38,
+        "confidence_entity": 0.9179177284240723,
+        "value": "panga uzazi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 44,
+        "end": 47,
+        "confidence_entity": 0.9999808669090271,
+        "value": "mtu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "namna gani tuta epuka [malaria] (sickness_type)?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sickness_type",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.6055375337600708,
+        "value": "malaria",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tukuwe na tuma watoto kila siku kwenye masomo yamu kambi?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "kila siku",
+        "entity": "general_frequency"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "masomo",
+        "entity": "place_name"
+      },
+      {
+        "start": 51,
+        "end": 56,
+        "value": "kambi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9995585083961487,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "general_frequency",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.9236819744110107,
+        "value": "siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.9999956488609314,
+        "value": "masomo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 51,
+        "end": 56,
+        "confidence_entity": 0.9991336464881897,
+        "value": "Kambi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "waalimu wa Goma wata itika kutumika na waalimu wakimbizi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "waalimu wa Goma",
+        "entity": "person"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "kutumika",
+        "entity": "business_type"
+      },
+      {
+        "start": 39,
+        "end": 56,
+        "value": "waalimu wakimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.76,
+        "value": "waalimu wa Goma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "business_type",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9936965107917786,
+        "value": "kutumika",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 39,
+        "end": 56,
+        "confidence_entity": 0.9993215203285217,
+        "value": "waalimu wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "waganga wakimbiizi wata endeleya ku lipiwa?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "waganga wakimbiizi",
+        "entity": "person"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "lipiwa",
+        "entity": "business_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.9807865023612976,
+        "value": "waganga wakimbiizi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "business_type",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.9881159663200378,
+        "value": "ku lipiwa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ukuGomawaganga wakimbizi wata pata makazi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "uku",
+        "entity": "place_name"
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "value": "Goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 7,
+        "end": 24,
+        "value": "waganga wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "value": "makazi",
+        "entity": "business_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "business_name",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.9984159469604492,
+        "value": "makazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watu wa uku nyiragongo wana sikiyaka lugha yetu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "uku",
+        "entity": "place_name"
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "value": "nyiragongo",
+        "entity": "place_name"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "lugha",
+        "entity": "language_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9987542033195496,
+        "value": "watu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9999995827674866,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.9999973177909851,
+        "value": "nyiragongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language_name",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9951533079147339,
+        "value": "lugha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9998501539230347,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuikala apa ku mpaka na rwanda haita tu leteya shida ya usalama?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "apa",
+        "entity": "place_name"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "mpaka",
+        "entity": "place_name"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rwanda",
+        "entity": "country_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.23495231568813324,
+        "value": "kuikala",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.999709963798523,
+        "value": "apa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.9996938705444336,
+        "value": "mpaka",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.998179018497467,
+        "value": "Rwanda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wangu wata weza nikuta hapa bulengo ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "watoto wangu",
+        "entity": "relation"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "hapa",
+        "entity": "place_name"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "bulengo",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.786823570728302,
+        "value": "watoto wangu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9998181462287903,
+        "value": "bulengo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mambo ya vita tuta isahawaka?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "vita",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8248645067214966,
+        "value": "mambo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9999825358390808,
+        "value": "vita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nina hasira kubwa juu ya nini?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "hasira",
+        "entity": "definition_word"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "value": "kubwa",
+        "entity": "order_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.8638560771942139,
+        "value": "hasira",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "muchoko ya kila wakati ina mahanisha nini?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "kila wakati",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.5908777713775635,
+        "value": "muchoko",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 11,
+        "end": 22,
+        "confidence_entity": 0.9681530594825745,
+        "value": "kila wakati",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu wata sikiya iyi hali?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "hali",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9995324015617371,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9996219277381897,
+        "value": "wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9999885559082031,
+        "value": "hali",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta bakiya watu wazima kichwani?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "value": "wazima",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9999746680259705,
+        "value": "watu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 17,
+        "end": 32,
+        "confidence_entity": 0.9850923418998718,
+        "value": "wazima kichwani",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nani njo mutetezi wetu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "nani",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999950528144836,
+        "value": "nani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9392668008804321,
+        "value": "wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta pata tena vitambulisho vyetu?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "vyetu",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tabiya zetu zita kutanana na za watu wa Goma?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "value": "Goma",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.35547685623168945,
+        "value": "zetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9374977350234985,
+        "value": "watu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 40,
+        "end": 44,
+        "confidence_entity": 0.9995896220207214,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu wata pata ba Rafiki uku Goma ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "value": "uku",
+        "entity": "place_name"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "Goma",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9152373671531677,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "emotion_type",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.8766236305236816,
+        "value": "Rafiki",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 32,
+        "end": 35,
+        "confidence_entity": 0.9881053566932678,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 36,
+        "end": 40,
+        "confidence_entity": 0.9727609753608704,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Waalimu fundisha watoto kupona vidonda vya ndani ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Waalimu",
+        "entity": "person"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "value": "vidonda",
+        "entity": "sickness_type"
+      },
+      {
+        "start": 43,
+        "end": 48,
+        "value": "ndani",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.9999421238899231,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sickness_type",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.9979550838470459,
+        "value": "vidonda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.9999988079071045,
+        "value": "ndani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu hawata enda barabarani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "value": "barabarani",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9305532574653625,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.6102175116539001,
+        "value": "wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu wata penda tena Maisha ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "Maisha",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9540061354637146,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.8710966110229492,
+        "value": "wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9999971389770508,
+        "value": "Maisha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mchango yetu iteza kuwa gani kwa kuleta amani?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 45,
+        "value": "amani",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9999203085899353,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.9999268054962158,
+        "value": "amani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "raha ita kuwaka tena kusura za watoto wetu kwa mwaka mpya?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "raha",
+        "entity": "emotion_type"
+      },
+      {
+        "start": 31,
+        "end": 42,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 47,
+        "end": 57,
+        "value": "mwaka mpya",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.9750483632087708,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "date",
+        "start": 47,
+        "end": 57,
+        "confidence_entity": 0.909701943397522,
+        "value": "mwaka mpya",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu wata kutanaka haya yote ndani ya historia ya kongo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "value": "ndani",
+        "entity": "place_name"
+      },
+      {
+        "start": 57,
+        "end": 62,
+        "value": "kongo",
+        "entity": "country_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.8469502329826355,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 57,
+        "end": 62,
+        "confidence_entity": 0.9623814225196838,
+        "value": "kongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu wata kuwa na Maisha mazuri kesho?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "watoto wetu",
+        "entity": "relation"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Maisha",
+        "entity": "event_name"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "mazuri",
+        "entity": "emotion_type"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "kesho",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.572172999382019,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9999973177909851,
+        "value": "Maisha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "date",
+        "start": 39,
+        "end": 44,
+        "confidence_entity": 0.9996438026428223,
+        "value": "kesho",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuta kuwa sheriya yaku hukumu wenye wana fanya vita leo?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 51,
+        "value": "vita",
+        "entity": "event_name"
+      },
+      {
+        "start": 52,
+        "end": 55,
+        "value": "leo",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 47,
+        "end": 51,
+        "confidence_entity": 0.9999969601631165,
+        "value": "vita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 52,
+        "end": 55,
+        "confidence_entity": 0.8865389823913574,
+        "value": "leo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "watu katika duniya mzima wana sikiya kilio yetu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "kilio",
+        "entity": "event_name"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "yetu",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sickness_type",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9143100380897522,
+        "value": "kilio",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.6731398701667786,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Goma ni nyumbani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "Goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "value": "nyumbani",
+        "entity": "house_place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.999110221862793,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "iyi nafasi iteza bakkiya yetu?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "nafasi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9999851584434509,
+        "value": "nafasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.9019336700439453,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kila siku nta kuwa na fata mstari juu ya ku pata chakula?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "kila siku",
+        "entity": "general_frequency"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "mstari",
+        "entity": "place_name"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "value": "chakula",
+        "entity": "food_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "general_frequency",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.7172589898109436,
+        "value": "kila siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.9937155842781067,
+        "value": "nta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "date",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.38284650444984436,
+        "value": "mstari",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food_type",
+        "start": 49,
+        "end": 56,
+        "confidence_entity": 0.9631930589675903,
+        "value": "chakula",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta pata siye bote kipimo moya ya chakula?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "siye bote",
+        "entity": "person"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "kipimo",
+        "entity": "measurement_type"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "chakula",
+        "entity": "food_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.5602890849113464,
+        "value": "kipimo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food_name",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9861636757850647,
+        "value": "chakula",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wafazili wata kuwa na gabula kulingana na hamu ya watu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "wafazili",
+        "entity": "organization_type"
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "value": "watu",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "organization_type",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9283545613288879,
+        "value": "wafazili",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "device_type",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.6798350214958191,
+        "value": "gabula",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.9999945163726807,
+        "value": "watu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wata kuwa natu leteya chakula yaku ivya?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "chakula",
+        "entity": "food_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.939193069934845,
+        "value": "natu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food_type",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.7794704437255859,
+        "value": "chakula",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "waganga wata itika ku tu tunza na mapendo ijapo hatuna makuta?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "waganga",
+        "entity": "person"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "makuta",
+        "entity": "currency_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.919672966003418,
+        "value": "waganga",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "matunzo ita bakiya ya bure mpaka mwisho ya vita?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "matunzo",
+        "entity": "medical_type"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "mwisho",
+        "entity": "time"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "vita",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9999944567680359,
+        "value": "mwisho",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9999998807907104,
+        "value": "vita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "MSF iko na banganga bazuri ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "MSF",
+        "entity": "organization_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "organization_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9988279938697815,
+        "value": "MSF",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "doctor_type",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.8946037888526917,
+        "value": "banganga",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tupeleke na wagonjwa wa kichwa kwenye MSF watunzwe bure?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "value": "wagonjwa wa kichwa",
+        "entity": "sickness_type"
+      },
+      {
+        "start": 38,
+        "end": 41,
+        "value": "MSF",
+        "entity": "organization_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sickness_type",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.6458320617675781,
+        "value": "wa kichwa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "organization_type",
+        "start": 38,
+        "end": 41,
+        "confidence_entity": 0.9994918704032898,
+        "value": "MSF",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.46115073561668396,
+        "value": "watunzwe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tukiona mfanya kazi wa PAM mkorofi tufikishe habari wapi?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 26,
+        "value": "PAM",
+        "entity": "organization_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "organization_type",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.965386688709259,
+        "value": "PAM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.7343021631240845,
+        "value": "wapi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "vyombo vya shule vya watoto, yawezekana tuvi pate kwenye UNICEF?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "vyombo",
+        "entity": "list_name"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "shule",
+        "entity": "place_name"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "value": "UNICEF",
+        "entity": "organization_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "list_name",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9598332047462463,
+        "value": "vyombo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.5721633434295654,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "organization_type",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.9985461235046387,
+        "value": "UNICEF",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta pataka onjo ya maisha tena siku moya?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "date",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9015352129936218,
+        "value": "siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ju ya nini hakuna suhulisho ?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "suhulisho",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "usiku silale kwa nini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "usiku silale",
+        "entity": "sickness_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sickness_type",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9203861355781555,
+        "value": "usiku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuna siku Kongo na Rwanda wata ishi kwa Amani?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "siku",
+        "entity": "date"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "Kongo",
+        "entity": "place_name"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Rwanda",
+        "entity": "place_name"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "value": "ishi",
+        "entity": "event_name"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "Amani",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "date",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9929311871528625,
+        "value": "siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9999498724937439,
+        "value": "kongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9998783469200134,
+        "value": "Rwanda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.9987516403198242,
+        "value": "amani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta pataka amani ya roho siku moja?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "roho",
+        "entity": "organism_type"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "value": "siku moja",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9999675154685974,
+        "value": "amani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "organism_type",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.996936559677124,
+        "value": "roho",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "date",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9988561868667603,
+        "value": "siku moja",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kusema kinyarwanda apa goma ita onekana je?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "value": "kinyarwanda",
+        "entity": "language_type"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "goma",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.8790340423583984,
+        "value": "apa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9999956488609314,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mapendo ita kuwa kati ya watoto wetu?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "value": "wetu",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 25,
+        "end": 36,
+        "confidence_entity": 0.9917341470718384,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta teseka mpaka siku gani ?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "siku",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9999794363975525,
+        "value": "teseka",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "date",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9895004034042358,
+        "value": "siku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ni vipi njo tuta epuka ugonvi kati yetu?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "kati",
+        "entity": "place_name"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "yetu",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9744476675987244,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "maisha ya wenye wali baki masisi iko je ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "maisha",
+        "entity": "definition_word"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "wenye",
+        "entity": "person"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "masisi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999198317527771,
+        "value": "Maisha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.999979555606842,
+        "value": "masisi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta wezaka pata  utulizo baada ya hii mateso yote?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.7947278022766113,
+        "value": "mateso",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mutu waku sema lugha tafauti na miye ana weza ni penda?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "mutu",
+        "entity": "person"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "lugha",
+        "entity": "language_type"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "value": "miye",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.999779462814331,
+        "value": "mutu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language_type",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.5738539099693298,
+        "value": "lugha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "iyi kisirani ita ishaka?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "kisirani",
+        "entity": "emotion_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "wakimbizi wata kuwa na lungisha wa na nani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "value": "lungisha",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9999958872795105,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.9994427561759949,
+        "value": "nani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta kuwa na lungiya wapi ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuta",
+        "entity": "person"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "value": "lungiya",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9999517202377319,
+        "value": "wapi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "goma wanaume wana weza owa wasichana waku toka rutsuru?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 5,
+        "end": 12,
+        "value": "wanaume",
+        "entity": "person"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "wasichana",
+        "entity": "person"
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "value": "rutsuru",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999497532844543,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.668376624584198,
+        "value": "wanaume",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 47,
+        "end": 54,
+        "confidence_entity": 0.9996194839477539,
+        "value": "rutsuru",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "uku wana eshimiyaka watu ya kazi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "uku",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999788403511047,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "business_name",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9796383380889893,
+        "value": "kazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hawata kuwa natu ogopa uku?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "hawata",
+        "entity": "person"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "value": "uku",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.9999796152114868,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "umutu una kuwaka ndani ya watu wauku ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "umutu",
+        "entity": "definition_word"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "ndani",
+        "entity": "place_name"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "wauku",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.9998648166656494,
+        "value": "watu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.9622664451599121,
+        "value": "wauku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ni wapi njo hatuezi enda bila ruhusa ya bakubwa?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "wapi",
+        "entity": "place_name"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "value": "bakubwa",
+        "entity": "government_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9999952912330627,
+        "value": "wapi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apa fasi ya mazuku tuishi ako namna gani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "place_name"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "value": "mazuku",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.9973586797714233,
+        "value": "fasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9882968664169312,
+        "value": "mazuku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mazuku ni kitu gani?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mazuku",
+        "entity": "definition_word"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "kitu",
+        "entity": "device_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999266266822815,
+        "value": "mazuku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wapi njo kuna kuwaka Amani mu kongo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "wapi",
+        "entity": "place_name"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "Amani",
+        "entity": "definition_word"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "kongo",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9999303221702576,
+        "value": "amani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.9955449104309082,
+        "value": "kongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kazi ya wa baba ni nini ndani ya kambi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kazi",
+        "entity": "business_name"
+      },
+      {
+        "start": 8,
+        "end": 15,
+        "value": "wa baba",
+        "entity": "person"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "kambi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "business_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6426544785499573,
+        "value": "kazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.6143913269042969,
+        "value": "baba",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9999948740005493,
+        "value": "Kambi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mjini goma ni Kabila gani njo ina kuwa na watu wengi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "mjini goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "Kabila",
+        "entity": "tribe_name"
+      },
+      {
+        "start": 42,
+        "end": 52,
+        "value": "watu wengi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8259978294372559,
+        "value": "mjini",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.9998717308044434,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.8232644200325012,
+        "value": "kabila",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 42,
+        "end": 52,
+        "confidence_entity": 0.9625014066696167,
+        "value": "watu wengi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "uchumi ya goma ina simama ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "uchumi",
+        "entity": "business_name"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "simama",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "business_name",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9340343475341797,
+        "value": "uchumi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9999757409095764,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "goma viongozi wana juwa haki za wakimbizi ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 5,
+        "end": 13,
+        "value": "viongozi",
+        "entity": "government_type"
+      },
+      {
+        "start": 32,
+        "end": 41,
+        "value": "wakimbizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6381523609161377,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "government_name",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9726107716560364,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9978455305099487,
+        "value": "haki",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 32,
+        "end": 41,
+        "confidence_entity": 0.9999926090240479,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ukarimu ina kuwa kwa watu wa goma?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "ukarimu",
+        "entity": "definition_word"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "value": "watu",
+        "entity": "person"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "goma",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.999772310256958,
+        "value": "ukarimu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.6441494226455688,
+        "value": "watu wa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.5424767136573792,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "goma wakristu wata saidiya wenzao wakristu wakimbizi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 5,
+        "end": 13,
+        "value": "wakristu",
+        "entity": "person"
+      },
+      {
+        "start": 27,
+        "end": 52,
+        "value": "wenzao wakristu wakimbizi",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.917224109172821,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.8726266622543335,
+        "value": "wakristu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "relation",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.6229828596115112,
+        "value": "wenzao",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 34,
+        "end": 52,
+        "confidence_entity": 0.8921005725860596,
+        "value": "wakristu wakimbizi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "viongozi biko na ona gisi tuna kufa kiolela?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "viongozi",
+        "entity": "government_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "government_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.994778037071228,
+        "value": "viongozi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kongo na rwanda Nani njo ali anzaka chokoza mwengine ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kongo",
+        "entity": "place_name"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "value": "rwanda",
+        "entity": "place_name"
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "value": "Nani",
+        "entity": "person"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "anzaka",
+        "entity": "time"
+      },
+      {
+        "start": 44,
+        "end": 52,
+        "value": "mwengine",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9994786381721497,
+        "value": "kongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9990548491477966,
+        "value": "Rwanda",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9983139634132385,
+        "value": "nani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9978464841842651,
+        "value": "anzaka",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "iyi chakula ya pam haita leta magonjwa kati yetu?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "chakula",
+        "entity": "food_name"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "pam",
+        "entity": "organization_name"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "value": "magonjwa",
+        "entity": "sickness_name"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "value": "yetu",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food_name",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9987301230430603,
+        "value": "chakula",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "organization_name",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9919822812080383,
+        "value": "PAM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "relation",
+        "start": 44,
+        "end": 48,
+        "confidence_entity": 0.996543824672699,
+        "value": "yetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tukuwe na twala kuni nafasi gani?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "kuni",
+        "entity": "ingredient_name"
+      },
+      {
+        "start": 21,
+        "end": 32,
+        "value": "nafasi gani",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "ingredient_name",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9842666983604431,
+        "value": "kuni",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9999992251396179,
+        "value": "nafasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nianziliye maisha kama vile siya kuwaka na kitu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "nianziliye",
+        "entity": "time"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "value": "maisha",
+        "entity": "event_name"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "kitu",
+        "entity": "device_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.997026264667511,
+        "value": "Maisha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wangu wana niona je katika iyi umaskini ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "watoto wangu",
+        "entity": "person"
+      },
+      {
+        "start": 38,
+        "end": 46,
+        "value": "umaskini",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.5450279712677002,
+        "value": "watoto wangu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.6838864088058472,
+        "value": "iyi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "event_name",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.999998927116394,
+        "value": "umaskini",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto hawata niona vibaya sababu ya umaskini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 14,
+        "end": 26,
+        "value": "niona vibaya",
+        "entity": "emotion_type"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "value": "umaskini",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9434289336204529,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "emotion_type",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.6156899929046631,
+        "value": "niona",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "event_name",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.999970555305481,
+        "value": "umaskini",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta pata tena heshima ya watoto ndani ya hii umaskini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuta",
+        "entity": "person"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "value": "heshima",
+        "entity": "event_name"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "watoto",
+        "entity": "person"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "value": "umaskini",
+        "entity": "event_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9995034337043762,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9999696612358093,
+        "value": "ndani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_name",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.9999971389770508,
+        "value": "umaskini",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuta weza je maisha goma bila makazi?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuta",
+        "entity": "person"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "maisha",
+        "entity": "event_name"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "makazi",
+        "entity": "business_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_name",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9697748422622681,
+        "value": "Maisha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.99935382604599,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "business_name",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.8983009457588196,
+        "value": "makazi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mazara ni nini ikiwa tuna choma mwizi ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mazara",
+        "entity": "definition_word"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "mwizi",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.7910364866256714,
+        "value": "mazara",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9999994039535522,
+        "value": "mwizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sababu gani wakimbizi wote ina imba watunziwe fasi moja?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "value": "wakimbizi",
+        "entity": "person"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "value": "watunziwe",
+        "entity": "medicine_type"
+      },
+      {
+        "start": 46,
+        "end": 55,
+        "value": "fasi moja",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.9999873042106628,
+        "value": "wakimbizi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 46,
+        "end": 55,
+        "confidence_entity": 0.6071810722351074,
+        "value": "fasi moja",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuna weza tumaini kama duniya ita badilikaka?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuna",
+        "entity": "person"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "duniya",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9999105334281921,
+        "value": "duniya",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuna weza imba uku goma nyimbo za masisi ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuna",
+        "entity": "person"
+      },
+      {
+        "start": 19,
+        "end": 23,
+        "value": "goma",
+        "entity": "place_name"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "nyimbo",
+        "entity": "song_name"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "masisi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.4593009948730469,
+        "value": "uku",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9993792176246643,
+        "value": "Goma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "song_name",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.6837813258171082,
+        "value": "nyimbo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place_name",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.9999991655349731,
+        "value": "masisi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wenye wali tuacha tuta kuwa na wa toleya heshima wapi?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "wali tuacha",
+        "entity": "definition_word"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "value": "wapi",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9363922476768494,
+        "value": "wenye",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 6,
+        "end": 17,
+        "confidence_entity": 0.997268557548523,
+        "value": "wali tuacha",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.3942629098892212,
+        "value": "wa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place_name",
+        "start": 49,
+        "end": 53,
+        "confidence_entity": 0.9999997615814209,
+        "value": "wapi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tuna weza jenga nafasi ya ukumbusho juu wenzetu wenye wali fariki ?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 35,
+        "value": "nafasi ya ukumbusho",
+        "entity": "place_name"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "value": "wenzetu",
+        "entity": "person"
+      },
+      {
+        "start": 54,
+        "end": 65,
+        "value": "wali fariki",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place_name",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.7693408131599426,
+        "value": "nafasi ya",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.9982449412345886,
+        "value": "wenzetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 54,
+        "end": 58,
+        "confidence_entity": 0.9280426502227783,
+        "value": "wali",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tuna wezaka liya wenzetu bila kulipiza kisasi ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "wenzetu",
+        "entity": "person"
+      },
+      {
+        "start": 30,
+        "end": 45,
+        "value": "kulipiza kisasi",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "definition_word",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.5049132704734802,
+        "value": "liya",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "definition_word",
+        "start": 30,
+        "end": 45,
+        "confidence_entity": 0.9998352527618408,
+        "value": "kulipiza kisasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "watoto wetu wana weza tulizana tuki lipiza kisasi?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9961446523666382,
+        "value": "watoto wetu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "definition_word",
+        "start": 36,
+        "end": 49,
+        "confidence_entity": 0.9303570985794067,
+        "value": "lipiza kisasi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kuji uwa haiwezi tuliza iyi maumivu yenye niko nayo mu roho?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "kuji uwa",
+        "entity": "event_name"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "value": "maumivu",
+        "entity": "emotion_type"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "value": "roho",
+        "entity": "organism_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emotion_type",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.8368953466415405,
+        "value": "maumivu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "organism_type",
+        "start": 55,
+        "end": 59,
+        "confidence_entity": 0.9911518692970276,
+        "value": "roho",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tumliliye nani kama watoto wana tushinda ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "watoto",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9975451231002808,
+        "value": "nani",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.999367892742157,
+        "value": "watoto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cpi ina tiya licho yake kwa kongo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "cpi",
+        "entity": "organization_name"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "kongo",
+        "entity": "place_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "organization_name",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9994713664054871,
+        "value": "cpi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country_name",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9702688455581665,
+        "value": "kongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "m23 ina mahanisha nini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "m23",
+        "entity": "organization_name"
+      },
+      {
+        "start": 8,
+        "end": 17,
+        "value": "mahanisha",
+        "entity": "definition_word"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "organization_name",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8841152191162109,
+        "value": "M23",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]
